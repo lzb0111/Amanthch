@@ -331,7 +331,7 @@ export default function LiveTradePanel({ tradingConfig: initialConfig, onConfigC
               期货合约交易警告
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-              当前连接Binance期货测试网环境。请确保 API 密钥已正确配置且启用了期货交易权限。期货合约具有高杠杆，风险较大，请谨慎操作。
+              当前连接Binance期货正式环境。请确保 API 密钥已正确配置且启用了期货交易权限。期货合约具有高杠杆，风险较大，请谨慎操作。
             </p>
           </div>
         </div>

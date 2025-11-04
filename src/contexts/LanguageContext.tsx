@@ -21,13 +21,13 @@ const translations: Record<Language, Record<string, string>> = {
 
     // 导航栏
     'nav.home': '首页',
-    'nav.training': '外汇培训',
-    'nav.tradingTools': '交易工具',
-    'nav.blog': '交易博客',
-    'nav.psychology': '心理测评',
-    'nav.dashboard': '交易系统',
-    'nav.faq': '常见问题',
-    'nav.membership': '会员',
+    'nav.training': '外汇',
+    'nav.tradingTools': '工具',
+    'nav.blog': '博客',
+    'nav.psychology': '测评',
+    'nav.dashboard': '量化',
+    'nav.faq': 'FAQ',
+    'nav.membership': '捐赠',
     'nav.join': '立即报名',
 
     // Hero Section
@@ -468,13 +468,13 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Navigation
     'nav.home': 'Home',
-    'nav.training': 'FX Training',
-    'nav.tradingTools': 'Trading Tools',
+    'nav.training': 'FX',
+    'nav.tradingTools': 'Tools',
     'nav.blog': 'Blog',
-    'nav.psychology': 'Psychology Test',
-    'nav.dashboard': 'Dashboard',
+    'nav.psychology': 'Test',
+    'nav.dashboard': 'Quant',
     'nav.faq': 'FAQ',
-    'nav.membership': 'Membership',
+    'nav.membership': 'Donate',
     'nav.join': 'Join Now',
 
     // Hero Section

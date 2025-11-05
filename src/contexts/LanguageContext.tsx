@@ -980,28 +980,59 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const [mounted, setMounted] = useState(false);
 
-  // Extract language from URL pathname
-  const getLanguageFromPath = () => {
+  // Get initial language from localStorage or URL
+  const getInitialLanguage = (): Language => {
+    if (typeof window === 'undefined') return 'zh';
+
+    // Try localStorage first
+    const stored = localStorage.getItem('language');
+    if (stored === 'en' || stored === 'zh') {
+      return stored;
+    }
+
+    // Fallback to URL
     const locale = pathname.split('/')[1];
     return locale === 'en' ? 'en' : 'zh';
   };
 
-  const [language, setLanguage] = useState<Language>(getLanguageFromPath());
+  const [language, setLanguage] = useState<Language>(getInitialLanguage());
 
   useEffect(() => {
     setMounted(true);
-  }, []);
+
+    // Sync localStorage with current language
+    if (typeof window !== 'undefined') {
+      const stored = localStorage.getItem('language');
+      if (stored !== language) {
+        localStorage.setItem('language', language);
+      }
+    }
+  }, [language]);
 
   // Update language when pathname changes
   useEffect(() => {
-    const newLang = getLanguageFromPath();
-    if (newLang !== language) {
-      setLanguage(newLang);
+    const locale = pathname.split('/')[1];
+    const pathLang: Language = locale === 'en' ? 'en' : 'zh';
+
+    // If URL language differs from localStorage, update localStorage
+    if (pathLang !== language) {
+      setLanguage(pathLang);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('language', pathLang);
+      }
     }
   }, [pathname]);
 
   const toggleLanguage = () => {
     const newLanguage = language === 'zh' ? 'en' : 'zh';
+
+    // Update localStorage
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('language', newLanguage);
+    }
+
+    // Update state
+    setLanguage(newLanguage);
 
     // Get current path without locale prefix
     const pathSegments = pathname.split('/').filter(Boolean);

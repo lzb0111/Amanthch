@@ -129,7 +129,7 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
           </div>
         </div>
 
-        {/* 小窗口视频 */}
+        {/* 视频容器 - 保持 iframe 不重绘 */}
         <div className="relative w-full aspect-video bg-black">
           <iframe
             ref={iframeRef}
@@ -151,7 +151,7 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
     );
   }
 
-  // 展开状态 - 大弹窗
+  // 展开状态 - 大弹窗（使用相同的 iframe ref）
   return (
     <AnimatePresence>
       <motion.div
@@ -214,7 +214,7 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
 
           {/* 内容区域 */}
           <div className="flex-1 overflow-y-auto">
-            {/* 视频区域 */}
+            {/* 视频区域 - 使用相同的 iframe ref */}
             <div className="relative w-full aspect-video bg-black">
               <iframe
                 ref={iframeRef}

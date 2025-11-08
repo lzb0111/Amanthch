@@ -205,6 +205,16 @@ export default function SplanFooter() {
                   TickMill
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://www.maxweb.red/join?ref=YYSTARK"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Binance
+                </a>
+              </li>
             </ul>
 
             <h4 className="font-bold mb-4 mt-6">{t('footer.partners.propfirms')}</h4>
@@ -220,14 +230,21 @@ export default function SplanFooter() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://fundednext.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  FundedNext
-                </a>
+                <div className="space-y-1">
+                  <a
+                    href="https://fundednext.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors block"
+                  >
+                    FundedNext
+                  </a>
+                  <div className="flex items-center gap-2 pl-2">
+                    <span className="text-xs text-green-400">{language === 'zh' ? '邀请码' : 'Code'}:</span>
+                    <code className="text-xs bg-gray-800 px-2 py-0.5 text-green-400 font-mono">REFQKEAYK</code>
+                    <span className="text-xs text-gray-500">{language === 'zh' ? '(5%优惠)' : '(5% off)'}</span>
+                  </div>
+                </div>
               </li>
             </ul>
 
@@ -251,6 +268,16 @@ export default function SplanFooter() {
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   MetaTrader 4/5
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://metacopier.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  MetaCopier
                 </a>
               </li>
             </ul>

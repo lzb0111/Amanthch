@@ -12,7 +12,7 @@ export default function EconomicCalendarPage() {
   const [events, setEvents] = useState<EconomicEvent[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [selectedDate, setSelectedDate] = useState<string>(new Date().toISOString().split('T')[0]);
+  const [selectedDate, setSelectedDate] = useState<string>('');
   const [selectedImportance, setSelectedImportance] = useState<EventImportance | 'all'>('all');
   const [selectedCurrency, setSelectedCurrency] = useState<string>('all');
 
@@ -76,10 +76,16 @@ export default function EconomicCalendarPage() {
     return importance.charAt(0).toUpperCase() + importance.slice(1);
   };
 
-  // Set initial date to first available date
+  // Set initial date to today or closest available date
   useEffect(() => {
-    if (dates.length > 0 && !dates.includes(selectedDate)) {
-      setSelectedDate(dates[0]);
+    if (dates.length > 0 && !selectedDate) {
+      const today = new Date().toISOString().split('T')[0];
+      // If today exists in dates, select it; otherwise select the first date
+      if (dates.includes(today)) {
+        setSelectedDate(today);
+      } else {
+        setSelectedDate(dates[0]);
+      }
     }
   }, [dates, selectedDate]);
 

@@ -23,7 +23,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // 导航栏
     'nav.home': '首页',
-    'nav.training': '培训',
+    'nav.training': '免费培训',
     'nav.tradingTools': '工具',
     'nav.blog': '博客',
     'nav.psychology': '测评',
@@ -502,7 +502,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Navigation
     'nav.home': 'Home',
-    'nav.training': 'Training',
+    'nav.training': 'Free Training',
     'nav.tradingTools': 'Tools',
     'nav.blog': 'Blog',
     'nav.psychology': 'Test',

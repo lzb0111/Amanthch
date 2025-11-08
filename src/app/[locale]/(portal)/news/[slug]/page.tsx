@@ -299,8 +299,9 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         <span className="inline-block text-gray-400 text-2xl tracking-widest">• • •</span>
                       </div>
                     ),
-                    code: ({node, inline, children, ...props}) =>
-                      inline ? (
+                    code: ({node, className, children, ...props}: any) => {
+                      const inline = !className;
+                      return inline ? (
                         <code
                           className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded text-[18px] font-mono text-red-600 dark:text-red-400"
                           {...props}
@@ -314,7 +315,8 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
                         >
                           {children}
                         </code>
-                      )
+                      );
+                    }
                   }}
                 >
                   {news.content}

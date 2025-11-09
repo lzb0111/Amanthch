@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-09T14:23:21.780Z",
+  "price": {
+    "close": "153.37801",
+    "high": "153.48399",
+    "low": "153.36900",
+    "open": "153.42500",
+    "change": "-0.03",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 52.12617,
+    "macd": -0.0038541127,
+    "macd_signal": -0.037290384,
+    "sma20": 153.2843
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡趋势]",
+      "content": "当前美元/日元（USD/JPY）在153.37801附近交易，显示出短期内的震荡趋势。最近24小时内价格微幅下跌0.03%，反映出市场缺乏明确的方向。高点为153.48399，而低点则是153.36900，这种区间波动可能表明市场参与者在等待更明确的市场信号。\n\n技术指标方面，尽管RSI和MACD数据尚不可用，但20日简单移动平均线（SMA）为153.28430，显示出价格正在接近这一关键支撑位。如果价格持续维持在SMA之上，可能会为短期反弹提供基础。然而，若价格突破该支撑位，则可能进一步下探。\n\n在支撑和阻力位方面，当前的支撑位为153.36900，而阻力位则在153.48399附近。如果价格突破阻力位，可能会激发进一步的买入兴趣，反之，跌破支撑位则可能引发卖压。投资者需密切关注这些关键价位，以制定相应的交易策略。\n\n综合考虑，建议投资者在区间内进行短线交易，关注价格在支撑和阻力之间的波动。同时，应保持警惕，注意潜在的市场变动，以便及时调整持仓。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently experiencing a slight bearish trend, with the latest price at 153.37801 reflecting a marginal decline of 0.03% over the past 24 hours. The price has oscillated between a high of 153.48399 and a low of 153.36900, demonstrating a relatively tight trading range. This behavior indicates a period of consolidation, as market participants await further developments that could drive momentum. A sustained break below the low could signal a deeper correction, while a rebound off the support level might reignite bullish sentiment.\n\nIn terms of technical indicators, the absence of an available RSI reading prevents a comprehensive evaluation of overbought or oversold conditions. However, the MACD is currently negative at -0.0038541127, suggesting that downward momentum is present. Traders should monitor this closely; if the MACD crosses above its signal line, it could indicate a potential reversal point. Meanwhile, the 20-period Simple Moving Average (SMA) stands at 153.28430, providing a dynamic support level that could serve as a foundation for any bullish recovery.\n\nKey support and resistance levels are crucial for navigating the current market conditions. The immediate support level is observed around 153.36900, where buying interest may resurface. Conversely, resistance is noted near the recent high of 153.48399, where selling pressure could emerge. A breakout above this resistance level may open the door for a rally, while a breakdown below support could trigger further selling and a test of lower support levels.\n\nTraders are advised to adopt a cautious approach in the current environment. Those looking to initiate long positions should consider waiting for confirmation of a rebound from support, ideally accompanied by bullish divergence in the MACD or RSI. Conversely, short positions may be warranted if the price decisively breaks below support, coupled with a bearish MACD signal, which could provide a favorable risk-reward setup in the event of a downward trend continuation."
+    }
+  }
+}

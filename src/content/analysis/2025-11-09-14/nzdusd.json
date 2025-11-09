@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-09T14:25:34.438Z",
+  "price": {
+    "close": "0.56284124",
+    "high": "0.56344378",
+    "low": "0.56261957",
+    "open": "0.56338030",
+    "change": "-0.09",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 50.17514,
+    "macd": -0.00027626538,
+    "macd_signal": -0.0005235422,
+    "sma20": 0.56215043
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理]",
+      "content": "当前纽元/美元(NZD/USD)的走势表现出一定的震荡整理特征。最新价格为0.56284124，较昨日略微下跌0.09%。在高点0.56344378和低点0.56261957之间波动，显示出市场缺乏明显的方向性，投资者情绪较为谨慎。\n\n从技术指标来看，虽然RSI（相对强弱指数）尚未提供数据，但MACD指标显示出微弱的负值，表明买方力量不足。20日简单移动平均线（SMA）为0.56215043，若价格持续低于此水平，可能会进一步测试支撑位。\n\n支撑位方面，0.5626是重要的心理关口，若跌破该水平，可能会引发更多卖盘，进一步下探0.5610附近的支撑位。阻力位方面，0.5634处于关键位置，若价格突破，将可能引发反弹行情，测试更高的阻力区域。\n\n综合来看，建议投资者在当前区间内保持观望，关注支撑与阻力位的突破情况。若价格回调至支撑位附近，可以考虑适度买入；相反，若突破阻力位，则可考虑短期做多操作。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The current market data for NZD/USD indicates a slight bearish sentiment, with the latest price at 0.56284124 and a 24-hour change of -0.09%. The price action has remained within a tight range, with a high of 0.56344378 and a low of 0.56261957. This consolidation suggests that traders are awaiting a catalyst to drive the pair in either direction. The overall trend appears to be sideways, with no strong directional momentum evident in the recent price movements.\n\nFrom an indicator perspective, while the RSI is not provided, the MACD shows a value of -0.00027626538, indicating a potential bearish bias. The absence of a clear signal line complicates the interpretation, but a negative MACD suggests that selling pressure may persist. The 20-period Simple Moving Average (SMA) is currently at 0.56215043, acting as a dynamic support level. If the price remains above this SMA, it may encourage a slight bullish retracement; however, a break below could signal increased selling pressure.\n\nKey support levels to watch include the recent low at 0.56261957. A decisive break below this level could open the door for further declines toward the next support area around 0.561500. Conversely, resistance is identified at the recent high of 0.56344378. A move above this resistance level could indicate a shift in sentiment, potentially opening the way for a retest of the 0.564000 psychological level.\n\nFor traders, a cautious approach may be warranted. A short position could be considered if the price breaks below the 0.56261957 support, with targets set near 0.561500. Alternatively, a bullish stance may be appropriate if the price exceeds 0.56344378, potentially looking to capitalize on a retracement towards the SMA. Risk management is essential, as volatility can quickly shift market dynamics."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-09T13:33:26.476Z",
+  "price": {
+    "close": "0.56284124",
+    "high": "0.56344378",
+    "low": "0.56261957",
+    "open": "0.56338030",
+    "change": "-0.09",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 50.17514,
+    "macd": -0.00027626538,
+    "macd_signal": -0.0005235422,
+    "sma20": 0.56215043
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡趋势，谨慎操作]",
+      "content": "当前纽元/美元(NZD/USD)在0.5628附近震荡，整体趋势偏向横盘整理。价格在短期内未能突破0.5634的高点，显示出市场缺乏强烈的方向性。在此区间内，投资者需保持谨慎，观察价格能否突破上方阻力或下方支撑。\n\n从技术指标来看，虽然RSI未提供，但根据当前的MACD值（-0.00027626）来看，市场仍处于弱势区域。20日简单移动平均线(SMA)为0.56215043，预计在短期内将作为重要支撑位。若价格跌破此水平，可能会加剧下行压力。\n\n支撑位方面，0.5626是关键区域，若价格持续在该水平之上，则有望维持区间震荡。而在上方，0.5634则是重要阻力位，若突破则可能引发进一步上涨。投资者应密切关注这两个水平的突破情况。\n\n交易策略方面，建议在支撑位附近寻找买入机会，同时在接近阻力位时考虑获利了结或设定止损。由于市场趋势不明，建议控制仓位，以降低风险。保持灵活应变的交易思路，将有助于在当前市场环境中把握机会。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair currently trades at 0.5628, reflecting a slight decline of 0.09% over the last 24 hours. The price action has been relatively range-bound, with a recent high of 0.5634 and a low of 0.5626. This sideways movement suggests a consolidation period, indicating a potential buildup of momentum for a future breakout. Traders should closely monitor these levels for signs of a decisive movement, as they may signal a shift in market sentiment.\n\nIn terms of technical indicators, the absence of a calculated RSI and MACD signal complicates a comprehensive analysis. However, the MACD value of -0.000276 suggests a bearish momentum that may be weakening. Meanwhile, the 20-period Simple Moving Average (SMA) at 0.5622 acts as a dynamic support level. If the price remains above this SMA, it could indicate a potential bullish reversal; however, a drop below could reinforce bearish sentiment and prompt further selling pressure.\n\nSupport levels are identified at 0.5626 and 0.5622, while resistance can be seen at 0.5634. A breach below 0.5622 would likely attract sellers, opening the door for a deeper retracement toward the next support level around 0.5600. Conversely, if the price manages to break above 0.5634, it could initiate a bullish rally, targeting higher resistance around 0.5650. \n\nTraders might consider a wait-and-see approach, monitoring the price action around the key support and resistance levels. A confirmation of a breakout in either direction, accompanied by volume, would offer a clearer trading opportunity. For those with a bullish outlook, entering a long position above 0.5634 could be prudent, while bearish traders may look to short below 0.5622."
+    }
+  }
+}

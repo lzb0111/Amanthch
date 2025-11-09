@@ -21,6 +21,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/news', priority: 0.95, changeFrequency: 'hourly' as const },
     { path: '/news/archive', priority: 0.85, changeFrequency: 'daily' as const },
     { path: '/news/tags', priority: 0.85, changeFrequency: 'daily' as const },
+
+    // 市场分析页面
+    { path: '/market-analysis', priority: 0.95, changeFrequency: 'hourly' as const },
+
     { path: '/economic-calendar', priority: 0.9, changeFrequency: 'daily' as const },
     { path: '/top-traders', priority: 0.85, changeFrequency: 'daily' as const },
 

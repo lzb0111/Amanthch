@@ -38,6 +38,10 @@ export default function UnifiedNavbar() {
       link: "/news",
     },
     {
+      name: language === 'zh' ? '行情' : 'Market',
+      link: "/market-analysis",
+    },
+    {
       name: t('nav.blog'),
       link: "/splan/blog",
     },

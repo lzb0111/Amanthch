@@ -305,9 +305,10 @@ export default function SplanFooter() {
           </div>
         </div>
 
-        {/* FTMO Affiliate Banner */}
+        {/* Affiliate Banners */}
         <div className="border-t border-gray-800 pt-8 pb-8">
-          <div className="flex justify-center">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8">
+            {/* FTMO Banner */}
             <a
               href="https://trader.ftmo.com/?affiliates=UUdNjacFYttdgsZcEozt"
               target="_blank"
@@ -318,7 +319,22 @@ export default function SplanFooter() {
                 src="https://cdn.ftmo.com/ed1811ad91444ae687a19020a9997a86"
                 alt="FTMO.com - For serious traders"
                 className="max-w-full h-auto"
-                style={{ maxHeight: '120px' }}
+                style={{ height: '90px' }}
+              />
+            </a>
+
+            {/* TickMill Banner */}
+            <a
+              href="https://my.tickmill.com?utm_campaign=ib_link&utm_content=IB47958600&utm_medium=IB+Loyalty&utm_source=link&lp=https%3A%2F%2Fwww.tickmill.com%2Fpartners%2Fib-loyalty"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block hover:opacity-80 transition-opacity"
+            >
+              <img
+                src="https://cdn.tickmill.com/prod/promotional/3/referral-materials/banner/static/IB_Loyalty_-_CN-728x90-Chinese.jpg"
+                alt="Tickmill promo banner"
+                className="max-w-full h-auto"
+                style={{ height: '90px' }}
               />
             </a>
           </div>

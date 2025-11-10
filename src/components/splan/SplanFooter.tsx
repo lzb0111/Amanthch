@@ -186,24 +186,38 @@ export default function SplanFooter() {
             <h4 className="font-bold mb-4">{t('footer.partners.brokers')}</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  href="https://i.ecmarkets.com/api/client/pm/2/99R9C"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  EC Markets
-                </a>
+                <div className="space-y-1">
+                  <a
+                    href="https://i.ecmarkets.com/api/client/pm/2/99R9C"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors block"
+                  >
+                    EC Markets
+                  </a>
+                  <div className="flex items-center gap-2 pl-2">
+                    <span className="text-xs text-gray-500">{language === 'zh' ? '邀请码' : 'Code'}:</span>
+                    <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono">99R9C</code>
+                    <span className="text-xs text-gray-500">{language === 'zh' ? '(全返)' : '(Full refund)'}</span>
+                  </div>
+                </div>
               </li>
               <li>
-                <a
-                  href="https://my.tickmill.com?utm_campaign=ib_link&utm_content=IB47958600&utm_medium=Open+Account&utm_source=link&lp=https%3A%2F%2Fmy.tickmill.com%2Fzh%2Fsign-up%2F"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  TickMill
-                </a>
+                <div className="space-y-1">
+                  <a
+                    href="https://my.tickmill.com?utm_campaign=ib_link&utm_content=IB47958600&utm_medium=Open+Account&utm_source=link&lp=https%3A%2F%2Fmy.tickmill.com%2Fzh%2Fsign-up%2F"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors block"
+                  >
+                    TickMill
+                  </a>
+                  <div className="flex items-center gap-2 pl-2">
+                    <span className="text-xs text-gray-500">{language === 'zh' ? '邀请码' : 'Code'}:</span>
+                    <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono">IB47958600</code>
+                    <span className="text-xs text-gray-500">{language === 'zh' ? '(全返)' : '(Full refund)'}</span>
+                  </div>
+                </div>
               </li>
               <li>
                 <div className="space-y-1">

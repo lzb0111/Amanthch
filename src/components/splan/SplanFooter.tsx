@@ -4,10 +4,12 @@ import React from 'react';
 import LocaleLink from '@/components/navigation/LocaleLink';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ShineLinkButton } from '@/components/custom/ShineButton';
+import EmailContactModal from '@/components/custom/EmailContactModal';
 
 export default function SplanFooter() {
   const { t, language } = useLanguage();
   const [showWechatModal, setShowWechatModal] = React.useState(false);
+  const [showEmailModal, setShowEmailModal] = React.useState(false);
 
   return (
     <footer className="bg-black dark:bg-gray-950 text-white py-12 border-t border-gray-800">
@@ -79,15 +81,15 @@ export default function SplanFooter() {
               </button>
 
               {/* Email */}
-              <a
-                href="mailto:x.stark.dylan@gmail.com"
-                className="text-gray-400 hover:text-white transition-colors"
+              <button
+                onClick={() => setShowEmailModal(true)}
+                className="text-gray-400 hover:text-white transition-colors cursor-pointer"
                 title="Email"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                 </svg>
-              </a>
+              </button>
             </div>
           </div>
 
@@ -401,6 +403,13 @@ export default function SplanFooter() {
           </div>
         </div>
       )}
+
+      {/* Email Contact Modal */}
+      <EmailContactModal
+        isOpen={showEmailModal}
+        onClose={() => setShowEmailModal(false)}
+        title={language === 'zh' ? '职业交易员面试预约' : 'Professional Trader Interview'}
+      />
     </footer>
   );
 }

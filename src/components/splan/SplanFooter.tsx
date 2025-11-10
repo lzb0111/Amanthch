@@ -316,7 +316,7 @@ export default function SplanFooter() {
 
       {/* Affiliate Banners - Full Width */}
       <div className="border-t border-gray-800 mt-8 pt-8 pb-8">
-        <div className="max-w-screen-xl mx-auto px-6">
+        <div className="mx-auto px-8 md:px-12 lg:px-16">
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8">
             {/* FTMO Banner */}
             <a

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-10T14:30:05.325Z",
+  "price": {
+    "close": "154.072998",
+    "high": "154.097000",
+    "low": "154.016998",
+    "open": "154.054993",
+    "change": "0.01",
+    "datetime": "2025-11-11 01:00:00"
+  },
+  "indicators": {
+    "rsi": 63.37236,
+    "macd": 0.19309771,
+    "macd_signal": 0.18601209,
+    "sma20": 153.84565
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡趋势，关注支撑与阻力]",
+      "content": "当前美元/日元（USD/JPY）的价格为154.07，显示出短期内震荡整理的趋势。由于价格在154.01和154.09之间波动，市场似乎缺乏强烈的方向性。投资者需密切关注这一区间的突破情况，以判断未来的走势。\n\n从技术指标来看，MACD值为0.193，显示出多头力量依然存在，但信号线缺失使得进一步确认变得困难。RSI指标尚未提供，因此难以判断市场是否存在超买或超卖的情况。建议关注即将公布的经济数据，以便更好地解读市场情绪。\n\n在支撑与阻力方面，154.01被视为关键支撑位，而154.09则为短期阻力位。若价格突破154.09，可能引发进一步上涨，反之若跌破154.01，则需警惕可能的回调风险。投资者应根据价格行为设置止损，防范意外波动。\n\n综合来看，美元/日元在短期内维持震荡整理，建议投资者在关键支撑和阻力位附近寻找交易机会。同时，关注市场消息面变化，以便及时调整交易策略，确保风险管理。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 154.07, exhibiting a slight upward movement of 0.01% over the past 24 hours. The price remains near its recent high of 154.10, indicating a bullish trend in the short term. The current market sentiment appears to favor the US dollar, potentially driven by stronger economic fundamentals or risk appetite among investors. If this bullish momentum continues, traders should watch for resistance around the 154.10 level, as a breakout above could open the door for further gains.\n\nIn terms of technical indicators, the MACD reading of 0.193 suggests positive momentum, although the absence of a signal line makes it difficult to ascertain a crossover point. The lack of an RSI value limits the analysis of overbought or oversold conditions, yet the price's proximity to the 20-period simple moving average (SMA) at 153.85 indicates strong support. If the price retraces, traders may consider the SMA as a crucial level for potential buying opportunities, assuming the overall bullish trend remains intact.\n\nSupport levels are currently established at 153.85, aligning with the SMA, and further support can be anticipated around the 154.00 psychological level. Conversely, if the price breaks below these levels, it may signal a shift in sentiment, prompting bearish strategies. Observing the market’s reaction at these levels will be key for traders in determining their next moves, particularly if there are any fundamental shifts that could influence the pair.\n\nFor trading strategies, a breakout above the 154.10 resistance could present a viable opportunity for short-term traders to enter long positions, targeting gains at the next resistance levels. Conversely, should the market show signs of weakness and drop below the 153.85 support, it may be prudent to consider short positions or exit long trades to mitigate risk. Monitoring economic indicators and geopolitical developments will be essential in refining these strategies and understanding market dynamics."
+    }
+  }
+}

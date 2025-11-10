@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-10T14:34:16.029Z",
+  "price": {
+    "close": "4077.85",
+    "high": "4091.04",
+    "low": "4077.06",
+    "open": "4089.87",
+    "change": "-0.30",
+    "datetime": "2025-11-11 01:00:00"
+  },
+  "indicators": {
+    "rsi": 68.97514,
+    "macd": 23.01531,
+    "macd_signal": 20.43643,
+    "sma20": 4047.3255
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)价格为4077.85，显示出短期震荡整理的趋势。在过去24小时内，价格略微下跌0.30%，但整体维持在4091.04和4077.06之间的区间内。市场情绪略显谨慎，投资者仍在观望即将发布的经济数据和政策动向。\n\n从技术指标来看，虽然RSI(14)数据缺失，但MACD指标显示出23.015310的值，表明短期内上涨势头尚存。同时，20日简单移动平均线(SMA)位于4047.33，提供了强有力的支撑位。若价格能稳定在此水平上方，可能会吸引更多买盘入场。\n\n在支撑和阻力方面，当前支撑位为4047.33，若突破此位，可能会向下测试4020一线。而上方的阻力位在4100附近，若突破则有望进一步走高。投资者应密切关注这些关键价位，以把握交易机会。\n\n综合来看，建议投资者保持谨慎，适度布局多头头寸，同时设置好止损，避免市场波动带来的风险。若市场突破4100美元，可能会引发更多的买盘，而若跌破4047.33，则需考虑短期的减仓策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 4077.85, reflecting a slight decline of 0.30% over the past 24 hours. Despite this minor pullback, the overall trend appears to be bullish, particularly given the recent highs near 4091.04. The price action suggests a consolidation phase, where traders are likely assessing potential breakout points. A sustained move above the 4091 level could signal further upward momentum, while a failure to maintain above the 4077 support may lead to a deeper correction.\n\nKey technical indicators, such as MACD, are currently showing a positive divergence with a value of 23.015310, indicating that momentum remains in favor of buyers, albeit with caution. The absence of an RSI reading limits our ability to gauge overbought or oversold conditions; however, the SMA(20) at 4047.33 provides a critical support level. A retracement towards this moving average could present a buying opportunity for traders looking to capitalize on the bullish sentiment, especially if accompanied by a rebound in buying volume.\n\nIn terms of support and resistance levels, immediate support is identified at 4077.06, with further support at the SMA(20). On the upside, resistance remains at the recent high of 4091.04, which traders should monitor closely for potential breakouts. A decisive break above this level could open the door for a test of higher targets, possibly approaching the psychological level of 4100. Conversely, failure to hold above 4077 may lead to an increased likelihood of testing lower support levels.\n\nFor trading strategies, a cautious approach is advisable given the current market conditions. Traders might consider entering long positions on dips towards the SMA(20) or near the support level of 4077.06, with stop-loss orders placed just below this level to mitigate risk. Conversely, short positions could be considered if the price decisively breaks below 4077, targeting the next support level while watching for signs of a trend reversal. Overall, maintaining a balanced perspective and being alert to market signals will be essential in navigating this environment."
+    }
+  }
+}

@@ -102,7 +102,7 @@ const DummyContent = () => {
                   <>
                     <p>Precise, Professional, Efficient</p>
                     <p>
-                      <span className="inline-block bg-black dark:bg-white text-white dark:text-black px-3 py-1 animate-pulse">Free Training</span> for True Forex Trading Experts
+                      <span className="inline-block bg-black dark:bg-white text-white dark:text-black px-3 py-1 animate-pulse">Free Training</span> for True Forex Trading&nbsp;Experts
                     </p>
                   </>
                 )}

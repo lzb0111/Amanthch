@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-10T16:40:04.528Z",
+  "price": {
+    "close": "0.56334853",
+    "high": "0.56357080",
+    "low": "0.56303138",
+    "open": "0.56309479",
+    "change": "0.05",
+    "datetime": "2025-11-11 03:00:00"
+  },
+  "indicators": {
+    "rsi": 48.28779,
+    "macd": 0.00022698531,
+    "macd_signal": 0.00028426227,
+    "sma20": 0.56362162
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)在0.5633附近震荡整理，短期内未能突破0.5636的20日简单移动平均线(SMA)。这一水平成为当前的阻力位，若价格能够突破并稳定在此上方，可能会引发进一步的上涨。然而，若价格持续低于此水平，则可能会继续向下测试支撑位0.5630。\n\n从技术指标来看，MACD的微弱正值表明短期内可能存在一定的买盘动力，但由于缺乏其他确认信号，市场情绪仍显谨慎。RSI指标未提供，因此需关注价格变化以判断超买或超卖状态。综合来看，当前市场缺乏明确的趋势方向，交易者应保持观望。\n\n支撑位方面，0.5630是关键的心理关口，若跌破此位，可能会加速下行趋势，甚至测试更低的水平。相反，若价格突破0.5636，下一主要阻力位将在0.5640。建议交易者在关键技术水平附近设置止损，以应对潜在的市场波动。\n\n总体而言，纽元/美元的短期走势较为疲软，建议在市场未能确认方向前，采取谨慎态度。可考虑在支撑位附近寻求低吸机会，同时在阻力位附近设定卖出策略，以把握震荡行情的利润。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.5633, showing a slight positive change of 0.05% over the past 24 hours. The price action suggests a consolidation phase following a recent downtrend. The pair has established a narrow range between the high of 0.5636 and the low of 0.5630. Given this tight range, traders should watch for a breakout in either direction, as this could set the tone for the next significant move.\n\nAnalyzing the moving averages, the 20-period Simple Moving Average (SMA) at 0.5636 indicates that the market remains slightly bearish in the short term, as the price is currently below this level. However, the proximity of the price to the SMA could signal a potential reversal if buying pressure emerges. Traders should look for signs of bullish momentum, particularly if the price can close above the SMA, signaling a possible shift in market sentiment.\n\nIn terms of support and resistance levels, the immediate support is identified at 0.5630, with a stronger support level further down at 0.5620. Conversely, resistance can be observed at 0.5636, which aligns with the SMA, and a more significant resistance level at 0.5645. A sustained move above these resistance levels could open the way for further gains, while a drop below support could lead to increased selling pressure.\n\nFor trading suggestions, a cautious approach is recommended. Traders might consider entering long positions if the price convincingly breaks above the 0.5636 resistance level, with a potential target around 0.5645. Conversely, a break below the 0.5630 support could trigger short positions, aiming for 0.5620. Risk management through stop-loss orders is essential to mitigate potential losses in this volatile environment."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-10T08:39:05.587Z",
+  "price": {
+    "close": "154.044998",
+    "high": "154.10300",
+    "low": "153.94400",
+    "open": "154.042007",
+    "change": "0.00",
+    "datetime": "2025-11-10 19:00:00"
+  },
+  "indicators": {
+    "rsi": 66.46169,
+    "macd": 0.19000417,
+    "macd_signal": 0.12895205,
+    "sma20": 153.55985
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，谨慎操作]",
+      "content": "当前美元/日元（USD/JPY）在154.04附近波动，短期内呈现震荡整理的趋势。市场缺乏明显的方向性，投资者需关注高点154.103和低点153.944的突破情况，以判断后市的走势。若价格突破高点，可能引发进一步的上涨；反之，跌破低点则可能加剧下行风险。\n\n在技术指标方面，MACD显示出一定的买入动能，但由于缺乏信号线数据，需谨慎解读。相对强弱指数（RSI）未提供，可能意味着市场尚未出现强烈的超买或超卖状态。此外，20日简单移动平均线（SMA）在153.55985处提供了强有力的支撑，若价格下探至此位置，可能会引发买入兴趣。\n\n支撑位方面，153.944是短期的关键支撑位，跌破后可能会加速回调。而154.103则是重要的阻力位，持续站稳这一水平可能会促进多头进一步发力。投资者应密切关注这两个价位，以便及时调整交易策略。\n\n总体来看，当前美元/日元面临震荡整理的局面，建议投资者保持谨慎，待价格明确突破后再决定入场时机。短期内可以考虑在支撑位附近布局多单，而在阻力位附近则可考虑短线获利了结。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.04, maintaining a relatively stable position over the past 24 hours. The price has shown slight fluctuations, reaching a high of 154.10 and a low of 153.94. The overall trend appears to be bullish, given the recent upward momentum, which is supported by the significant distance between the current price and the 20-period Simple Moving Average (SMA) at 153.56. This suggests that the market sentiment is leaning towards further appreciation of the US Dollar against the Japanese Yen.\n\nIn terms of technical indicators, the MACD reflects a positive momentum with a current value of 0.19, indicating that the bullish trend may have some strength behind it. However, the lack of a clear RSI value limits our ability to assess overbought or oversold conditions in this timeframe. Traders should be cautious; while the MACD shows potential for upward movement, it will be important to monitor for any divergence that could signal a reversal.\n\nKey support and resistance levels are critical for trading decisions. The immediate support level is found around 153.94, which aligns with the recent low and could act as a strong buying opportunity if tested again. Conversely, the resistance level at 154.10 has proven to be a significant barrier; a break above this point could lead to further gains and open the door to higher targets. Traders should watch for price action around these levels for potential entry or exit points.\n\nFor trading suggestions, a strategy could involve buying near the support level of 153.94, with a stop-loss just below this level to manage risk. If the price breaks above the resistance at 154.10, it may present an opportunity to add to long positions or initiate new trades with a target towards the next psychological level of 155. The current environment suggests that traders should remain vigilant and adaptable to the evolving market conditions."
+    }
+  }
+}

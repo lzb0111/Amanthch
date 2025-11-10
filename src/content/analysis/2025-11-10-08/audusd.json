@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-10T08:39:47.767Z",
+  "price": {
+    "close": "0.65359479",
+    "high": "0.65359479",
+    "low": "0.65312517",
+    "open": "0.65316784",
+    "change": "0.08",
+    "datetime": "2025-11-10 19:00:00"
+  },
+  "indicators": {
+    "rsi": 72.81756,
+    "macd": 0.0011704927,
+    "macd_signal": 0.00079592966,
+    "sma20": 0.65040397
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理趋势]",
+      "content": "当前澳元/美元（AUD/USD）交易在0.6535附近，近期小幅波动，显示出震荡整理的趋势。从技术面来看，价格在短期内未能突破关键阻力位，表明市场情绪较为谨慎，投资者可能在等待更明确的方向指引。\n\n从技术指标来看，虽然RSI未提供数据，但MACD显示出微弱的增长势头，当前值为0.00117，表明短期内存在一定的买入动力。然而，因缺乏强烈的上涨或下跌趋势，投资者应保持警惕，避免盲目追入。\n\n在支撑和阻力位方面，当前支撑位约在0.6531附近，而阻力位则在0.6540与0.6550区域。若价格突破0.6550，可能会引发更多的买入情绪，而跌破0.6531则可能引发卖压，导致进一步下跌。\n\n对于交易建议，考虑到当前的震荡整理趋势，建议投资者采取观望态度，等待价格突破上述关键水平后再进行操作。短期内可考虑小额交易，控制风险，避免因市场波动带来的不必要损失。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) has displayed a slight upward movement against the US Dollar (USD), with the latest price at 0.6536. The 24-hour change of 0.08% indicates a stable market environment, but further analysis is necessary to identify potential trading opportunities. Currently, the AUD/USD pair is trading near its recent highs, suggesting that momentum may be building. A sustained break above the high of 0.6536 could signal a bullish trend, while a retreat below the low of 0.6531 may indicate bearish sentiment.\n\nIn terms of technical indicators, the absence of the RSI value makes it challenging to assess overbought or oversold conditions. However, the MACD reading of 0.00117 suggests that the momentum is slightly positive, which may support further gains in the short term. Traders should watch for a crossover in the MACD, as this could provide additional confirmation of a shift in momentum. Meanwhile, the 20-period Simple Moving Average (SMA) at 0.6504 serves as a significant support level. A drop below this level could raise concerns about the sustainability of the current upward movement.\n\nSupport and resistance levels are crucial for determining potential entry and exit points. The immediate support level is established at 0.6504, while resistance can be observed around 0.6550. A breakout above this resistance could open the door for a move towards the next key level near 0.6580, while a breakdown below support may prompt a test of lower levels, potentially around 0.6470. \n\nIn conclusion, traders might consider a cautious approach, keeping an eye on the upcoming price action. A break above 0.6536 could present a buying opportunity, while a failure to hold above the 20-period SMA could suggest a short position. It is essential to maintain a flexible strategy as the market dynamics evolve, ensuring that risk management protocols are in place to protect capital."
+    }
+  }
+}

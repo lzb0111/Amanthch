@@ -107,7 +107,17 @@ export default function SplanFooter() {
               </li>
               <li>
                 <LocaleLink href="/education" className="text-gray-400 hover:text-white transition-colors">
-                  {language === 'zh' ? '教育中心' : 'Education'}
+                  {language === 'zh' ? '教育' : 'Education'}
+                </LocaleLink>
+              </li>
+              <li>
+                <LocaleLink href="/news" className="text-gray-400 hover:text-white transition-colors">
+                  {language === 'zh' ? '新闻' : 'News'}
+                </LocaleLink>
+              </li>
+              <li>
+                <LocaleLink href="/market-analysis" className="text-gray-400 hover:text-white transition-colors">
+                  {language === 'zh' ? '行情' : 'Market'}
                 </LocaleLink>
               </li>
               <li>
@@ -123,6 +133,16 @@ export default function SplanFooter() {
               <li>
                 <LocaleLink href="/dashboard" className="text-gray-400 hover:text-white transition-colors">
                   {t('nav.dashboard')}
+                </LocaleLink>
+              </li>
+              <li>
+                <LocaleLink href="/economic-calendar" className="text-gray-400 hover:text-white transition-colors">
+                  {language === 'zh' ? '日历' : 'Calendar'}
+                </LocaleLink>
+              </li>
+              <li>
+                <LocaleLink href="/top-traders" className="text-gray-400 hover:text-white transition-colors">
+                  {language === 'zh' ? '天梯' : 'Leaderboard'}
                 </LocaleLink>
               </li>
               <li>
@@ -186,55 +206,40 @@ export default function SplanFooter() {
             <h4 className="font-bold mb-4">{t('footer.partners.brokers')}</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <div className="space-y-1">
-                  <a
-                    href="https://i.ecmarkets.com/api/client/pm/2/99R9C"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white transition-colors block"
-                  >
-                    EC Markets
-                  </a>
-                  <div className="flex items-center gap-2 pl-2">
-                    <span className="text-xs text-gray-500">{language === 'zh' ? '邀请码' : 'Code'}:</span>
-                    <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono">99R9C</code>
-                    <span className="text-xs text-gray-500">{language === 'zh' ? '(全返)' : '(Full refund)'}</span>
-                  </div>
-                </div>
+                <a
+                  href="https://i.ecmarkets.com/api/client/pm/2/99R9C"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  EC Markets
+                </a>
+                <span className="text-xs text-gray-500 ml-2">{language === 'zh' ? '邀请码' : 'Code'}:</span>
+                <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono ml-1">99R9C</code>
               </li>
               <li>
-                <div className="space-y-1">
-                  <a
-                    href="https://my.tickmill.com?utm_campaign=ib_link&utm_content=IB47958600&utm_medium=Open+Account&utm_source=link&lp=https%3A%2F%2Fmy.tickmill.com%2Fzh%2Fsign-up%2F"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white transition-colors block"
-                  >
-                    TickMill
-                  </a>
-                  <div className="flex items-center gap-2 pl-2">
-                    <span className="text-xs text-gray-500">{language === 'zh' ? '邀请码' : 'Code'}:</span>
-                    <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono">IB47958600</code>
-                    <span className="text-xs text-gray-500">{language === 'zh' ? '(全返)' : '(Full refund)'}</span>
-                  </div>
-                </div>
+                <a
+                  href="https://my.tickmill.com?utm_campaign=ib_link&utm_content=IB47958600&utm_medium=Open+Account&utm_source=link&lp=https%3A%2F%2Fmy.tickmill.com%2Fzh%2Fsign-up%2F"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  TickMill
+                </a>
+                <span className="text-xs text-gray-500 ml-2">{language === 'zh' ? '邀请码' : 'Code'}:</span>
+                <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono ml-1">IB47958600</code>
               </li>
               <li>
-                <div className="space-y-1">
-                  <a
-                    href="https://www.maxweb.red/join?ref=YYSTARK"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white transition-colors block"
-                  >
-                    Binance
-                  </a>
-                  <div className="flex items-center gap-2 pl-2">
-                    <span className="text-xs text-gray-500">{language === 'zh' ? '邀请码' : 'Code'}:</span>
-                    <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono">YYSTARK</code>
-                    <span className="text-xs text-gray-500">{language === 'zh' ? '(全返)' : '(Full refund)'}</span>
-                  </div>
-                </div>
+                <a
+                  href="https://www.maxweb.red/join?ref=YYSTARK"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Binance
+                </a>
+                <span className="text-xs text-gray-500 ml-2">{language === 'zh' ? '邀请码' : 'Code'}:</span>
+                <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono ml-1">YYSTARK</code>
               </li>
             </ul>
 
@@ -251,21 +256,16 @@ export default function SplanFooter() {
                 </a>
               </li>
               <li>
-                <div className="space-y-1">
-                  <a
-                    href="https://fundednext.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white transition-colors block"
-                  >
-                    FundedNext
-                  </a>
-                  <div className="flex items-center gap-2 pl-2">
-                    <span className="text-xs text-gray-500">{language === 'zh' ? '邀请码' : 'Code'}:</span>
-                    <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono">REFQKEAYK</code>
-                    <span className="text-xs text-gray-500">{language === 'zh' ? '(5%优惠)' : '(5% off)'}</span>
-                  </div>
-                </div>
+                <a
+                  href="https://fundednext.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  FundedNext
+                </a>
+                <span className="text-xs text-gray-500 ml-2">{language === 'zh' ? '邀请码' : 'Code'}:</span>
+                <code className="text-xs bg-gray-800 px-2 py-0.5 text-gray-400 font-mono ml-1">REFQKEAYK</code>
               </li>
             </ul>
 

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-11T08:16:33.781Z",
+  "price": {
+    "close": "154.25101",
+    "high": "154.26100",
+    "low": "154.16299",
+    "open": "154.19000",
+    "change": "0.04",
+    "datetime": "2025-11-11 19:00:00"
+  },
+  "indicators": {
+    "rsi": 59.17422,
+    "macd": 0.10681626,
+    "macd_signal": 0.12434429,
+    "sma20": 154.13995
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，短期偏多]",
+      "content": "当前美元/日元的价格在154.25附近波动，显示出短期内的震荡整理趋势。尽管价格变化幅度较小，但整体上仍然维持在相对高位，表明市场对美元的需求依然强劲。若价格能够突破154.26的阻力位，可能会迎来进一步的上涨。\n\n从技术指标来看，当前的MACD显示出轻微的上行动能，虽然信号线数据缺失，但整体趋势向上。20日简单移动平均线(SMA)在154.14附近提供了支撑，表明短期内价格有一定的支撑基础。相对强弱指数(RSI)目前缺失，建议关注未来的RSI动态以判断超买或超卖情况。\n\n在支撑和阻力位方面，154.16是近期的重要支撑位，若价格跌破该水平，可能会引发进一步的回调。而154.26将是短期内的主要阻力位，突破后可能会迎来更多的买盘动能。投资者应密切关注这些关键价格水平，以把握交易机会。\n\n综合考虑，建议投资者可以在154.16附近寻找买入机会，同时设置好止损位以控制风险。如果价格突破154.26，则可考虑加仓。总体来看，短期内美元/日元有继续上行的潜力，但需谨慎观察市场动向。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently experiencing a slight bullish trend, as indicated by its recent price movement around 154.25101. The pair has shown resilience, holding above the 20-period simple moving average (SMA) of 154.13995. This suggests that bullish momentum may continue if the price remains above this crucial level. Traders should monitor for potential breakouts above the recent high of 154.26100, which could signal further upward movement.\n\nIn terms of technical indicators, the MACD value of 0.1068 indicates a potential bullish sentiment; however, the lack of a corresponding signal line makes it difficult to draw definitive conclusions. As the RSI is not available, traders should consider incorporating additional momentum indicators or oscillators to assess market strength. A divergence in momentum could indicate an impending reversal or continuation of the current trend.\n\nSupport levels are established around 154.16299, which served as the recent low, offering a potential floor for the price action. If the market retraces towards this level, it could provide a buying opportunity for traders looking to capitalize on a bounce back. Conversely, if the price breaks below this support, it could lead to further declines, with the next support zone needing to be identified further down the chart.\n\nTraders may consider a strategy that involves buying on dips near the 20-SMA and the support level, while setting stop-loss orders just below the 154.16299 mark to mitigate risk. Additionally, those looking for short-term trades might monitor the price action around the resistance level of 154.26100 for potential breakout opportunities, keeping in mind the overall bullish sentiment reflected in the current price structure."
+    }
+  }
+}

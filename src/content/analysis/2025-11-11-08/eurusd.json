@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-11T08:15:01.964Z",
+  "price": {
+    "close": "1.15621",
+    "high": "1.15644",
+    "low": "1.15591",
+    "open": "1.15607",
+    "change": "0.02",
+    "datetime": "2025-11-11 19:00:00"
+  },
+  "indicators": {
+    "rsi": 53.49288,
+    "macd": -0.0000030505668,
+    "macd_signal": -0.000010654383,
+    "sma20": 1.15575
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理中]",
+      "content": "当前欧元/美元（EUR/USD）价格为1.15621，呈现出震荡整理的趋势。从24小时变化来看，仅有0.02%的微幅波动，表明市场参与者的观望情绪较浓。价格在1.15644和1.15591之间波动，显示出短期内缺乏明确的方向性。\n\n技术指标方面，尽管RSI和MACD数据暂缺，但SMA(20)的水平为1.15575，表明短期内的均值趋于稳定。若价格能有效突破1.15644的阻力位，可能会引发更强的上涨动能。反之，若跌破1.15591的支撑位，则可能会加大下行风险。\n\n支撑位方面，1.15591是关键支撑，若该水平失守，可能会吸引更多卖盘，进一步下探。而在阻力位方面，1.15644的突破将为多头提供信心，推动价格向更高的水平发展。投资者应密切关注这两个关键价位的突破情况。\n\n基于当前的市场环境，建议交易者在支撑位附近寻找买入机会，而在接近阻力位时，则考虑轻仓获利了结或反向交易。保持灵活的交易策略，将有助于在震荡行情中把握机会。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD currency pair is currently trading at 1.15621, demonstrating a slight upward movement of 0.02% over the past 24 hours. This minor change reflects a generally stable market, as the pair fluctuated within a narrow range, with a high of 1.15644 and a low of 1.15591. The ability to hold above the 1.15500 level suggests that the pair may be finding some support, which could lead to a potential bullish trend if momentum continues.\n\nFrom a technical perspective, the Simple Moving Average (SMA) over the last 20 periods stands at 1.15575, indicating that the short-term trend is slightly bullish. The proximity of the current price to the SMA implies that the market sentiment is leaning towards a continuation of this trend. However, caution is warranted as the MACD is hovering around zero, suggesting a lack of strong momentum. Traders should watch for a confirmation signal, either through a break above the SMA or a significant shift in the MACD.\n\nKey support levels can be identified around 1.15500, where buying interest may increase, while resistance is likely to emerge near 1.15700, coinciding with previous price action and psychological levels. A breach above this resistance could pave the way for further gains, potentially targeting 1.15850. Conversely, if the price falls below 1.15500, we could see a deeper retracement toward the 1.15400 area, which may provide another opportunity for buyers.\n\nGiven the current market conditions, traders may consider a cautious approach. A buy position could be initiated on a confirmed breakout above the resistance at 1.15700, with a stop-loss set slightly below 1.15500 to manage risk. Conversely, should the price decline and close below 1.15500, a short position may be warranted, targeting the next support level at 1.15400. Keeping an eye on market news and developments will be crucial for making informed trading decisions."
+    }
+  }
+}

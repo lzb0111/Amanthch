@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-11T08:20:20.601Z",
+  "price": {
+    "close": "4128.07",
+    "high": "4130",
+    "low": "4118.63",
+    "open": "4119.23",
+    "change": "0.21",
+    "datetime": "2025-11-11 19:00:00"
+  },
+  "indicators": {
+    "rsi": 68.5116,
+    "macd": 18.57197,
+    "macd_signal": 20.91285,
+    "sma20": 4109.9895
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中]",
+      "content": "当前黄金/美元(XAU/USD)价格在4128.07附近波动，显示出短期内震荡整理的趋势。虽然价格略有上升，但整体走势仍未突破关键阻力位4130，市场情绪偏向谨慎。投资者需关注后续的市场动向，以判断是否会出现更明确的趋势。\n\n从技术指标来看，MACD呈现出正值18.57，显示出一定的上行动能，短期内可能有进一步上升的空间。同时，20日简单移动平均线(SMA)位于4109.99，为价格提供了支撑。若价格回调至该水平附近，可能会吸引买盘入场，形成支撑区间。\n\n支撑位方面，4109.99为关键支撑，而4130则是阻力位，突破该位置可能会引发进一步的上涨。投资者应密切关注这些关键水平的突破情况，以制定相应的交易策略。在当前震荡行情中，建议采取短线操作，适时进出以捕捉短期波动的机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The gold market, as represented by XAU/USD, is currently trading at 4128.07, demonstrating a slight upward movement of 0.21% over the last 24 hours. This modest increase may indicate a consolidation phase following the recent price fluctuations. The high and low of 4130 and 4118.63 suggest a tight trading range, which often precedes a more significant breakout. Traders should keep a close watch on price movements to identify potential directional shifts.\n\nIn terms of technical indicators, the absence of a current RSI reading limits our ability to assess overbought or oversold conditions. However, the MACD value of 18.57197 indicates positive momentum, which could support further gains. The 20-period Simple Moving Average (SMA) at 4109.99 serves as a crucial dynamic support level, reflecting a bullish sentiment as long as prices remain above this average. A sustained move above this level could signal further upside potential.\n\nSupport levels are firmly established around the recent low of 4118.63, while resistance is evident at the high of 4130. A breakout above this resistance could open the door for a test of higher levels, potentially targeting 4140 and beyond. Conversely, if the price dips below the SMA and the 4118.63 support, it may trigger a bearish sentiment, leading traders to consider short positions, especially if further bearish confirmation arises.\n\nIn this environment, traders might consider adopting a wait-and-see approach, closely monitoring price action around the key levels mentioned. A breakout above 4130 could warrant long positions, while a failure to maintain support at 4118.63 may present opportunities for shorting. Risk management is essential; therefore, setting stop-loss orders just below key support levels can help safeguard capital in a volatile market."
+    }
+  }
+}

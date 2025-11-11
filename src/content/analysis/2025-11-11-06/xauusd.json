@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-11T07:01:41.690Z",
+  "price": {
+    "close": "4118.08",
+    "high": "4123.34",
+    "low": "4112.6",
+    "open": "4114.62",
+    "change": "0.08",
+    "datetime": "2025-11-11 17:00:00"
+  },
+  "indicators": {
+    "rsi": 64.45055,
+    "macd": 20.28507,
+    "macd_signal": 22.10987,
+    "sma20": 4108.34
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[小幅震荡，待突破信号]",
+      "content": "当前黄金/美元(XAU/USD)的价格在4118.08附近波动，整体表现出小幅震荡的趋势。最近24小时的价格变化为0.08%，显示出市场参与者的谨慎态度。尽管价格在4123.34和4112.6之间波动，但未能形成明显的趋势方向，投资者需关注即将到来的关键水平。\n\n从技术指标来看，当前MACD为20.28507，表明多头力量依然占优，虽然信号线尚未形成，这可能意味着市场仍在寻求突破点。同时，20日简单移动平均线(SMA)为4108.34，为市场提供了一定的支撑。RSI指标尚未提供数据，但如果后续数据表明超买或超卖状态，将对价格走势产生重要影响。\n\n在支撑和阻力位方面，4112.6作为短期支撑位，若跌破可能会加剧回调；而4123.34则为阻力位，突破后可能会引发更强的上涨动能。投资者应密切关注这些关键水平，并根据市场反应调整策略。\n\n交易建议方面，考虑在支撑位附近寻找买入机会，若价格突破阻力位，则可考虑加仓。相反，若价格持续在支撑位下方运行，则应谨慎操作，避免因市场震荡而造成损失。保持灵活，及时调整策略，以应对未来可能的市场变化。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 4118.08, showing a modest increase of 0.08% over the past 24 hours. The price has oscillated between a high of 4123.34 and a low of 4112.6, indicating a relatively tight trading range. This consolidation phase suggests that market participants are assessing the next directional move. The absence of significant volatility may indicate a temporary pause, but traders should remain vigilant for potential breakouts.\n\nFrom a trend analysis perspective, the recent price action appears to be forming a slight upward trajectory, supported by the SMA(20) at 4108.34. This moving average suggests that the short-term trend could remain positive if the price stays above this level. However, if the price dips below the SMA, it could signal a potential reversal or consolidation phase, warranting caution among bullish traders. The recent price behavior indicates a tug-of-war between buyers and sellers, with a clear breakout above 4123.34 potentially signaling further bullish momentum.\n\nIn terms of technical indicators, the MACD shows a positive value at 20.28507, indicating bullish momentum in the market. However, without a signal line for comparison, caution is warranted in interpreting this indicator. The lack of RSI data limits the ability to assess overbought or oversold conditions, but traders should monitor these indicators closely as they can provide valuable insights into market sentiment. \n\nSupport levels are identified around 4112.6, while resistance is evident at 4123.34. A breakout above this resistance level could open the door for a move towards 4140, whereas a break below 4112.6 could lead to a retest of lower support levels. Traders might consider employing a buy strategy above 4123.34 while looking for selling opportunities below 4112.6, allowing for vigilant risk management in this consolidating market environment."
+    }
+  }
+}

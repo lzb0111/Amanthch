@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-11T06:58:56.850Z",
+  "price": {
+    "close": "0.65206051",
+    "high": "0.65257114",
+    "low": "0.65176302",
+    "open": "0.65210307",
+    "change": "0.00",
+    "datetime": "2025-11-11 17:00:00"
+  },
+  "indicators": {
+    "rsi": 43.73328,
+    "macd": 0.0002189822,
+    "macd_signal": 0.00053880054,
+    "sma20": 0.65320701
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理]",
+      "content": "当前澳元/美元汇率在0.6520附近徘徊，显示出短期内的震荡整理趋势。价格未能突破0.6532的20日简单移动平均线（SMA），表明多头力量不足，而下方的支撑位在0.6518附近，可能会限制进一步下行的空间。\n\n从技术指标来看，MACD值为0.0002，表明市场动能较弱，短期内缺乏明确的交易信号。同时，由于RSI值缺失，无法判断是否存在超买或超卖的情况。这种不确定性使得交易者需保持谨慎，等待更明确的趋势信号。\n\n支撑位方面，0.6518是关键水平，一旦跌破可能导致进一步回调。而阻力位则在0.6532，突破后有可能引发新的上涨动能。市场参与者应关注这些关键价位，以便做出相应的交易决策。\n\n综上所述，建议交易者在当前震荡区间内保持观望，避免激进交易。如价格突破0.6532，则可考虑做多；若跌破0.6518，则可考虑做空，以应对潜在的趋势变化。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65206051, showing a neutral stance with a 24-hour change of 0.00%. The recent price movement reflects a consolidation phase, as it has oscillated within a narrow range, with a high of 0.65257114 and a low of 0.65176302. This tight range suggests a market indecision, where traders are assessing upcoming economic data and geopolitical developments that may influence the Australian Dollar's strength against the US Dollar.\n\nFrom a technical standpoint, the absence of a defined trend indicates potential for either a bullish or bearish breakout. The 20-period Simple Moving Average (SMA) at 0.65320701 serves as a critical dynamic resistance level. A sustained move above this level could indicate bullish momentum, while a failure to breach it may lead to further selling pressure. Traders should monitor price action closely around this SMA, as it may dictate the next significant move for the pair.\n\nThe current RSI value is not available, but it is essential to watch for potential overbought or oversold conditions that could arise in the near term. The MACD's positive value suggests slight bullish momentum; however, the absence of a signal line makes this interpretation less robust. Traders might consider waiting for additional confirmation from these indicators before entering positions, as the current landscape remains uncertain.\n\nSupport for the AUD/USD is seen at the recent low of 0.65176302, a level that, if breached, could signal a deeper correction towards 0.6500. Conversely, should the price break above 0.65320701, targets could shift towards the next resistance at approximately 0.6550. In light of the current market conditions, a cautious approach with tight stop-loss orders is advisable, as volatility could increase with upcoming economic releases."
+    }
+  }
+}

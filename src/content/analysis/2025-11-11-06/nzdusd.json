@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-11T07:00:18.468Z",
+  "price": {
+    "close": "0.56360257",
+    "high": "0.56407940",
+    "low": "0.56334853",
+    "open": "0.56366611",
+    "change": "0.00",
+    "datetime": "2025-11-11 17:00:00"
+  },
+  "indicators": {
+    "rsi": 45.42757,
+    "macd": 0.00008511031,
+    "macd_signal": 0.00023270841,
+    "sma20": 0.56425335
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)在0.5636附近震荡整理，整体趋势较为平稳。在过去24小时内，价格维持在高点0.56407940和低点0.56334853之间，显示出市场缺乏方向性。考虑到当前市场环境，短期内将可能继续维持震荡格局。\n\n从技术指标来看，虽然RSI(14)尚未提供数据，但MACD值为0.000085110310，显示出微弱的看涨动力。相对较低的交易波动性可能导致市场参与者对未来走势持谨慎态度。同时，SMA(20)为0.56425335，进一步加强了短期阻力位的有效性。\n\n在支撑和阻力位方面，当前支撑位位于0.5633附近，而阻力位则在0.5642区域。如果价格突破0.5642，可能会引发进一步上涨，反之若跌破0.5633，则可能面临更深的调整。投资者应密切关注这些关键价位，以制定相应策略。\n\n综合来看，建议交易者在当前震荡区间内采取区间交易策略，寻找在支撑位附近的买入机会，同时在接近阻力位时考虑卖出。保持灵活应变的交易策略，将有助于应对当前市场的不确定性。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair currently hovers around 0.5636, showing little movement in the past 24 hours. The price action suggests a consolidation phase, with the pair trading between a high of 0.5641 and a low of 0.5633. This tight range indicates indecision among traders, potentially setting the stage for a breakout. A sustained move above 0.5643 could signal a bullish trend, while a drop below 0.5633 may lead to further downside.\n\nThe absence of a calculated RSI and MACD signal leaves traders with limited momentum indicators. However, the MACD value of 0.0000851 hints at a potential bullish cross if the pair can regain upward momentum. The SMA(20) at 0.5643 serves as a critical resistance level; if the price breaks above this moving average, it could reinforce bullish sentiment and attract more buying interest.\n\nConversely, support can be identified at the recent low of 0.5633, which traders should monitor closely. A breakdown below this level could trigger stop-loss orders and lead to a more pronounced decline, possibly targeting 0.5625. Traders should be cautious and consider waiting for a clear breakout or breakdown before entering positions, as the current consolidation phase may result in heightened volatility.\n\nFor those looking to trade the NZD/USD pair, the best approach may be to set pending orders around key levels. A buy order above 0.5643 could capitalize on a potential bullish breakout, while a sell order below 0.5633 could leverage a bearish move. Risk management is essential; traders should employ stop-loss orders to safeguard against unexpected price swings in this uncertain market environment."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-11T06:58:14.283Z",
+  "price": {
+    "close": "154.18900",
+    "high": "154.26700",
+    "low": "154.082993",
+    "open": "154.12100",
+    "change": "0.04",
+    "datetime": "2025-11-11 17:00:00"
+  },
+  "indicators": {
+    "rsi": 56.55849,
+    "macd": 0.11771756,
+    "macd_signal": 0.13340106,
+    "sma20": 154.12935
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，关注关键水平]",
+      "content": "当前美元/日元（USD/JPY）交易在154.18附近，整体呈现震荡整理的态势。价格在过去24小时内微幅波动，仅变化0.04%。高点154.267和低点154.082的区间显示出市场的短期不确定性，投资者需密切关注价格突破的方向。\n\n技术指标方面，虽然RSI未提供，但MACD显示出0.1177的正值，暗示短期内可能存在上涨动能。此外，20日简单移动平均线（SMA）位于154.12935，为当前的支撑水平。在价格持续位于该水平上方时，可能会吸引更多买盘。\n\n支撑位方面，154.10附近是一个关键的支撑区域，若价格跌破该水平，可能进一步向下测试154.00。而阻力位则在154.27附近，若价格突破此水平，可能会引发一波多头行情。建议交易者在关键支撑和阻力位附近观察价格变化，寻找合适的进场或出场机会。\n\n综上所述，美元/日元在当前市场条件下表现出震荡整理的特征，建议保持谨慎，关注价格突破情况，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The current market price of USD/JPY stands at 154.189, reflecting a slight 0.04% increase over the past 24 hours. The pair has shown resilience, trading within a range of 154.267 at the high and 154.082 at the low. This narrow trading range suggests a consolidation phase, where the market is likely gathering momentum before making a decisive move. A breakout above the recent high could signal further bullish momentum, while a drop below the low could indicate a potential reversal.\n\nIn terms of technical indicators, the MACD value of 0.11771756 indicates a slight bullish bias, although the lack of a signal line makes interpretation challenging. The absence of an RSI reading means we cannot currently assess overbought or oversold conditions, which may limit our ability to gauge market sentiment effectively. However, the SMA(20) at 154.12935 offers a reference point for short-term trends, suggesting that the price is currently above this moving average, supportive of the bullish view.\n\nKey support and resistance levels are crucial for determining potential entry and exit points. The immediate support level is located near the recent low of 154.082, while resistance is seen at 154.267. Traders should watch these levels closely; a breach below support may invite short positions, while a break above resistance could trigger fresh buying interest. \n\nFor trading strategies, a wait-and-see approach may be prudent. Traders might consider buying on a confirmed break above 154.267, targeting higher levels with a stop-loss just below support. Conversely, if the price moves below 154.082, a short position could be initiated, with risk management in place to protect against unexpected volatility. This strategy allows for flexibility and responsiveness to market changes while adhering to sound risk management principles."
+    }
+  }
+}

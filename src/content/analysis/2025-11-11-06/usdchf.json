@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-11T07:01:00.578Z",
+  "price": {
+    "close": "0.80479002",
+    "high": "0.80484998",
+    "low": "0.80396003",
+    "open": "0.80404001",
+    "change": "0.09",
+    "datetime": "2025-11-11 17:00:00"
+  },
+  "indicators": {
+    "rsi": 45.76355,
+    "macd": -0.0003138835,
+    "macd_signal": -0.00027797505,
+    "sma20": 0.8050985
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎(USD/CHF)价格在0.8047附近波动，显示出震荡整理的趋势。虽然价格在过去24小时内仅上涨0.09%，但高点和低点的接近表明市场缺乏明确的方向。短期内，投资者需关注市场情绪变化，以判断未来的走势。\n\n从技术指标来看，当前的RSI(14)数据缺失，但MACD显示出微弱的负值，意味着卖方力量略强于买方。20日简单移动平均线(SMA)在0.8051附近，若价格突破该水平，可能会引发多头进场。反之，持续在此水平下方则可能导致价格进一步回调。\n\n支撑位方面，0.8040是一个关键的技术水平，若价格跌破此位，可能会加剧下行风险。而在阻力位方面，0.8051附近的SMA将成为多头关注的焦点。若突破此阻力，可能会引发更多买入信号。\n\n在交易建议方面，投资者可以考虑在0.8040附近寻找买入机会设置止损，目标价位可设定在0.8051附近。同时，若价格突破0.8051，则可考虑加仓。相反，若价格持续下跌且跌破0.8040，则应谨慎观望或考虑卖出。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair currently shows a slight bullish bias, as indicated by the recent 24-hour change of 0.09%. The price is trading just below the 20-period simple moving average (SMA) at 0.80509850, suggesting that a potential upward correction could be on the horizon if the price manages to break above this level. Traders should closely monitor price action around this SMA, as it could serve as a pivot point for future movements.\n\nIn terms of support and resistance levels, the recent high at 0.80484998 acts as immediate resistance, while the low of 0.80396003 provides a solid support level. A sustained move above the resistance could open the door for a test of higher levels, possibly targeting the psychological barrier at 0.8100. Conversely, if the price fails to hold above the support level, it could lead to further downside, potentially testing lower support levels.\n\nCurrently, the absence of reliable RSI data makes it challenging to assess overbought or oversold conditions directly. The MACD value is slightly negative, indicating a potential bearish momentum, though its implications are minimal without a signal line for context. Traders may consider waiting for more confirmatory signals from these indicators to establish a clearer trend direction before entering new positions.\n\nGiven the current market conditions, a cautious trading approach is advisable. Traders should consider setting buy orders above the 20-SMA, while keeping an eye on the resistance level at 0.80484998. For those with a bearish outlook, a break below the 0.80396003 support could provide a selling opportunity. Overall, maintaining flexibility in strategy will be crucial as the market evolves."
+    }
+  }
+}

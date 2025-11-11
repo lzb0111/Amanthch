@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const currencyPairsGuideContent = {
   zh: {
-    title: '货币对完整解析 - 主要、次要与异国货币对交易指南 | FX Killer',
-    description: '深入讲解外汇货币对：EUR/USD、GBP/USD、USD/JPY等主要货币对特性，货币对相关性分析，点值计算方法，最佳交易时段选择。掌握货币对选择与交易技巧。',
-    keywords: '货币对, 主要货币对, EUR/USD, GBP/USD, USD/JPY, 货币对相关性, 点值计算, 外汇货币对',
+    title: '货币对完整解析丨汇刃丨外汇交易员培训、全职交易员培训',
+    description: '深入讲解外汇货币对：EUR/USD、GBP/USD、USD/JPY等主要货币对特性、相关性分析、点值计算。外汇交易员和全职交易员培训必备的货币对选择与交易技巧。',
+    keywords: '外汇交易员培训, 全职交易员培训, 货币对, 主要货币对, EUR/USD, GBP/USD, 货币对相关性',
 
     heroTitle: '货币对完整解析',
     heroDescription: '理解货币对特性，选择最适合你的交易品种',
@@ -81,9 +81,9 @@ export const currencyPairsGuideContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Currency Pairs Guide - Major, Minor & Exotic Pairs Trading | FX Killer',
-    description: 'In-depth explanation of forex currency pairs: EUR/USD, GBP/USD, USD/JPY characteristics, correlation analysis, pip value calculation, optimal trading sessions. Master currency pair selection and trading techniques.',
-    keywords: 'currency pairs, major pairs, EUR/USD, GBP/USD, USD/JPY, currency correlation, pip value, forex pairs',
+    title: 'Complete Currency Pairs Analysis丨FX Killer丨Forex Trader Training, Full-Time Trader Training',
+    description: 'In-depth explanation of forex currency pairs: EUR/USD, GBP/USD, USD/JPY characteristics, correlation analysis, pip value calculation. Forex trader training and full-time trader training essential knowledge for currency pair selection and trading.',
+    keywords: 'Forex Trader Training, Full-Time Trader Training, currency pairs, major pairs, EUR/USD, GBP/USD',
 
     heroTitle: 'Complete Currency Pairs Guide',
     heroDescription: 'Understand currency pair characteristics and choose the best pairs for your trading',

@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const riskManagementContent = {
   zh: {
-    title: '外汇风险管理基础 - 仓位控制与资金管理完整指南 | FX Killer',
-    description: '深入讲解外汇交易风险管理核心知识：2%规则、风险回报比、仓位控制、最大回撤、风险承受能力评估。专业交易员分享实战风险管理策略，助你长期稳定盈利。',
-    keywords: '风险管理, 仓位控制, 资金管理, 止损设置, 风险回报比, 2%规则, 最大回撤, 外汇风险管理',
+    title: '外汇风险管理基础丨汇刃丨日内交易员培训、全职交易员培训',
+    description: '深入讲解外汇交易风险管理核心知识：2%规则、风险回报比、仓位控制、最大回撤。日内交易员和全职交易员培训必备的实战风险管理策略，助你长期稳定盈利。',
+    keywords: '日内交易员培训, 全职交易员培训, 风险管理, 仓位控制, 资金管理, 止损设置, 风险回报比, 2%规则',
 
     heroTitle: '外汇风险管理基础',
     heroDescription: '掌握风险管理核心原则，保护资金实现长期盈利',
@@ -84,9 +84,9 @@ export const riskManagementContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Forex Risk Management Fundamentals - Complete Position Sizing & Money Management Guide | FX Killer',
-    description: 'Comprehensive guide to forex risk management: 2% rule, risk-reward ratio, position sizing, maximum drawdown, risk tolerance assessment. Professional trader shares practical risk management strategies for long-term success.',
-    keywords: 'risk management, position sizing, money management, stop loss, risk reward ratio, 2% rule, maximum drawdown, forex risk management',
+    title: 'Forex Risk Management Fundamentals丨FX Killer丨Day Trader Training, Full-Time Trader Training',
+    description: 'Comprehensive forex risk management guide: 2% rule, risk-reward ratio, position sizing, maximum drawdown. Day trader training and full-time trader training essential practical risk management strategies for long-term trading success.',
+    keywords: 'Day Trader Training, Full-Time Trader Training, risk management, position control, money management, stop loss',
 
     heroTitle: 'Forex Risk Management Fundamentals',
     heroDescription: 'Master risk management principles to protect capital and achieve long-term profitability',

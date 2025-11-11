@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const emaMovingAveragesContent = {
   zh: {
-    title: 'EMA指数移动平均线完整指南 - EMA交易策略与实战技巧 | FX Killer',
-    description: '深入讲解EMA指数移动平均线：计算公式、与SMA的区别、常用周期(8, 21, 55, 200)。掌握EMA均线交叉策略、动态支撑阻力和多周期共振分析。',
-    keywords: 'EMA均线, 指数移动平均线, EMA策略, 均线交叉, SMA vs EMA, 技术分析指标, 趋势指标',
+    title: 'EMA指数移动平均线完整指南丨汇刃丨外汇交易员培训、全职交易员培训',
+    description: '深入讲解EMA指数移动平均线：计算公式、与SMA的区别、常用周期。外汇交易员和全职交易员培训必学的EMA均线交叉策略和多周期分析。',
+    keywords: '外汇交易员培训, 全职交易员培训, EMA均线, 指数移动平均线, EMA策略, 均线交叉, 趋势指标',
 
     heroTitle: 'EMA指数移动平均线完整指南',
     heroDescription: '掌握最敏感的趋势跟踪指标，精准识别市场方向',
@@ -81,9 +81,9 @@ export const emaMovingAveragesContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete EMA Guide - Exponential Moving Average Strategies and Techniques | FX Killer',
-    description: 'In-depth explanation of Exponential Moving Average: calculation formulas, differences from SMA, common periods (8, 21, 55, 200). Master EMA crossover strategies, dynamic support/resistance, and multi-timeframe analysis.',
-    keywords: 'EMA, exponential moving average, EMA strategy, moving average crossover, SMA vs EMA, technical analysis, trend indicator',
+    title: 'Complete EMA Moving Averages Guide丨FX Killer丨Forex Trader Training, Full-Time Trader Training',
+    description: 'In-depth explanation of Exponential Moving Average: calculation formulas, differences from SMA, common periods (8, 21, 55, 200). Forex trader training and full-time trader training essential curriculum for mastering EMA crossover strategies and multi-timeframe analysis.',
+    keywords: 'Forex Trader Training, Full-Time Trader Training, EMA, moving averages, EMA strategy, trend indicator',
 
     heroTitle: 'Complete EMA Guide',
     heroDescription: 'Master the most responsive trend-following indicator for precise market direction',

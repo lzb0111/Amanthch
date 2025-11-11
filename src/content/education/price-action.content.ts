@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const priceActionContent = {
   zh: {
-    title: '价格行为交易策略 - Pin Bar、Inside Bar、供需区域完整指南 | FX Killer',
-    description: '深入讲解价格行为交易：Pin Bar、Inside Bar、Rejection Candle、供需区域（Supply/Demand）、裸K交易策略。掌握纯价格分析，无需指标。',
-    keywords: '价格行为, Pin Bar, Inside Bar, 供需区域, 裸K交易, 价格拒绝, 纯价格分析',
+    title: '价格行为交易策略丨汇刃丨外汇交易员培训、全职交易员培训',
+    description: '深入讲解价格行为交易：Pin Bar、Inside Bar、Rejection Candle、供需区域。外汇交易员和全职交易员培训课程分享裸K交易策略，无需指标的纯价格分析。',
+    keywords: '外汇交易员培训, 全职交易员培训, 价格行为, Pin Bar, Inside Bar, 供需区域, 裸K交易',
 
     heroTitle: '价格行为交易策略',
     heroDescription: '摒弃指标噪音，回归价格本质，用最简单的方法交易',
@@ -81,9 +81,9 @@ export const priceActionContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Price Action Trading Strategy - Pin Bar, Inside Bar, Supply/Demand Zones Guide | FX Killer',
-    description: 'In-depth explanation of price action trading: Pin Bar, Inside Bar, Rejection Candle, Supply/Demand zones, naked chart trading strategies. Master pure price analysis without indicators.',
-    keywords: 'price action, Pin Bar, Inside Bar, supply demand zones, naked trading, price rejection, pure price analysis',
+    title: 'Price Action Trading Strategy丨FX Killer丨Forex Trader Training, Full-Time Trader Training',
+    description: 'In-depth explanation of price action trading: Pin Bar, Inside Bar, Rejection Candle, Supply/Demand zones, naked chart trading strategies. Forex trader training and full-time trader training curriculum for mastering pure price analysis without indicators.',
+    keywords: 'Forex Trader Training, Full-Time Trader Training, price action, Pin Bar, Inside Bar, supply demand zones',
 
     heroTitle: 'Price Action Trading Strategy',
     heroDescription: 'Eliminate indicator noise, return to price essence, trade with the simplest method',

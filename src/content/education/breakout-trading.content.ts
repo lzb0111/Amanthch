@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const breakoutTradingContent = {
   zh: {
-    title: '突破交易完整指南 - Breakout Trading策略与假突破识别 | FX Killer',
-    description: '深入讲解突破交易（Breakout Trading）：支撑阻力突破、成交量确认、假突破识别技巧、突破入场时机。掌握专业突破交易的完整系统。',
-    keywords: '突破交易, Breakout Trading, 支撑阻力, 假突破, 成交量确认, 突破策略, 区间突破, 趋势突破',
+    title: '突破交易策略完整指南丨汇刃丨职业交易员培训、外汇交易员培训',
+    description: '深入讲解突破交易（Breakout Trading）：支撑阻力突破、成交量确认、假突破识别。职业交易员和外汇交易员培训核心课程，掌握爆发性行情捕捉技巧。',
+    keywords: '职业交易员培训, 外汇交易员培训, 突破交易, Breakout Trading, 支撑阻力, 假突破',
 
     heroTitle: '突破交易完整指南',
     heroDescription: '掌握突破交易精髓，捕捉爆发性行情',
@@ -81,9 +81,9 @@ export const breakoutTradingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Breakout Trading Guide - Strategies and False Breakout Identification | FX Killer',
-    description: 'In-depth explanation of Breakout Trading: support/resistance breaks, volume confirmation, false breakout identification, breakout entry timing. Master professional breakout trading complete system.',
-    keywords: 'breakout trading, support resistance, false breakout, volume confirmation, breakout strategy, range breakout, trend breakout',
+    title: 'Complete Breakout Trading Strategy Guide丨FX Killer丨Professional Trader Training, Forex Trader Training',
+    description: 'In-depth explanation of Breakout Trading: support/resistance breaks, volume confirmation, false breakout identification. Professional trader training and forex trader training core curriculum for mastering explosive market moves.',
+    keywords: 'Professional Trader Training, Forex Trader Training, breakout trading, support resistance, false breakout, breakout strategy',
 
     heroTitle: 'Complete Breakout Trading Guide',
     heroDescription: 'Master breakout trading essentials to catch explosive moves',

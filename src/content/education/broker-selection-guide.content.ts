@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const brokerSelectionContent = {
   zh: {
-    title: '外汇经纪商选择完整指南 - 如何识别安全可靠的外汇平台 | FX Killer',
-    description: '全面讲解外汇经纪商选择标准：监管资质识别、平台类型对比（MM/STP/ECN）、资金安全保障、交易条件评估。避开黑平台陷阱，选择最适合你的外汇经纪商。',
-    keywords: '外汇经纪商, 外汇平台选择, 经纪商监管, 黑平台识别, ECN经纪商, STP经纪商, 外汇平台安全',
+    title: '外汇经纪商选择指南丨汇刃丨日内交易员培训、全职交易员培训',
+    description: '全面讲解外汇经纪商选择标准：监管资质识别、平台类型对比（MM/STP/ECN）、资金安全保障。日内交易员和全职交易员培训必知的经纪商选择技巧，避开黑平台。',
+    keywords: '日内交易员培训, 全职交易员培训, 外汇经纪商, 外汇平台选择, 经纪商监管, ECN经纪商',
 
     heroTitle: '外汇经纪商选择指南',
     heroDescription: '掌握选择安全可靠经纪商的核心标准，避开黑平台陷阱',
@@ -81,9 +81,9 @@ export const brokerSelectionContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Forex Broker Selection Guide - How to Identify Safe and Reliable Platforms | FX Killer',
-    description: 'Comprehensive guide to forex broker selection criteria: regulation verification, broker type comparison (MM/STP/ECN), fund security, trading conditions assessment. Avoid scam brokers and choose the best forex platform for you.',
-    keywords: 'forex broker, broker selection, forex regulation, scam broker identification, ECN broker, STP broker, forex platform safety',
+    title: 'Forex Broker Selection Guide丨FX Killer丨Day Trader Training, Full-Time Trader Training',
+    description: 'Comprehensive guide to forex broker selection criteria: regulation verification, broker type comparison (MM/STP/ECN), fund security. Day trader training and full-time trader training essential knowledge to avoid scam brokers.',
+    keywords: 'Day Trader Training, Full-Time Trader Training, forex broker, broker selection, forex regulation, ECN broker',
 
     heroTitle: 'Forex Broker Selection Guide',
     heroDescription: 'Master core criteria for choosing safe and reliable brokers, avoid scam platforms',

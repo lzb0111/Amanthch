@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const keltnerChannelsContent = {
   zh: {
-    title: '肯特纳通道指标完整指南 - Keltner Channels交易策略与实战技巧 | FX Killer',
-    description: '深入讲解肯特纳通道（Keltner Channels）指标：计算公式、参数设置、与布林带的区别。结合实战案例，掌握KC指标在外汇交易中的突破策略和趋势跟踪应用。',
-    keywords: '肯特纳通道, Keltner Channels, KC指标, 肯特纳通道策略, ATR通道, 技术分析指标, 波动性指标',
+    title: '肯特纳通道指标完整指南丨汇刃丨职业交易员培训、全职交易员培训',
+    description: '深入讲解肯特纳通道（Keltner Channels）指标：计算公式、参数设置、与布林带的区别。职业交易员和全职交易员培训必学的KC指标突破策略和趋势跟踪应用。',
+    keywords: '职业交易员培训, 全职交易员培训, 肯特纳通道, Keltner Channels, KC指标, ATR通道',
 
     heroTitle: '肯特纳通道指标完整指南',
     heroDescription: '掌握基于ATR的波动性指标，提升趋势交易精准度',
@@ -81,9 +81,9 @@ export const keltnerChannelsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Keltner Channels Guide - KC Trading Strategies and Practical Techniques | FX Killer',
-    description: 'In-depth explanation of Keltner Channels indicator: calculation formulas, parameter settings, differences from Bollinger Bands. Master KC breakout strategies and trend following in forex trading.',
-    keywords: 'Keltner Channels, KC indicator, KC strategy, ATR channels, technical analysis, volatility indicator',
+    title: 'Complete Keltner Channels Guide丨FX Killer丨Professional Trader Training, Full-Time Trader Training',
+    description: 'In-depth explanation of Keltner Channels indicator: calculation formulas, parameter settings, differences from Bollinger Bands. Professional trader training and full-time trader training essential curriculum for mastering KC breakout strategies and trend following.',
+    keywords: 'Professional Trader Training, Full-Time Trader Training, Keltner Channels, KC indicator, ATR channels',
 
     heroTitle: 'Complete Keltner Channels Guide',
     heroDescription: 'Master ATR-based volatility indicator to improve trend trading precision',

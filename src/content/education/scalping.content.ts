@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const scalpingContent = {
   zh: {
-    title: '剥头皮交易完整指南 - Scalping超短线策略与快速执行技巧 | FX Killer',
-    description: '深入讲解剥头皮交易（Scalping）：M1/M5超短线分析、快速入场出场、点差成本控制、执行速度优化。掌握专业剥头皮交易的完整系统。',
-    keywords: '剥头皮交易, Scalping, M1交易, M5交易, 超短线交易, 快速交易, 剥头皮策略, 外汇剥头皮',
+    title: '剥头皮交易完整指南丨汇刃丨日内交易员培训、外汇交易员培训',
+    description: '深入讲解剥头皮交易（Scalping）：M1/M5超短线分析、快速入场出场、点差成本控制。日内交易员和外汇交易员培训课程分享专业剥头皮交易系统。',
+    keywords: '日内交易员培训, 外汇交易员培训, 剥头皮交易, Scalping, M1交易, M5交易, 超短线交易, 快速交易',
 
     heroTitle: '剥头皮交易完整指南',
     heroDescription: '掌握超短线交易技巧，实现快进快出盈利',
@@ -81,9 +81,9 @@ export const scalpingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Scalping Guide - Ultra-Short-Term Strategies and Fast Execution | FX Killer',
-    description: 'In-depth explanation of Scalping: M1/M5 ultra-short analysis, rapid entry/exit, spread cost control, execution speed optimization. Master professional scalping complete system.',
-    keywords: 'scalping, M1 trading, M5 trading, ultra-short-term trading, fast trading, scalping strategy, forex scalping',
+    title: 'Complete Scalping Trading Guide丨FX Killer丨Day Trader Training, Forex Trader Training',
+    description: 'In-depth explanation of Scalping: M1/M5 ultra-short-term analysis, rapid entry/exit, spread cost control. Day trader training and forex trader training curriculum sharing professional scalping trading systems.',
+    keywords: 'Day Trader Training, Forex Trader Training, scalping, M1 trading, M5 trading, ultra-short-term trading',
 
     heroTitle: 'Complete Scalping Guide',
     heroDescription: 'Master ultra-short-term trading for quick in-and-out profits',

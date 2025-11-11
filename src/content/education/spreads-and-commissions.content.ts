@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const spreadsCommissionsContent = {
   zh: {
-    title: '外汇点差与佣金完整指南 - 交易成本详解与优化策略 | FX Killer',
-    description: '全面解析外汇交易成本：点差类型（固定vs浮动）、佣金模式、隐藏费用、以及如何选择低成本经纪商。掌握降低交易成本的实用技巧，提升长期盈利能力。',
-    keywords: '外汇点差, 外汇佣金, 交易成本, 固定点差, 浮动点差, ECN账户, STP账户, 外汇经纪商对比',
+    title: '外汇点差与佣金详解丨汇刃丨职业交易员培训、全职交易员培训',
+    description: '全面解析外汇交易成本：点差类型、佣金模式、隐藏费用、如何选择低成本经纪商。职业交易员和全职交易员培训必学的降低交易成本技巧，提升长期盈利能力。',
+    keywords: '职业交易员培训, 全职交易员培训, 外汇点差, 外汇佣金, 交易成本, 固定点差, 浮动点差',
 
     heroTitle: '外汇点差与佣金详解',
     heroDescription: '理解交易成本构成，学会选择最具性价比的交易条件',
@@ -81,9 +81,9 @@ export const spreadsCommissionsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Guide to Forex Spreads and Commissions - Trading Costs Explained | FX Killer',
+    title: 'Forex Spreads & Commissions Explained丨FX Killer丨Professional Trader Training, Full-Time Trader Training',
     description: 'Comprehensive analysis of forex trading costs: spread types (fixed vs floating), commission models, hidden fees, and how to choose low-cost brokers. Master cost reduction strategies for long-term profitability.',
-    keywords: 'forex spreads, forex commissions, trading costs, fixed spread, floating spread, ECN account, STP account, broker comparison',
+    keywords: 'Professional Trader Training, Full-Time Trader Training, forex spreads, forex commissions, trading costs',
 
     heroTitle: 'Forex Spreads and Commissions Explained',
     heroDescription: 'Understand trading cost structures and choose the most cost-effective conditions',

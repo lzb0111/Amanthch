@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const leverageMarginContent = {
   zh: {
-    title: '外汇杠杆与保证金完整指南 - 深度解析交易杠杆原理与风险 | FX Killer',
-    description: '全面讲解外汇杠杆和保证金机制：杠杆比例选择、保证金计算、强制平仓规则、爆仓风险管理。帮助交易者理性使用杠杆，避免过度交易，实现稳健盈利。',
-    keywords: '外汇杠杆, 保证金交易, 杠杆比例, 强制平仓, 爆仓, 保证金计算, 杠杆风险, 外汇风险管理',
+    title: '杠杆与保证金详解丨汇刃丨日内交易员培训、外汇交易员培训',
+    description: '全面讲解外汇杠杆和保证金机制：杠杆比例选择、保证金计算、强制平仓规则、爆仓风险管理。日内交易员和外汇交易员培训必备的杠杆使用技巧，实现稳健盈利。',
+    keywords: '日内交易员培训, 外汇交易员培训, 外汇杠杆, 保证金交易, 杠杆比例, 强制平仓, 保证金计算',
 
     heroTitle: '杠杆与保证金详解',
     heroDescription: '深入理解杠杆机制，掌握保证金管理的核心原则',
@@ -81,9 +81,9 @@ export const leverageMarginContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Guide to Forex Leverage and Margin - Deep Dive into Trading Mechanisms | FX Killer',
-    description: 'Comprehensive explanation of forex leverage and margin: leverage ratio selection, margin calculation, margin call rules, liquidation risk management. Learn to use leverage rationally for stable profitability.',
-    keywords: 'forex leverage, margin trading, leverage ratio, margin call, liquidation, margin calculation, leverage risk, forex risk management',
+    title: 'Leverage and Margin Explained丨FX Killer丨Day Trader Training, Forex Trader Training',
+    description: 'Comprehensive explanation of forex leverage and margin: leverage ratio selection, margin calculation, margin call rules, liquidation risk management. Day trader training and forex trader training essential knowledge for learning to use leverage rationally for stable profitability.',
+    keywords: 'Day Trader Training, Forex Trader Training, forex leverage, margin trading, leverage ratio, margin call',
 
     heroTitle: 'Leverage and Margin Explained',
     heroDescription: 'Master leverage mechanisms and core principles of margin management',

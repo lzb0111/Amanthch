@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const positionSizingContent = {
   zh: {
-    title: '仓位控制与资金管理 - 凯利公式与动态仓位调整策略 | FX Killer',
-    description: '深入讲解外汇交易仓位控制核心方法：固定比例法、凯利公式、ATR动态调整、最大回撤控制。职业交易员分享实战仓位管理技巧，助你优化资金利用率并控制风险。',
-    keywords: '仓位控制, 资金管理, 凯利公式, 固定比例法, 动态仓位, ATR仓位, 最大回撤, 外汇仓位管理',
+    title: '仓位控制与资金管理丨汇刃丨职业交易员培训、日内交易员培训',
+    description: '深入讲解外汇交易仓位控制：固定比例法、凯利公式、ATR动态调整、最大回撤控制。职业交易员和日内交易员培训必备的实战仓位管理技巧，优化资金利用率。',
+    keywords: '职业交易员培训, 日内交易员培训, 仓位控制, 资金管理, 凯利公式, 动态仓位, ATR仓位',
 
     heroTitle: '仓位控制与资金管理',
     heroDescription: '掌握科学仓位计算方法，实现资金高效利用与风险控制',
@@ -84,9 +84,9 @@ export const positionSizingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Position Sizing & Money Management - Kelly Criterion & Dynamic Position Strategies | FX Killer',
-    description: 'Comprehensive guide to forex position sizing methods: fixed fractional, Kelly Criterion, ATR dynamic adjustment, maximum drawdown control. Professional trader shares practical position management techniques to optimize capital efficiency and control risk.',
-    keywords: 'position sizing, money management, Kelly Criterion, fixed fractional, dynamic position, ATR position, maximum drawdown, forex position management',
+    title: 'Position Sizing & Money Management丨FX Killer丨Professional Trader Training, Day Trader Training',
+    description: 'Comprehensive guide to forex position sizing methods: fixed fractional, Kelly Criterion, ATR dynamic adjustment, maximum drawdown control. Professional trader training and day trader training essential curriculum sharing practical position management techniques for optimizing capital efficiency.',
+    keywords: 'Professional Trader Training, Day Trader Training, position sizing, money management, Kelly formula, ATR position',
 
     heroTitle: 'Position Sizing & Money Management',
     heroDescription: 'Master scientific position calculation for efficient capital utilization and risk control',

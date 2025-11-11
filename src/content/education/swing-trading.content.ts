@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const swingTradingContent = {
   zh: {
-    title: '波段交易完整指南 - Swing Trading策略与多日持仓技巧 | FX Killer',
-    description: '深入讲解波段交易（Swing Trading）：H4/D1时间框架分析、趋势识别方法、持仓管理技巧、多日交易策略。掌握波段交易的完整系统和实战案例。',
-    keywords: '波段交易, Swing Trading, H4交易, D1交易, 趋势交易, 多日持仓, 波段策略, 外汇波段交易',
+    title: '波段交易完整指南丨汇刃丨全职交易员培训、日内交易员培训',
+    description: '深入讲解波段交易（Swing Trading）：H4/D1时间框架分析、趋势识别方法、持仓管理技巧。全职交易员和日内交易员培训课程分享多日交易策略和实战案例。',
+    keywords: '全职交易员培训, 日内交易员培训, 波段交易, Swing Trading, H4交易, D1交易, 趋势交易, 多日持仓',
 
     heroTitle: '波段交易完整指南',
     heroDescription: '掌握多日交易策略，捕捉中期趋势机会',
@@ -81,12 +81,12 @@ export const swingTradingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Swing Trading Guide - Strategies and Multi-Day Position Techniques | FX Killer',
+    title: 'Complete Swing Trading Guide丨FX Killer丨Full-Time Trader Training, Day Trader Training',
     description: 'In-depth explanation of Swing Trading: H4/D1 timeframe analysis, trend identification methods, position management techniques, multi-day trading strategies. Master complete swing trading system with real cases.',
-    keywords: 'swing trading, H4 trading, D1 trading, trend trading, multi-day positions, swing strategy, forex swing trading',
+    keywords: 'Full-Time Trader Training, Day Trader Training, swing trading, H4 trading, D1 trading, trend trading',
 
     heroTitle: 'Complete Swing Trading Guide',
-    heroDescription: 'Master multi-day trading strategies to capture medium-term trend opportunities',
+    heroDescription: 'Full-time trader training and day trader training curriculum sharing multi-day trading strategies to capture medium-term trend opportunities',
     readingTime: '26 min',
     difficulty: 'Intermediate',
     lastUpdated: 'Jan 15, 2024',

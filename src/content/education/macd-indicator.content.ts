@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const macdIndicatorContent = {
   zh: {
-    title: 'MACD指标完整指南 - MACD交易策略与实战技巧 | FX Killer',
-    description: '深入讲解MACD指标：DIF、DEA、MACD柱状图的计算公式，金叉死叉信号，背离形态识别。掌握MACD在外汇交易中的趋势确认和动能分析应用。',
-    keywords: 'MACD指标, MACD策略, 金叉死叉, MACD背离, DIF DEA, 技术分析指标, 趋势指标',
+    title: 'MACD指标完整指南丨汇刃丨外汇交易员培训、全职交易员培训',
+    description: '深入讲解MACD指标：DIF、DEA、MACD柱状图计算公式，金叉死叉信号，背离形态。外汇交易员和全职交易员培训必备的趋势确认和动能分析工具。',
+    keywords: '外汇交易员培训, 全职交易员培训, MACD指标, MACD策略, 金叉死叉, MACD背离, 趋势指标',
 
     heroTitle: 'MACD指标完整指南',
     heroDescription: '掌握最经典的趋势动能指标，精准把握市场节奏',
@@ -81,9 +81,9 @@ export const macdIndicatorContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete MACD Guide - MACD Trading Strategies and Practical Techniques | FX Killer',
-    description: 'In-depth explanation of MACD indicator: DIF, DEA, histogram calculations, golden/death cross signals, divergence pattern recognition. Master MACD trend confirmation and momentum analysis in forex.',
-    keywords: 'MACD indicator, MACD strategy, golden cross, MACD divergence, DIF DEA, technical analysis, trend indicator',
+    title: 'Complete MACD Indicator Guide丨FX Killer丨Forex Trader Training, Full-Time Trader Training',
+    description: 'In-depth explanation of MACD indicator: DIF, DEA, histogram calculations, golden/death cross signals, divergence pattern recognition. Forex trader training and full-time trader training essential curriculum for mastering MACD trend confirmation and momentum analysis.',
+    keywords: 'Forex Trader Training, Full-Time Trader Training, MACD indicator, MACD strategy, golden cross, MACD divergence',
 
     heroTitle: 'Complete MACD Indicator Guide',
     heroDescription: 'Master the most classic trend momentum indicator for precise market timing',

@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const tradingSessionsContent = {
   zh: {
-    title: '外汇交易时段完整指南 - 全球外汇市场交易时间解析 | FX Killer',
-    description: '深入解析全球外汇市场四大交易时段：悉尼、东京、伦敦、纽约。掌握最佳交易时间窗口、主要货币对活跃时段、市场流动性分布，助你选择最优交易时机。',
-    keywords: '外汇交易时段, 外汇交易时间, 伦敦交易时段, 纽约交易时段, 东京交易时段, 最佳交易时间, 外汇市场开盘时间',
+    title: '全球外汇交易时段详解丨汇刃丨日内交易员培训、外汇交易员培训',
+    description: '深入解析全球外汇市场四大交易时段：悉尼、东京、伦敦、纽约。日内交易员和外汇交易员培训必备的最佳交易时间窗口、货币对活跃时段分析。',
+    keywords: '日内交易员培训, 外汇交易员培训, 外汇交易时段, 外汇交易时间, 伦敦交易时段, 最佳交易时间',
 
     heroTitle: '全球外汇交易时段详解',
     heroDescription: '掌握全球24小时外汇市场的交易时段规律，找到最佳交易时机',
@@ -81,9 +81,9 @@ export const tradingSessionsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Guide to Forex Trading Sessions - Global Market Hours Explained | FX Killer',
-    description: 'In-depth analysis of the four major forex trading sessions: Sydney, Tokyo, London, and New York. Master optimal trading windows, currency pair activity, and market liquidity patterns.',
-    keywords: 'forex trading sessions, forex market hours, London session, New York session, Tokyo session, best trading times, forex market opening hours',
+    title: 'Global Forex Trading Sessions Guide丨FX Killer丨Day Trader Training, Forex Trader Training',
+    description: 'In-depth analysis of the four major forex trading sessions: Sydney, Tokyo, London, and New York. Day trader training and forex trader training essential knowledge for optimal trading windows, currency pair activity, and market liquidity patterns.',
+    keywords: 'Day Trader Training, Forex Trader Training, forex trading sessions, London session, best trading times',
 
     heroTitle: 'Global Forex Trading Sessions Guide',
     heroDescription: 'Master the 24-hour global forex market rhythm and find your optimal trading times',

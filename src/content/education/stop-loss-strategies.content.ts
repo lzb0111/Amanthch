@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const stopLossStrategiesContent = {
   zh: {
-    title: '止损策略大全 - 固定止损、ATR止损、技术止损与追踪止损完整指南 | FX Killer',
-    description: '深入讲解外汇交易止损策略核心方法：固定点数止损、百分比止损、ATR动态止损、技术位止损、时间止损、追踪止损。职业交易员分享实战止损设置技巧，助你保护资金并优化盈利。',
-    keywords: '止损策略, 止损设置, ATR止损, 技术止损, 追踪止损, 移动止损, 止损执行, 外汇止损',
+    title: '止损策略大全丨汇刃丨外汇交易员培训、日内交易员培训',
+    description: '深入讲解外汇交易止损策略：固定点数止损、ATR动态止损、技术位止损、追踪止损。外汇交易员和日内交易员培训必备的实战止损设置技巧，保护资金优化盈利。',
+    keywords: '外汇交易员培训, 日内交易员培训, 止损策略, 止损设置, ATR止损, 技术止损, 追踪止损',
 
     heroTitle: '止损策略大全',
     heroDescription: '掌握各类止损技巧，保护资金实现风险可控盈利',
@@ -84,9 +84,9 @@ export const stopLossStrategiesContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Stop Loss Strategies - Fixed, ATR, Technical & Trailing Stops Guide | FX Killer',
+    title: 'Complete Stop Loss Strategies丨FX Killer丨Forex Trader Training, Day Trader Training',
     description: 'Comprehensive guide to forex stop-loss strategies: fixed pip stops, percentage stops, ATR dynamic stops, technical stops, time stops, trailing stops. Professional trader shares practical stop-loss setting techniques to protect capital and optimize profits.',
-    keywords: 'stop loss strategies, stop loss setting, ATR stop loss, technical stop loss, trailing stop, moving stop, stop loss discipline, forex stop loss',
+    keywords: 'Forex Trader Training, Day Trader Training, stop loss strategies, ATR stop loss, trailing stop',
 
     heroTitle: 'Complete Stop Loss Strategies',
     heroDescription: 'Master all stop-loss techniques to protect capital and achieve risk-controlled profitability',

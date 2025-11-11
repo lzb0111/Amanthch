@@ -50,9 +50,9 @@ export interface EducationPageContent {
 
 export const forexBasicsContent = {
   zh: {
-    title: '外汇交易基础知识完整指南 - 从零开始学习外汇交易 | FX Killer',
-    description: '完整的外汇交易入门教程，涵盖外汇市场基础、交易术语、技术分析、风险管理等核心知识。适合零基础新手，由职业交易员编写，助你快速掌握外汇交易essentials。',
-    keywords: '外汇交易基础, 外汇入门, 外汇教程, 外汇市场, 外汇交易知识, 新手学外汇, FX交易教程',
+    title: '外汇交易基础知识完整指南丨汇刃丨职业交易员培训、外汇交易员培训',
+    description: '完整的外汇交易入门教程，由职业交易员编写。涵盖外汇市场基础、交易术语、技术分析、风险管理等核心知识，助你快速掌握外汇交易要领。职业交易员培训和外汇交易员培训必备基础课程。',
+    keywords: '职业交易员培训, 外汇交易员培训, 职业交易员, 外汇交易员, 外汇基础, 外汇入门, 外汇教程, 外汇市场, 交易知识',
 
     heroTitle: '外汇交易基础知识',
     heroDescription: '完整的外汇交易入门指南，从零开始掌握外汇市场核心概念',
@@ -129,9 +129,9 @@ export const forexBasicsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Guide to Forex Trading Basics - Learn Forex from Scratch | FX Killer',
-    description: 'Comprehensive forex trading tutorial covering market basics, trading terminology, technical analysis, and risk management. Perfect for beginners, written by professional traders.',
-    keywords: 'forex trading basics, forex tutorial, forex for beginners, currency trading, FX trading guide, learn forex',
+    title: 'Complete Forex Basics Guide丨FX Killer丨Professional Trader Training, Forex Trader Training',
+    description: 'Comprehensive forex trading tutorial written by professional traders. Covering market basics, trading terminology, technical analysis, and risk management for beginners. Essential foundation course for professional trader training and forex trader training.',
+    keywords: 'professional trader training, forex trader training, professional trader, forex trader, forex basics, forex tutorial, forex market',
 
     heroTitle: 'Forex Trading Basics',
     heroDescription: 'Complete beginner\'s guide to forex trading, master core concepts from scratch',

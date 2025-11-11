@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const tradingPsychologyContent = {
   zh: {
-    title: '交易心理学 - 克服恐惧贪婪FOMO，建立交易纪律与情绪管理体系 | FX Killer',
-    description: '深入讲解外汇交易心理学核心知识：恐惧贪婪心理、FOMO、过度交易、报复性交易、交易纪律、压力管理、交易日志。职业交易员分享实战心理调控技巧，助你克服心理陷阱实现稳定盈利。',
-    keywords: '交易心理学, 交易心理, 情绪管理, 交易纪律, FOMO, 贪婪恐惧, 过度交易, 报复性交易, 交易日志',
+    title: '交易心理学丨汇刃丨职业交易员培训、全职交易员培训',
+    description: '深入讲解外汇交易心理学核心知识：恐惧贪婪心理、FOMO、过度交易、交易纪律、压力管理。职业交易员和全职交易员培训的核心内容，助你克服心理陷阱实现稳定盈利。',
+    keywords: '职业交易员培训, 全职交易员培训, 交易心理学, 交易心理, 情绪管理, 交易纪律, FOMO, 贪婪恐惧',
 
     heroTitle: '交易心理学',
     heroDescription: '掌握交易心理调控，克服情绪陷阱建立稳定盈利心态',
@@ -84,9 +84,9 @@ export const tradingPsychologyContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Trading Psychology - Overcome Fear Greed FOMO, Build Discipline & Emotional Management | FX Killer',
-    description: 'Comprehensive guide to forex trading psychology: fear and greed psychology, FOMO, overtrading, revenge trading, trading discipline, stress management, trading journal. Professional trader shares practical psychological control techniques to overcome mental traps and achieve stable profitability.',
-    keywords: 'trading psychology, trading mindset, emotional management, trading discipline, FOMO, fear greed, overtrading, revenge trading, trading journal',
+    title: 'Trading Psychology丨FX Killer丨Professional Trader Training, Full-Time Trader Training',
+    description: 'Comprehensive trading psychology guide: fear and greed psychology, FOMO, overtrading, discipline, stress management. Professional trader training and full-time trader training core curriculum to help you overcome mental traps for stable profitability.',
+    keywords: 'Professional Trader Training, Full-Time Trader Training, trading psychology, emotion management, trading discipline, FOMO',
 
     heroTitle: 'Trading Psychology',
     heroDescription: 'Master trading psychology control, overcome emotional traps and build stable profitable mindset',

@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const trendFollowingContent = {
   zh: {
-    title: '趋势跟踪完整指南 - Trend Following策略与EMA均线系统 | FX Killer',
-    description: '深入讲解趋势跟踪（Trend Following）：趋势识别方法、EMA均线系统、趋势强度判断、加仓策略。掌握专业趋势跟踪交易的完整系统。',
-    keywords: '趋势跟踪, Trend Following, EMA均线, 趋势交易, 趋势识别, 加仓策略, 趋势强度, 移动平均线',
+    title: '趋势跟踪完整指南丨汇刃丨外汇交易员培训、职业交易员培训',
+    description: '深入讲解趋势跟踪（Trend Following）：趋势识别方法、EMA均线系统、趋势强度判断、加仓策略。外汇交易员和职业交易员培训必备的顺势交易系统。',
+    keywords: '外汇交易员培训, 职业交易员培训, 趋势跟踪, Trend Following, EMA均线, 趋势交易, 加仓策略',
 
     heroTitle: '趋势跟踪完整指南',
     heroDescription: '掌握趋势跟踪策略，顺势而为持续盈利',
@@ -81,9 +81,9 @@ export const trendFollowingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Trend Following Guide - Strategies and EMA Moving Average System | FX Killer',
+    title: 'Complete Trend Following Guide丨FX Killer丨Forex Trader Training, Professional Trader Training',
     description: 'In-depth explanation of Trend Following: trend identification methods, EMA system, trend strength judgment, pyramiding strategies. Master professional trend following complete system.',
-    keywords: 'trend following, EMA, trend trading, trend identification, pyramiding strategy, trend strength, moving averages',
+    keywords: 'Forex Trader Training, Professional Trader Training, trend following, EMA, trend trading, pyramiding strategy',
 
     heroTitle: 'Complete Trend Following Guide',
     heroDescription: 'Master trend following strategies for consistent profits with the trend',

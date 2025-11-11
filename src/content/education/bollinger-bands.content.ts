@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const bollingerBandsContent = {
   zh: {
-    title: '布林带指标完整指南 - Bollinger Bands交易策略与实战技巧 | FX Killer',
-    description: '深入讲解布林带（Bollinger Bands）指标：计算公式、参数设置、经典交易策略（布林带突破、挤压、回归）。结合实战案例，掌握布林带在外汇交易中的应用。',
-    keywords: '布林带, Bollinger Bands, BB指标, 布林带策略, 布林带突破, 布林带挤压, 技术分析指标, 波动性指标',
+    title: '布林带指标完整指南丨汇刃丨日内交易员培训、全职交易员培训',
+    description: '深入讲解布林带（Bollinger Bands）指标：计算公式、参数设置、经典交易策略。日内交易员培训和全职交易员培训必学的波动性指标应用技巧。',
+    keywords: '日内交易员培训, 全职交易员培训, 日内交易员, 布林带, Bollinger Bands, BB指标, 布林带策略, 波动性指标',
 
     heroTitle: '布林带指标完整指南',
     heroDescription: '掌握最实用的波动性指标，提升交易精准度',
@@ -81,9 +81,9 @@ export const bollingerBandsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Bollinger Bands Guide - Trading Strategies and Practical Techniques | FX Killer',
-    description: 'In-depth explanation of Bollinger Bands indicator: calculation formulas, parameter settings, classic trading strategies (BB breakout, squeeze, reversion). Master Bollinger Bands application in forex trading with real cases.',
-    keywords: 'Bollinger Bands, BB indicator, BB strategy, BB breakout, BB squeeze, technical analysis, volatility indicator',
+    title: 'Bollinger Bands Complete Guide丨FX Killer丨Day Trader Training, Full-Time Trader Training',
+    description: 'In-depth guide to Bollinger Bands indicator: calculation formula, parameter settings, classic trading strategies. Essential volatility indicator application for day trader training and full-time trader training.',
+    keywords: 'day trader training, full-time trader training, day trader, Bollinger Bands, BB indicator, volatility indicator, trading strategy',
 
     heroTitle: 'Complete Bollinger Bands Guide',
     heroDescription: 'Master the most practical volatility indicator to improve trading precision',

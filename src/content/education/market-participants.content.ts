@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const marketParticipantsContent = {
   zh: {
-    title: '外汇市场参与者完整指南 - 央行、机构与散户交易者角色分析 | FX Killer',
-    description: '深入讲解外汇市场参与者：中央银行、商业银行、对冲基金、零售交易者的角色与影响。理解订单流动、市场结构、机构vs散户差异，提升交易胜率。',
-    keywords: '外汇市场参与者, 中央银行, 对冲基金, 机构交易者, 散户交易者, 订单流, 市场结构',
+    title: '外汇市场参与者深度解析丨汇刃丨职业交易员培训、全职交易员培训',
+    description: '深入讲解外汇市场参与者：中央银行、商业银行、对冲基金、零售交易者。职业交易员和全职交易员培训必懂的订单流动、市场结构、机构vs散户差异。',
+    keywords: '职业交易员培训, 全职交易员培训, 外汇市场参与者, 中央银行, 对冲基金, 订单流, 市场结构',
 
     heroTitle: '外汇市场参与者',
     heroDescription: '理解市场参与者，洞察资金流动与价格驱动',
@@ -81,9 +81,9 @@ export const marketParticipantsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Market Participants Guide - Central Banks, Institutions & Retail Traders | FX Killer',
-    description: 'In-depth explanation of forex market participants: central banks, commercial banks, hedge funds, retail traders roles and influence. Understand order flow, market structure, institutional vs retail differences to improve trading.',
-    keywords: 'forex market participants, central banks, hedge funds, institutional traders, retail traders, order flow, market structure',
+    title: 'Forex Market Participants Deep Analysis丨FX Killer丨Professional Trader Training, Full-Time Trader Training',
+    description: 'In-depth explanation of forex market participants: central banks, commercial banks, hedge funds, retail traders roles and influence. Professional trader training and full-time trader training essential knowledge for understanding order flow, market structure, institutional vs retail differences.',
+    keywords: 'Professional Trader Training, Full-Time Trader Training, forex market participants, central banks, hedge funds, market structure',
 
     heroTitle: 'Forex Market Participants',
     heroDescription: 'Understand market participants to gain insight into capital flow and price drivers',

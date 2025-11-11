@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const rsiIndicatorContent = {
   zh: {
-    title: 'RSI相对强弱指标完整指南 - RSI交易策略与实战技巧 | FX Killer',
-    description: '深入讲解RSI相对强弱指标：计算公式、超买超卖区域(70/30)、RSI背离形态。掌握RSI在外汇交易中的应用，配合布林带等指标提升交易胜率。',
-    keywords: 'RSI指标, 相对强弱指标, RSI策略, RSI背离, 超买超卖, 技术分析指标, 动能指标',
+    title: 'RSI相对强弱指标完整指南丨汇刃丨全职交易员培训、职业交易员培训',
+    description: '深入讲解RSI相对强弱指标：计算公式、超买超卖区域、RSI背离形态。全职交易员和职业交易员培训课程，掌握RSI策略，配合布林带等指标提升交易胜率。',
+    keywords: '全职交易员培训, 职业交易员培训, RSI指标, 相对强弱指标, RSI策略, RSI背离, 超买超卖, 技术分析',
 
     heroTitle: 'RSI相对强弱指标完整指南',
     heroDescription: '掌握最实用的动能指标，精准识别超买超卖机会',
@@ -81,9 +81,9 @@ export const rsiIndicatorContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete RSI Guide - Relative Strength Index Strategies and Techniques | FX Killer',
-    description: 'In-depth explanation of RSI indicator: calculation formulas, overbought/oversold zones (70/30), RSI divergence patterns. Master RSI application in forex trading, combine with Bollinger Bands to improve win rate.',
-    keywords: 'RSI indicator, relative strength index, RSI strategy, RSI divergence, overbought oversold, technical analysis, momentum indicator',
+    title: 'Complete RSI Indicator Guide丨FX Killer丨Full-Time Trader Training, Professional Trader Training',
+    description: 'In-depth RSI indicator guide: calculation, overbought/oversold zones, divergence patterns. Full-time trader training and professional trader training curriculum for mastering RSI strategies, combining with Bollinger Bands to improve win rate.',
+    keywords: 'Full-Time Trader Training, Professional Trader Training, RSI indicator, relative strength index, RSI strategy, RSI divergence',
 
     heroTitle: 'Complete RSI Indicator Guide',
     heroDescription: 'Master the most practical momentum indicator for precise overbought/oversold opportunities',

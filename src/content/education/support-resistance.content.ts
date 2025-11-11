@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const supportResistanceContent = {
   zh: {
-    title: '支撑阻力与趋势线完整指南 - 水平位、动态位与突破交易策略 | FX Killer',
-    description: '深入讲解支撑阻力位：水平支撑阻力、动态支撑阻力（MA）、趋势线画法、通道交易、突破与假突破识别。掌握关键位置交易技巧。',
-    keywords: '支撑阻力, 趋势线, 水平支撑, 动态支撑, 突破交易, 假突破, 通道交易',
+    title: '支撑阻力与趋势线丨汇刃丨职业交易员培训、外汇交易员培训',
+    description: '深入讲解支撑阻力位：水平支撑阻力、动态支撑阻力、趋势线画法、通道交易。职业交易员和外汇交易员培训必备的关键位置交易技巧。',
+    keywords: '职业交易员培训, 外汇交易员培训, 支撑阻力, 趋势线, 水平支撑, 突破交易, 假突破, 通道交易',
 
     heroTitle: '支撑阻力与趋势线',
     heroDescription: '掌握关键价格位置，找到最佳入场和出场点',
@@ -81,9 +81,9 @@ export const supportResistanceContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Support Resistance & Trendlines Guide - Horizontal, Dynamic Levels & Breakout Strategies | FX Killer',
-    description: 'In-depth explanation of support and resistance: horizontal S/R, dynamic S/R (MA), trendline drawing, channel trading, breakout and false breakout identification. Master key level trading techniques.',
-    keywords: 'support resistance, trendlines, horizontal support, dynamic support, breakout trading, false breakout, channel trading',
+    title: 'Support Resistance & Trend Lines丨FX Killer丨Professional Trader Training, Forex Trader Training',
+    description: 'In-depth explanation of support and resistance: horizontal S/R, dynamic S/R (MA), trendline drawing, channel trading, breakout and false breakout identification. Professional trader training and forex trader training essential knowledge for key level trading techniques.',
+    keywords: 'Professional Trader Training, Forex Trader Training, support resistance, trendlines, horizontal support, breakout trading',
 
     heroTitle: 'Support Resistance & Trendlines',
     heroDescription: 'Master key price levels to find optimal entry and exit points',

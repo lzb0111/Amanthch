@@ -2,9 +2,9 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const dayTradingContent = {
   zh: {
-    title: '日内交易完整指南 - Day Trading策略与风险管理实战技巧 | FX Killer',
-    description: '深入讲解日内交易（Day Trading）：时间框架选择、入场出场策略、仓位控制、止损设置、交易时段分析。结合实战案例，掌握M5、M15、H1图表的短线交易技巧。',
-    keywords: '日内交易, Day Trading, 短线交易, M5交易, M15交易, H1交易, 日内策略, 外汇日内交易',
+    title: '日内交易完整指南丨汇刃丨职业交易员培训、日内交易员培训',
+    description: '深入讲解日内交易（Day Trading）：时间框架选择、入场出场策略、仓位控制、止损设置。职业交易员和日内交易员培训课程，分享M5、M15、H1图表的短线交易技巧。',
+    keywords: '职业交易员培训, 日内交易员培训, 日内交易, Day Trading, 短线交易, M5交易, M15交易, 日内策略',
 
     heroTitle: '日内交易完整指南',
     heroDescription: '掌握短线交易精髓，实现日内稳定盈利',
@@ -81,9 +81,9 @@ export const dayTradingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Day Trading Guide - Strategies and Risk Management Techniques | FX Killer',
-    description: 'In-depth explanation of Day Trading: timeframe selection, entry/exit strategies, position sizing, stop-loss setting, trading session analysis. Master intraday trading on M5, M15, H1 charts with real cases.',
-    keywords: 'day trading, intraday trading, M5 trading, M15 trading, H1 trading, day trading strategy, forex day trading',
+    title: 'Complete Day Trading Guide丨FX Killer丨Professional Trader Training, Day Trader Training',
+    description: 'In-depth day trading guide: timeframe selection, entry/exit strategies, position sizing, stop-loss. Professional trader training and day trader training curriculum sharing intraday trading techniques on M5, M15, H1 charts.',
+    keywords: 'Professional Trader Training, Day Trader Training, day trading, intraday trading, M5 trading, M15 trading',
 
     heroTitle: 'Complete Day Trading Guide',
     heroDescription: 'Master intraday trading essentials for consistent daily profits',

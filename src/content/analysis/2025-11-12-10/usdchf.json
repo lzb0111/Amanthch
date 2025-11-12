@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-12T10:57:55.749Z",
+  "price": {
+    "close": "0.79931998",
+    "high": "0.79966998",
+    "low": "0.79891998",
+    "open": "0.79922998",
+    "change": "0.01",
+    "datetime": "2025-11-12 21:00:00"
+  },
+  "indicators": {
+    "rsi": 31.5678,
+    "macd": -0.00081544643,
+    "macd_signal": -0.00084423006,
+    "sma20": 0.80014901
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎（USD/CHF）价格为0.7993，处于震荡整理阶段。近期高点0.7997和低点0.7989的波动范围显示出市场缺乏明确的方向性。整体来看，短期内价格走势可能继续维持在这一区间内，投资者需保持警惕，等待市场进一步信号。\n\n从技术指标来看，MACD指标当前值为-0.0008，显示出一定的卖压，但尚未形成强烈的下行趋势。RSI未提供数据，但若进入超卖区间，则可能会出现反弹。20日简单移动平均线（SMA）为0.8001，作为短期阻力位，若价格突破该水平，可能会引发多头情绪。\n\n支撑位方面，0.7989为关键支撑，若价格跌破该水平，可能会加大下行风险。反之，若突破0.8001，可能会指向更高的目标，甚至挑战0.8020的阻力位。因此，投资者可关注这两个关键价位的突破情况，以决定入场时机。\n\n综合来看，当前市场呈现震荡整理的特点，建议投资者在关键支撑和阻力位附近寻找交易机会。可考虑在接近支撑位时逢低买入，而在接近阻力位时逢高卖出，灵活应对市场变化。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.7993, reflecting a slight increase of 0.01% over the past 24 hours. The price movement has been relatively contained within a narrow range, with a high of 0.7997 and a low of 0.7989. This stability suggests a consolidation phase, indicating that traders are assessing the next directional move. The overall trend remains bearish, as the price is below the 20-day Simple Moving Average (SMA) at 0.8001, hinting at potential downward pressure.\n\nTechnical indicators provide further insights into market sentiment. The MACD is currently showing a negative value of -0.0008, suggesting that momentum is favoring the bearish side. However, without the RSI indicator data, it is challenging to gauge overbought or oversold conditions effectively. Traders should remain cautious, as the absence of strong bullish signals could lead to further declines, particularly if the price fails to reclaim the SMA level.\n\nKey support and resistance levels are critical for future price action. The immediate support level is located at 0.7989, which, if breached, may open the door for a deeper retracement. Conversely, resistance is encountered at the SMA of 0.8001, presenting a challenge for buyers to regain control. A confirmed break above this level could signal a bullish reversal, while a drop below the support may lead to increased selling pressure.\n\nIn terms of trading strategies, traders might consider placing sell orders near the resistance level while monitoring for a break below support for additional short opportunities. Conversely, a buy signal could be triggered if the price surpasses the SMA, suggesting a potential trend reversal. Overall, a cautious approach is recommended, as current market conditions lack strong directional bias."
+    }
+  }
+}

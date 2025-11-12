@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-12T10:52:47.549Z",
+  "price": {
+    "close": "1.15701",
+    "high": "1.15756",
+    "low": "1.15656",
+    "open": "1.15701",
+    "change": "0.00",
+    "datetime": "2025-11-12 21:00:00"
+  },
+  "indicators": {
+    "rsi": 44.15386,
+    "macd": 0.000041768696,
+    "macd_signal": 0.00025227463,
+    "sma20": 1.15823
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理中]",
+      "content": "当前欧元/美元在1.15701附近交易，价格走势呈现震荡整理的状态。从高点1.15756和低点1.15656来看，市场缺乏明显的方向性，投资者情绪相对谨慎。若价格突破1.15823的SMA(20)均线，可能会引发短期上涨动能；反之，若跌破1.15656，则需警惕下行风险。\n\n技术指标方面，由于RSI和MACD信号未明，无法提供明确的超买或超卖信号。然而，MACD接近于零，显示出市场动能较弱，可能会继续维持在当前区间内。投资者需关注市场情绪变化，以便把握可能的突破机会。\n\n在支撑和阻力位方面，1.15656作为关键支撑位，如果此位置得到有效支撑，可能会促使价格反弹。而1.15823则是重要的阻力位，突破后可能会开启进一步上涨的空间。投资者应密切关注这两个价位，以制定相应的交易策略。\n\n基于当前市场情况，建议投资者采取观望态度，等待价格突破关键支撑或阻力位后再进行交易。同时，结合其他市场因素如经济数据发布，可能会影响市场波动，从而进一步调整交易策略。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently trading at 1.15701, showing a neutral stance with a 24-hour change of 0.00%. The price is hovering around the recent high of 1.15756 and low of 1.15656, indicating a consolidation phase. This lack of movement suggests that traders are awaiting further catalysts, potentially from upcoming economic data releases or central bank commentary. The overall trend appears to be sideways, with neither bulls nor bears gaining a decisive advantage at this moment.\n\nThe absence of the RSI and MACD signal complicates the analysis of momentum, but the SMA(20) at 1.15823 provides a crucial reference point. If the price breaks above this moving average, it could signal a shift in momentum towards the upside, potentially targeting resistance at 1.16000. Conversely, any failure to maintain above the SMA could lead to further tests of support near the recent low of 1.15656, indicating a bearish sentiment could take hold.\n\nIn terms of support and resistance levels, the immediate support can be identified at 1.15656, which has already demonstrated its strength by containing price declines. On the upside, resistance is seen at 1.15823, aligning with the SMA(20), and a further break above this level could target 1.16000. Traders should watch these key levels closely as they can provide insight into potential breakout or breakdown scenarios.\n\nFor trading strategies, a cautious approach is warranted given the current consolidation. Traders may consider buying on a confirmed break above 1.15823 with a target near 1.16000 while placing a stop-loss below 1.15656. Alternatively, a short position may be justified if the price decisively breaks below the recent low, targeting a move towards the 1.15500 level. Overall, maintaining a focus on key technical levels will be essential in navigating this pair's next moves."
+    }
+  }
+}

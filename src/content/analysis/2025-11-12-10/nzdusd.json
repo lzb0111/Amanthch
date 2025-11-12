@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-12T10:57:04.948Z",
+  "price": {
+    "close": "0.56570685",
+    "high": "0.56586689",
+    "low": "0.56554687",
+    "open": "0.56577086",
+    "change": "0.01",
+    "datetime": "2025-11-12 21:00:00"
+  },
+  "indicators": {
+    "rsi": 53.98379,
+    "macd": 0.00019838894,
+    "macd_signal": 0.00024307183,
+    "sma20": 0.56565098
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理走势]",
+      "content": "在当前市场背景下，纽元/美元（NZD/USD）表现出震荡整理的趋势。最新价格为0.56570685，24小时变化仅为0.01%，显示出市场缺乏明显的方向性。高点和低点的区间相对狭窄，表明市场参与者对未来走势持观望态度。\n\n从技术指标来看，虽然RSI（相对强弱指数）数据缺失，但可以通过MACD（平滑异同移动平均线）观察到当前值为0.00019838894，显示出买卖力量相对均衡。SMA（简单移动平均线）20日线在0.56565098附近，为当前价格提供了支撑。\n\n在支撑和阻力位方面，0.56554687可视为短期支撑位，而0.56586689则构成了阻力位。若价格突破上方阻力，可能会引发进一步上涨；反之，跌破支撑位则可能加剧下行风险。因此，投资者应密切关注这两个关键价位的变化。\n\n基于当前的技术分析，建议短线交易者采取观望策略，等待价格突破关键支撑或阻力后再做出决策。如果能够确认上涨趋势，及时入场将是一个较好的选择，反之亦然。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading in a narrow range, reflecting a slight bullish bias with the latest price at 0.56570685. The recent high and low indicate a consolidation phase, with price action remaining confined between 0.56554687 and 0.56586689. This environment suggests that traders may be awaiting clearer directional signals before committing to positions. A breakout above the recent high could signal renewed bullish momentum, while a drop below the low may indicate a bearish reversal.\n\nIndicator analysis reveals a mixed picture, with the absence of the RSI(14) limiting our ability to assess overbought or oversold conditions. The MACD reading of 0.00019838894 indicates a potential bullish crossover, though confirmation is needed to establish a stronger trend. The 20-period Simple Moving Average (SMA) at 0.56565098 is currently acting as a dynamic support level, which may provide a buffer against downward price movement. Should the price consolidate above the SMA, it may attract further buying interest.\n\nKey support is identified at 0.56554687, where buyers have previously entered the market. A failure to hold above this level could lead to a deeper correction towards the 0.565200 mark. Conversely, resistance is found at 0.56586689, and a break above this level could open the door for further gains, potentially targeting 0.566500. Traders should monitor these levels closely for potential entry points.\n\nIn terms of trading strategies, a cautious approach is advisable given the current market conditions. For aggressive traders, a buy order above the resistance level may present a favorable risk-reward ratio, while conservative traders may prefer to wait for a confirmed breakout. Conversely, should the price approach the support level, a sell order could be considered if bearish signals emerge. Proper risk management remains essential in navigating this currency pair's fluctuations."
+    }
+  }
+}

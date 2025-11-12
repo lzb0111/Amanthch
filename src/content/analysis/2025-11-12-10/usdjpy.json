@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-12T10:54:24.215Z",
+  "price": {
+    "close": "154.84399",
+    "high": "154.89700",
+    "low": "154.75200",
+    "open": "154.83900",
+    "change": "0.00",
+    "datetime": "2025-11-12 21:00:00"
+  },
+  "indicators": {
+    "rsi": 71.60911,
+    "macd": 0.18382305,
+    "macd_signal": 0.12690578,
+    "sma20": 154.3482
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，关注突破]",
+      "content": "当前美元/日元的价格为154.84399，近期在154.75200至154.89700区间内震荡整理。价格未能显著突破高点，显示出短期内缺乏明确的趋势方向。投资者应关注市场情绪及经济数据发布，以判断未来走势。\n\n技术指标方面，虽然RSI(14)数据缺失，但MACD指标显示出0.18382305的正值，表明短期内上行动能仍在。然而，由于价格在高位震荡，投资者应谨慎操作，以免在反转时遭受损失。SMA(20)水平为154.34820，提供了一个潜在的支撑位。\n\n支撑位方面，154.75200是一个关键水平，若价格下破该位，可能会引发更大的回调。阻力位则设定在154.89700，若价格突破此位，可能会进一步推动上涨。综合考虑，建议投资者在154.80000附近寻找买入机会，同时在154.75000附近设置止损。保持观察，谨防市场波动带来的风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 154.84399, reflecting a stable market environment with a 24-hour change of 0.00%. The price has been oscillating within a narrow range, with a high of 154.89700 and a low of 154.75200. This stability suggests a consolidation phase, which could precede a breakout. Traders should keep an eye on developments around this level, as a decisive move beyond the recent high could signal a continuation of the bullish trend, while a breach below the recent low may indicate a potential reversal.\n\nAnalyzing technical indicators, the absence of a current RSI value limits our ability to gauge momentum, yet the MACD reading of 0.18382305 indicates a slight bullish sentiment. The Simple Moving Average (SMA) of 20 at 154.34820 serves as a crucial support level. If the price approaches this SMA, it may attract buyers looking for a value entry point. Conversely, if the price falls below this level, it could signal a more significant bearish movement, prompting traders to reassess their positions.\n\nKey support and resistance levels are vital for effective trading strategies. The immediate support level is established at 154.75200, while resistance is noted at 154.89700. Traders may consider employing a range-trading strategy, buying near support and selling near resistance. Additionally, if the price consistently closes above resistance, it could be a signal to enter long positions, while a close below support may warrant short positions.\n\nIn conclusion, the USD/JPY pair is currently in a phase of consolidation, with strong potential for breakout movements. Traders should monitor key levels and employ technical indicators to guide their decisions. A cautious approach, coupled with a clear risk management strategy, will be essential in navigating this market environment effectively."
+    }
+  }
+}

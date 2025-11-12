@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-12T10:58:53.264Z",
+  "price": {
+    "close": "4126.50662",
+    "high": "4127.87998",
+    "low": "4118.83094",
+    "open": "4123.59114",
+    "change": "0.07",
+    "datetime": "2025-11-12 21:00:00"
+  },
+  "indicators": {
+    "rsi": 53.98453,
+    "macd": 2.3543,
+    "macd_signal": 3.37849,
+    "sma20": 4121.70152
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，关注关键技术位]",
+      "content": "当前黄金/美元(XAU/USD)在4126.50附近震荡整理，短期内呈现出一定的横盘走势。价格在高点4127.88与低点4118.83之间波动，显示出市场参与者对方向的犹豫。若价格突破上方阻力位4128.00，可能会引发进一步的上涨动能，反之则需警惕下行风险。\n\n技术指标方面，MACD显示出2.35430的正值，表明近期多头力量相对强劲，但缺乏信号线的数据使得判断趋势的准确性下降。SMA(20)位于4121.70附近，为当前价格提供了一定的支撑，若价格跌破该水平，可能会带来更多的卖压。RSI(14)数据未提供，故需谨慎判断超买或超卖状态。\n\n支撑位方面，4121.70为关键支撑水平，若跌破该价位，可能会引发回调，目标指向4100附近。而上方阻力位4128.00则是多头需突破的关键点。若进一步上涨，则关注4140及4150的心理关口。\n\n综合来看，当前市场情绪偏向中性，建议交易者在4121.70至4128.00区间内寻找交易机会。突破该区间可考虑顺势交易，而在关键技术位附近则需保持警惕，控制风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) is positioned at 4126.50662, reflecting a modest increase of 0.07% over the past 24 hours. The price action remains within a narrow range, having oscillated between a high of 4127.87998 and a low of 4118.83094. This tight range indicates indecision in the market; however, the overall trend appears to be mildly bullish, supported by the recent upward movement in price. Traders should monitor for potential breakout points as the market approaches these extremes.\n\nIn examining technical indicators, the absence of an RSI reading limits our ability to assess momentum effectively. However, the MACD value of 2.35430 suggests a bullish trend, indicating that the momentum may favor buyers at this stage. The 20-period Simple Moving Average (SMA) at 4121.70152 is also positioned below the current price, further reinforcing the bullish sentiment. A sustained move above this SMA may attract additional buying interest, while a failure to hold above it could signal a shift in momentum.\n\nKey support levels are identified at 4118.83094, which aligns with the recent low, while immediate resistance is found at 4127.87998, reflecting the recent high. A break above this resistance could propel prices towards higher targets, potentially reaching the next psychological level around 4150. Conversely, if the price fails to hold above support, traders may anticipate a pullback towards the 4100 mark, which serves as a significant psychological barrier.\n\nFor trading strategies, a cautious approach is advisable given the current market conditions. Traders may consider entering long positions on a confirmed breakout above the resistance level, with a stop-loss order placed just below the identified support. Alternatively, a short position could be contemplated if the price decisively breaks below support, triggering a potential downward trend. Overall, maintaining a flexible strategy that adapts to the evolving market dynamics will be crucial in capitalizing on future price movements."
+    }
+  }
+}

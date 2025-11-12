@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-12T03:37:10.977Z",
+  "price": {
+    "close": "1.31415",
+    "high": "1.31425",
+    "low": "1.31359",
+    "open": "1.31382",
+    "change": "0.02",
+    "datetime": "2025-11-12 14:00:00"
+  },
+  "indicators": {
+    "rsi": 41.56052,
+    "macd": -0.00043867462,
+    "macd_signal": -0.00016154512,
+    "sma20": 1.31545
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理中]",
+      "content": "当前英镑/美元的价格为1.31415，市场呈现出震荡整理的趋势。在过去24小时内，价格变化微小，仅为0.02%。当前高点和低点分别为1.31425和1.31359，显示出市场缺乏明确的方向性趋势。短期内，投资者需关注这一波动范围，以便在适当时机进场。\n\n在技术指标方面，虽然RSI(14)数据缺失，但结合MACD值为-0.00043867462，表明市场可能处于弱势。此外，20日简单移动平均线(SMA)在1.31545附近，为当前价格提供了一定的压力位。若价格突破这一水平，可能会吸引更多买盘，反之则可能再次测试下方支撑位。\n\n支撑位方面，可以关注1.31359附近的低点，这一水平在近期交易中多次受到支撑。若价格跌破该水平，可能会引发更大的抛售压力，进一步向下寻求支撑。而在阻力位方面，若价格突破1.31545，可能会测试更高的水平。\n\n基于当前技术面分析，建议投资者采取观望策略，耐心等待价格突破关键支撑或阻力位后再进行交易。一旦确认趋势方向，适时进场将有助于把握潜在利润。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD currency pair is currently trading at 1.31415, showing a slight increase of 0.02% over the past 24 hours. This minor change suggests a consolidation phase following a narrow trading range between the day's high and low at 1.31425 and 1.31359, respectively. The market appears to be awaiting further direction, as neither buyers nor sellers are firmly in control. A breakout above 1.31545 could signal a bullish shift, while a drop below 1.31359 may indicate a bearish trend.\n\nCurrently, the absence of an RSI reading limits our ability to assess overbought or oversold conditions. However, the MACD shows a negative value of -0.00043867462, indicating a potential bearish momentum. This could suggest that the pair may face downward pressure in the near term. Traders should keep an eye on the MACD to determine if it crosses above the signal line, which would be a bullish indication, while a continued decline might prompt caution.\n\nIn terms of support and resistance levels, the immediate support can be identified around 1.31300, where previous lows have been established. Resistance is evident at the SMA(20) level of 1.31545. A successful breach of this resistance could lead to a more significant rally towards 1.31700. Conversely, if the price breaks below 1.31300, it may trigger further selling pressure, potentially testing lower support levels around 1.31000.\n\nTraders may consider adopting a cautious approach in the current environment. A buy signal could be generated if the price holds above 1.31545, reinforcing bullish sentiment. Conversely, a sell signal may arise if the price fails to maintain levels above 1.31300. Monitoring key economic indicators and geopolitical developments will also be essential for making informed trading decisions in this fluctuating market."
+    }
+  }
+}

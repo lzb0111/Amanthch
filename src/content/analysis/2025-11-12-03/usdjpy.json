@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-12T03:37:52.435Z",
+  "price": {
+    "close": "154.30200",
+    "high": "154.38000",
+    "low": "154.23399",
+    "open": "154.34399",
+    "change": "-0.03",
+    "datetime": "2025-11-12 14:00:00"
+  },
+  "indicators": {
+    "rsi": 58.066465,
+    "macd": 0.053069163,
+    "macd_signal": 0.030994737,
+    "sma20": 154.1531
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[短期震荡，长期看涨]",
+      "content": "当前美元/日元的交易价格为154.302，近期呈现出轻微的下跌趋势，24小时内变化仅为-0.03%。在过去的交易区间内，价格最高达到154.380，最低则回落至154.23399，显示出市场的短期震荡特征。若从趋势判断来看，虽然短期内价格有所回调，但长期走势依然偏向看涨。\n\n在技术指标方面，虽然RSI(14)数据缺失，但MACD指标显示出0.053的正值，表明当前市场仍有一定的上涨动能。SMA(20)的值为154.15310，价格在此均线之上，进一步支持了多头趋势的观点。这些指标结合在一起，暗示市场在短期内可能会保持震荡，但总体看涨的情绪仍然存在。\n\n支撑位方面，154.23399是近期低点，若突破此价位，则可能引发更深的回调。而上方154.38000则是关键的阻力位，一旦突破，可能会引发进一步的上涨。投资者需密切关注这些价位，以捕捉市场的动态变化。\n\n对于交易建议，短期内可以考虑在支撑位附近进行逢低买入操作，而在接近阻力位时则考虑获利了结或设立止损。由于市场整体趋势仍然看涨，建议保持适度的仓位，灵活应对市场波动。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.302, showing a slight decline of 0.03% over the past 24 hours. The recent price action indicates a consolidation phase, as the market has oscillated between a high of 154.380 and a low of 154.234. This tight range suggests a potential buildup of momentum, which could lead to a breakout in either direction. Traders should closely monitor the price movements within this range to identify possible trading opportunities.\n\nThe 20-period simple moving average (SMA) at 154.153 serves as a key support level. The price's position above this SMA indicates a bullish sentiment in the medium term. However, with the current price hovering near this level, a sustained move below the SMA could signal a shift in momentum and open the door for a deeper correction. Conversely, a break above the recent high of 154.380 may confirm the continuation of the bullish trend, attracting further buying interest.\n\nAlthough the RSI(14) data is not available, the MACD indicates a positive momentum with a value of 0.053. This suggests that the bullish trend is still intact, although it is essential to watch for any divergence that may signal a weakening of this momentum. If the MACD begins to decline while prices rise, it could foreshadow a potential reversal. Traders may want to consider waiting for confirmation through additional indicators before entering new positions.\n\nIn terms of trading strategies, a cautious approach is advisable. A buy position could be considered if the price breaks above the resistance level at 154.380, with a target set towards 154.500. Conversely, if the price slips below the SMA and the support level at 154.153, a sell signal may arise, with targets aimed at 154.000. As always, implementing proper risk management techniques is crucial to protect against unexpected market movements."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-12T07:00:04.005Z",
+  "price": {
+    "close": "0.56567484",
+    "high": "0.56593096",
+    "low": "0.56551486",
+    "open": "0.56554687",
+    "change": "0.03",
+    "datetime": "2025-11-12 17:00:00"
+  },
+  "indicators": {
+    "rsi": 54.19526,
+    "macd": 0.00020211921,
+    "macd_signal": 0.00029307706,
+    "sma20": 0.5656721
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中]",
+      "content": "当前纽元/美元(NZD/USD)交投于0.5656附近，整体走势表现出震荡整理的特征。从日内高点0.5659和低点0.5655来看，价格波动幅度相对有限，表明市场情绪谨慎，缺乏明确的方向性趋势。投资者需密切关注即将发布的经济数据，以便捕捉潜在的价格突破信号。\n\n技术指标方面，虽然RSI(14)数据暂缺，但从SMA(20)来看，当前价格略高于其均线，显示出短期内买方略占优势。MACD的微弱正值亦暗示出市场可能面临上行动能，但缺乏强烈的买入信号。因此，短期内市场可能仍将维持在相对窄幅的区间内波动。\n\n在支撑与阻力方面，0.5655是关键支撑位，若价格突破此水平，可能会引发进一步下行。而上方的阻力位在0.5660一线，若价格上破该水平，则可能重新测试更高的价格区间。投资者应密切关注这些关键价位，以便把握交易机会。\n\n综合来看，当前市场情绪偏向谨慎，建议投资者在支撑位附近寻找买入机会，同时在接近阻力位时考虑获利了结或设置止损。保持灵活应变的交易策略将有助于应对市场的短期波动。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair currently exhibits a neutral trend with the latest price at 0.56567484, hovering close to the 20-period Simple Moving Average (SMA) of 0.56567210. This suggests a consolidation phase, as the price action is tightly bound between the recent high of 0.56593096 and the low of 0.56551486. Traders should remain vigilant for a breakout in either direction, as this could signal the next significant move. A sustained push above the recent high could indicate bullish momentum, while a drop below the low might confirm bearish sentiment.\n\nThe current MACD value of 0.00020211921 indicates a slight bullish inclination, although the absence of a signal line makes it difficult to draw definitive conclusions. The Relative Strength Index (RSI) is not available, but monitoring this indicator once it becomes accessible will be crucial for assessing overbought or oversold conditions. Until then, traders should focus on price action and volume to gauge market sentiment. A positive divergence on the MACD or a bullish crossover could provide further confirmation for a potential upward move.\n\nKey support is identified at 0.56551486, which has held firm in recent trading sessions. If the price declines below this level, it may trigger additional selling pressure, potentially targeting the next support zone around 0.565000. Conversely, resistance is seen at 0.56593096; a break above this level would not only confirm a bullish sentiment but also open up further upside potential towards 0.566500. Therefore, setting alerts around these levels could be beneficial for active traders.\n\nIn terms of trading strategy, a prudent approach would be to adopt a wait-and-see stance until either support or resistance is decisively broken. For those inclined to trade the range, buying near support with a tight stop-loss and selling near resistance could yield favorable results. However, caution is warranted, as any significant news or economic data releases may impact the NZD/USD pair and trigger volatility, necessitating risk management practices."
+    }
+  }
+}

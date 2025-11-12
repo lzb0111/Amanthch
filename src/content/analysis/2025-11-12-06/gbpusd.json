@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-12T06:57:08.967Z",
+  "price": {
+    "close": "1.31406",
+    "high": "1.31406",
+    "low": "1.31311",
+    "open": "1.31334",
+    "change": "0.04",
+    "datetime": "2025-11-12 17:00:00"
+  },
+  "indicators": {
+    "rsi": 43.24128,
+    "macd": -0.00061881099,
+    "macd_signal": -0.0003796884,
+    "sma20": 1.31551
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理，关注支撑与阻力]",
+      "content": "当前英镑/美元（GBP/USD）正处于震荡整理阶段，最新价格为1.31406。价格在过去24小时内小幅波动，仅变化0.04%。从技术面来看，该货币对在1.31406的高点和1.31311的低点之间波动，显示出缺乏明显的方向性。\n\n技术指标方面，MACD显示出微弱的负值，表明短期内卖方略占优势，但未形成强烈的趋势信号。同时，20日简单移动平均线（SMA）位于1.31551，提供了潜在的阻力位。由于RSI值缺失，我们无法进一步评估超买或超卖情况，但结合当前价格动作，我们应保持谨慎。\n\n从支撑与阻力的角度来看，1.31300附近可能构成强支撑，而1.31550则是关键阻力位。如果价格突破1.31550，可能会引发进一步上涨。建议交易者在当前价位附近寻找短期交易机会，关注这两个关键水平的突破，以制定相应的交易策略。确保在交易中设置适当的止损，管理风险。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31406, showing a slight increase of 0.04% over the past 24 hours. The price movement has been relatively narrow, with a high of 1.31406 and a low of 1.31311, indicating a consolidation phase. This price action suggests that traders are indecisive, and further volatility may be required to establish a clearer trend. The current market sentiment appears neutral, with no strong directional bias evident in the price movement.\n\nFrom a technical perspective, the absence of the RSI(14) and the MACD signal complicates the analysis. However, the current MACD value of -0.00061881099 indicates a slight bearish momentum, suggesting that sellers are maintaining a slight edge in the short term. The 20-period Simple Moving Average (SMA) at 1.31551 serves as a potential resistance level. If the price can break above this threshold, it may signal a reversal, inviting buyers back into the market.\n\nSupport levels can be identified around the recent low of 1.31311, providing a safety net for traders looking to enter long positions. A bounce off this level may present an opportunity to capitalize on a potential upward move. Conversely, if the price breaks below this support, it could trigger further selling pressure, pushing the pair lower. Traders should watch for these key levels closely to gauge potential market movements.\n\nIn terms of trading strategy, a cautious approach is recommended. A confirmed breakout above the SMA at 1.31551 could be an entry point for long trades, while a failure to maintain above the support at 1.31311 may present an opportunity for short positions. Keeping a close eye on economic events and market sentiment will be essential in navigating the current environment, as external factors can significantly influence price action in the forex market."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-12T06:58:32.330Z",
+  "price": {
+    "close": "0.6534",
+    "high": "0.65372",
+    "low": "0.65292",
+    "open": "0.65296",
+    "change": "0.07",
+    "datetime": "2025-11-12 17:00:00"
+  },
+  "indicators": {
+    "rsi": 56.85756,
+    "macd": 0.00001257185,
+    "macd_signal": -0.0000050130735,
+    "sma20": 0.65278184
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前AUD/USD在0.6534附近震荡整理，短期内未能突破前期高点0.65372，显示出上行压力。整体趋势上看，价格保持在20日简单移动平均线（SMA）之上，表明短期内仍有一定的支撑，但市场情绪偏向谨慎。\n\n技术指标方面，虽然RSI和MACD数据未完全提供，但从价格的微幅波动来看，市场可能处于超买或超卖的边缘。若RSI后续显示出超卖信号，可能会引发短期反弹，而MACD若出现黄金交叉，则会进一步支持上涨的动能。\n\n支撑位方面，0.6529是关键支撑线，若价格跌破该水平，则可能加大下行风险。阻力位则在0.6537附近，突破后将为进一步上涨提供动力。建议交易者密切关注这些重要价位，以制定相应的交易策略。\n\n总体而言，考虑到当前的震荡行情，建议短线交易者采取区间交易策略，寻找在支撑和阻力位之间进行交易的机会。同时，长期投资者可以关注更长周期的趋势，以便在合适的时机采取更为积极的配置。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The Australian Dollar (AUD) is currently trading at 0.6534 against the US Dollar (USD), indicating a slight upward movement of 0.07% over the past 24 hours. This modest increase suggests a consolidation phase after recent fluctuations. The price has tested the recent high of 0.65372, which serves as an immediate resistance level. Should the AUD manage to break above this level, it could pave the way for further gains, potentially targeting the next resistance around 0.6550. Conversely, the recent low of 0.65292 acts as a critical support level, guarding against deeper pullbacks.\n\nThe absence of a calculated RSI(14) limits our analysis of overbought or oversold conditions, but the MACD value of 0.00001257 indicates a bullish momentum, albeit very weak. This slight positive momentum may reflect an underlying strength in the AUD, especially if the price remains above the 20-day Simple Moving Average (SMA) of 0.65278. Traders should closely monitor the MACD for any bullish crossover, which could confirm a strengthening trend. \n\nIn terms of trading strategies, a cautious bullish approach may be advisable, provided that the price remains above the SMA and the support level at 0.65292 holds firm. A potential buy signal could be triggered if the price successfully breaks above 0.65372, offering a target around 0.6550. On the other hand, if the AUD/USD falls below the support level, traders might consider short positions, with a target aimed at the next support level, which could be around 0.6510. \n\nOverall, the AUD/USD pair appears to be in a delicate balance, with key levels to watch for breakout opportunities. With the market sentiment fluctuating, traders should remain vigilant and adapt their strategies based on real-time price action, ensuring they are ready to react to any potential shifts."
+    }
+  }
+}

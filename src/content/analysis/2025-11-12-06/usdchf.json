@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-12T07:00:47.674Z",
+  "price": {
+    "close": "0.80031002",
+    "high": "0.80100000",
+    "low": "0.80024999",
+    "open": "0.80067003",
+    "change": "-0.04",
+    "datetime": "2025-11-12 17:00:00"
+  },
+  "indicators": {
+    "rsi": 37.56891,
+    "macd": -0.00071356128,
+    "macd_signal": -0.00091991409,
+    "sma20": 0.80040601
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理中]",
+      "content": "当前美元/瑞郎（USD/CHF）价格呈现出震荡整理的走势。近期价格在0.80024999至0.80100000之间波动，显示出市场缺乏明确的方向。当前的24小时变化为-0.04%，表明买卖双方力量相对均衡，市场情绪偏向谨慎。\n\n从技术指标来看，虽然RSI未提供，但MACD的负值(-0.00071356128)显示出短期内卖压略强，可能暗示价格在短期内继续面临下行压力。SMA(20)为0.80040601，价格当前略低于此均线，进一步支持短期看跌的观点。\n\n在支撑和阻力方面，0.80025是一个重要的支撑位，守住该位置可能有助于价格反弹。若跌破此支撑，则可能向更低的水平移动。阻力位则在0.8010附近，若价格突破该位置，则有可能重新测试更高的水平。\n\n基于当前市场状况，建议投资者采取谨慎的态度，短期内可考虑在支撑位附近寻找买入机会，但若价格下破支撑则应及时止损。保持灵活的交易策略，将有助于应对市场的波动。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.80031002, reflecting a slight decline of 0.04% over the past 24 hours. This minor downturn may suggest a consolidation phase, particularly as the price remains close to the 20-period Simple Moving Average (SMA) of 0.80040601. The high and low of the day, at 0.80100000 and 0.80024999 respectively, indicate limited volatility, which could signal indecision among traders. A break below the daily low may trigger further bearish sentiment, while a move above the daily high could prompt a retest of higher resistance levels.\n\nIn terms of momentum indicators, the MACD currently shows a value of -0.00071356128, indicating a bearish trend, albeit weak. The lack of a clear signal line makes it challenging to derive a definitive directional bias from this indicator. The absence of the RSI(14) data complicates the momentum analysis, but if it were available, it would likely provide insights into potential overbought or oversold conditions. Traders should remain alert to these indicators as they may offer clues to future price movements.\n\nKey support and resistance levels are crucial for traders operating in this range. The immediate support level is positioned around 0.80024999, where a breach could open the door to further declines toward 0.79950000. Conversely, resistance is seen at 0.80100000, which, if surpassed, may lead to a test of the psychological level at 0.80200000. Monitoring these levels will be essential for identifying potential breakout or breakdown scenarios.\n\nIn light of the current market conditions, traders may consider employing a range-trading strategy, capitalizing on the tight price movements between the identified support and resistance levels. A conservative approach would involve waiting for additional confirmation from momentum indicators before entering positions. For those with a higher risk tolerance, a breakout above resistance could provide a buying opportunity, while a breakdown through support might warrant short positions."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-12T06:59:15.163Z",
+  "price": {
+    "close": "1.40030",
+    "high": "1.40114",
+    "low": "1.40010",
+    "open": "1.40103",
+    "change": "-0.05",
+    "datetime": "2025-11-12 17:00:00"
+  },
+  "indicators": {
+    "rsi": 36.32135,
+    "macd": -0.00035772447,
+    "macd_signal": -0.00036517627,
+    "sma20": 1.40127
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[短期震荡走势]",
+      "content": "当前美元/加元的最新价格为1.40030，24小时变化仅为-0.05%，显示出市场的观望情绪。高点和低点分别为1.40114和1.40010，表明价格在1.40000附近形成了短期震荡区间。整体来看，当前趋势偏向于横盘整理，投资者需密切关注市场的突破情况。\n\n从技术指标来看，虽然RSI(14)未提供，但随着价格的微幅下滑，MACD指标显示出轻微的负值，暗示短期内可能面临卖压。SMA(20)的值为1.40127，进一步验证了当前震荡区间的上限。因此，短期内若价格突破SMA，可能会引发多头的追捧。\n\n在支撑和阻力方面，当前支撑位在1.40010附近，而阻力位则在1.40114附近。若价格突破1.40114，将为进一步上涨提供动力，反之，若跌破1.40010，则可能加速下行。投资者可以考虑在震荡区间内进行短线交易，关注突破信号以确定更明确的交易方向。\n\n综上所述，美元/加元在短期内呈现震荡走势，建议投资者保持谨慎，关注关键支撑和阻力位的突破情况，以便做出及时的交易决策。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40030, reflecting a slight decline of 0.05% over the past 24 hours. The price has been oscillating between the recent high of 1.40114 and a low of 1.40010, suggesting a tight range in the short term. The market appears to be consolidating, with the lack of significant movement indicating a potential pause before the next directional move. Traders should monitor this range closely for any breakout opportunities.\n\nFrom an indicator perspective, the current MACD value of -0.000357 indicates a bearish sentiment, although the absence of a defined signal line makes it challenging to draw definitive conclusions. The 20-period Simple Moving Average (SMA) at 1.40127 serves as a critical resistance level, suggesting that any upward movements may face selling pressure around this point. Conversely, the recent low of 1.40010 could act as a support level, providing a potential floor for prices if bearish sentiment continues.\n\nIn terms of support and resistance, the immediate resistance is identified around the SMA at 1.40127, while the support level can be observed at 1.40010. A breakout above the SMA could confirm a bullish reversal, opening the door to targets around 1.40300. On the downside, a break below 1.40010 may lead to further declines, potentially testing the psychological level of 1.39500.\n\nFor traders, a cautious approach is advisable given the current consolidation phase. Those favoring a bullish outlook might consider entering long positions on a confirmed breakout above the SMA, placing stop-loss orders just below the support level at 1.40010. Conversely, traders with a bearish bias could look for short opportunities if the price breaks below the support, targeting lower levels with appropriate risk management strategies in place."
+    }
+  }
+}

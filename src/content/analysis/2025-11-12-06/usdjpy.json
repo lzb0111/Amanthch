@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-12T06:57:52.056Z",
+  "price": {
+    "close": "154.57899",
+    "high": "154.75900",
+    "low": "154.57800",
+    "open": "154.63499",
+    "change": "-0.04",
+    "datetime": "2025-11-12 17:00:00"
+  },
+  "indicators": {
+    "rsi": 63.872,
+    "macd": 0.12528568,
+    "macd_signal": 0.07125814,
+    "sma20": 154.2051
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理]",
+      "content": "当前美元/日元交易在154.57899附近，显示出震荡整理的趋势。近期价格波动在154.75900的高点和154.57800的低点之间，反映出市场缺乏明显的方向性。投资者需密切关注即将发布的经济数据，以便判断未来走势。\n\n从技术指标来看，虽然RSI(14)数据缺失，但MACD显示出0.125的正值，暗示出短期内可能的买入动能。SMA(20)在154.20510附近，提供了一个重要的支撑位，若价格跌破该水平，可能会引发进一步的回落。\n\n在支撑和阻力方面，154.57800的低点是关键的支撑位，而154.75900的高点则构成了重要的阻力位。若价格突破154.75900，可能会吸引更多买盘，进一步推高价格。反之，若跌破154.57800，则可能引发更大的卖压。\n\n综合考虑，建议投资者在154.57800附近设立买入止损单，若价格突破154.75900则加仓。而若出现跌破154.57800的情况，则应及时止损，规避风险。保持灵活应变的策略将是当前市场环境下的关键。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.57899, reflecting a slight decline of 0.04% over the past 24 hours. This minor pullback comes after the pair reached a high of 154.75900, suggesting the presence of resistance in this area. The overall trend appears bullish, as the price has consistently remained above the 20-day Simple Moving Average (SMA) of 154.20510, indicating a potential continuation of upward momentum if buying pressure resumes.\n\nIn terms of technical indicators, the MACD shows a value of 0.12528568, which suggests that the momentum is still in favor of the bulls, but without a signal line for confirmation, traders should remain cautious. The Relative Strength Index (RSI) is not available, but if it were to approach overbought levels, it could signal a potential reversal. Monitoring these indicators will be essential for determining the next moves.\n\nKey support can be identified around the 154.20510 level, where the 20-day SMA currently resides. A break below this support could indicate a shift in sentiment, prompting traders to reassess their positions. Conversely, resistance at the recent high of 154.75900 must hold for further bullish advances. A breakout above this level could open the door for additional gains, potentially targeting higher psychological levels.\n\nFor traders, a cautious approach is recommended. Watching for confirmations through price action or indicator signals will be crucial. If the price sustains above the SMA and breaks the resistance at 154.75900, consider entering long positions with targets around 155.200. Conversely, if the price falls below the support level, it may be prudent to look for short opportunities, managing risk accordingly."
+    }
+  }
+}

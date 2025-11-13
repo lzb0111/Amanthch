@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-13T22:51:26.757Z",
+  "price": {
+    "close": "0.79263002",
+    "high": "0.79282999",
+    "low": "0.79127997",
+    "open": "0.79237002",
+    "change": "0.02",
+    "datetime": "2025-11-14 09:00:00"
+  },
+  "indicators": {
+    "rsi": 35.39574,
+    "macd": -0.0015868029,
+    "macd_signal": -0.0014958746,
+    "sma20": 0.79483701
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理中，谨慎观望]",
+      "content": "当前美元/瑞郎在0.7926附近震荡整理，短期内走势相对平稳。价格在0.7928的高点与0.7913的低点之间波动，显示出市场对未来方向的犹豫。在没有明确的趋势信号下，投资者应保持警惕，耐心等待更清晰的走势发展。\n\n从技术指标来看，RSI尚未提供明确的超买或超卖信号，而MACD处于负值区间，显示出短期内可能存在卖压。由于目前价格位于20日简单移动平均线（SMA）之下，市场情绪偏向谨慎，可能会导致进一步的价格回调。因此，密切关注技术指标变化将是关键。\n\n支撑位方面，0.7913附近的低点将是关键支撑区域，若突破这一水平，可能会引发更大的下行空间。反之，0.7928的高点则构成重要阻力，若价格突破此位，可能会重新测试0.7948的20日SMA。因此，投资者应关注这两个关键价位的突破情况。\n\n基于当前市场环境，建议投资者采取观望策略，等待价格在支撑和阻力之间的明确突破后再做决策。如果价格突破0.7948，则可考虑做多；若跌破0.7913，则可考虑做空。保持灵活应变，才能更好地把握市场机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79263002, showing a slight 24-hour change of 0.02%. Recent price action suggests a consolidation phase, with the recent high of 0.79282999 and low of 0.79127997 indicating a tight range. The market appears to be trapped within this range, which often precedes a breakout. Traders should closely monitor price movements around these levels to gauge potential future volatility.\n\nThe absence of a current RSI reading makes it challenging to determine the pair's momentum. However, the MACD value of -0.0015868029 indicates a bearish sentiment in the short term, suggesting that selling pressure may persist. Meanwhile, the 20-day Simple Moving Average (SMA) at 0.79483701 reflects a potential resistance level. If the price manages to break above the SMA, it may signal a shift in momentum, attracting bullish traders.\n\nCritical support can be identified around the recent low of 0.79127997. A breakout below this level might confirm a bearish trend, encouraging additional selling. Conversely, if the price holds above this support, it could indicate a possible reversal. Traders should remain vigilant for any signs of a trend change and look for confirmation before entering positions.\n\nGiven the current technical setup, a cautious approach is advisable. Traders might consider a buy position if the price breaks above the SMA while also observing volume and momentum indicators for confirmation. On the other hand, a decline below the support level could warrant short positions, especially if accompanied by substantial selling volume. Maintaining a disciplined risk management strategy is essential in this uncertain environment."
+    }
+  }
+}

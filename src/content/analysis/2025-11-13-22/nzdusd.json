@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-13T22:50:38.924Z",
+  "price": {
+    "close": "0.56567484",
+    "high": "0.56695771",
+    "low": "0.56484407",
+    "open": "0.56484407",
+    "change": "0.01",
+    "datetime": "2025-11-14 09:00:00"
+  },
+  "indicators": {
+    "rsi": 44.79084,
+    "macd": -0.000080879558,
+    "macd_signal": 0.00012337543,
+    "sma20": 0.56648899
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中]",
+      "content": "当前NZD/USD在0.5656附近徘徊，短期内呈现震荡整理的趋势。近期价格波动较小，24小时变化仅为0.01%，表明市场缺乏显著的方向性走势。价格接近20日简单移动平均线（SMA），这可能意味着短期内的支撑位在0.5665附近，而阻力位则在0.5669附近。\n\n在技术指标方面，目前RSI值尚不可用，MACD显示出微弱的负值，暗示出市场动能减弱。短期内，如果价格突破0.5669，则可能会引发进一步的上涨；反之，若跌破0.5648，将增加下行风险。整体来看，市场情绪略显谨慎，投资者需保持关注。\n\n对于交易策略，建议在支撑位附近寻找买入机会，同时在接近阻力位时考虑获利了结或做空。风险管理非常重要，应设置合理的止损位，以防止市场波动带来的损失。保持耐心，等待更明显的趋势信号出现，将有助于提高交易成功率。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD pair is currently trading at 0.56567484, showing a slight increase of 0.01% in the last 24 hours. The market is exhibiting a range-bound trend, with prices oscillating between the recent high of 0.56695771 and the low of 0.56484407. This consolidation phase suggests indecision among traders, with the potential for a breakout in either direction. A sustained move above the recent high could signal a bullish trend, while a drop below the low may indicate further bearish momentum.\n\nThe absence of the Relative Strength Index (RSI) data makes it challenging to gauge the current market momentum. However, the MACD reading of -0.000080879558 suggests a slight bearish sentiment in the short term. The 20-day Simple Moving Average (SMA) at 0.56648899 acts as a dynamic resistance level. If the pair can break and close above this SMA, it may attract additional buying interest, leading to a potential retest of the resistance zone around the recent high.\n\nSupport levels are identified near the recent low of 0.56484407. A breach below this level could trigger stop-loss orders and increase selling pressure, potentially pushing the pair toward lower support levels. Traders should remain vigilant for any significant news or economic data releases, as these could influence market sentiment and trigger volatility.\n\nIn terms of trading strategy, a cautious approach is advisable. A buy position could be considered if the price breaks above the 20-day SMA and the recent high, with a target near 0.5700. Conversely, if the price dips below the support level of 0.56484407, traders may look for short-selling opportunities, targeting a move towards 0.5600. Risk management will be crucial in this environment, given the current market uncertainty."
+    }
+  }
+}

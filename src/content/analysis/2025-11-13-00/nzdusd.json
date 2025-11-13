@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-13T00:52:41.528Z",
+  "price": {
+    "close": "0.56519526",
+    "high": "0.56641179",
+    "low": "0.56513137",
+    "open": "0.56625140",
+    "change": "-0.20",
+    "datetime": "2025-11-13 11:00:00"
+  },
+  "indicators": {
+    "rsi": 41.48352,
+    "macd": 0.00019356782,
+    "macd_signal": 0.00030359911,
+    "sma20": 0.56615403
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元（NZD/USD）在0.5651至0.5664区间内震荡整理，显示出市场缺乏明确方向。虽然价格略微下滑0.20%，但整体走势仍在相对窄幅区间内波动，表明市场情绪谨慎。投资者需关注即将发布的经济数据，以判断市场趋势的潜在变化。\n\n从技术指标来看，RSI尚未给出有效信号，而MACD的值接近于零，说明动能不足，市场可能继续维持现有震荡状态。20日简单移动平均线（SMA）仍然在0.5661附近，为价格提供一定的支撑，但也反映出短期内缺乏强烈的上行动能。\n\n在支撑和阻力位方面，当前支撑位在0.5651，若跌破此位，则可能向下测试更低的价格水平。阻力位则在0.5664，若突破该位置，可能会引发一波上涨趋势。投资者应密切关注这些关键水平的突破情况，以制定相应的交易策略。\n\n建议投资者在当前区间内采取观望态度，待市场突破支撑或阻力位后再进行操作。若价格突破0.5664，可以考虑逢高做多；反之，若跌破0.5651，则可考虑逢低做空，以把握短期波动带来的机会。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair is currently trading at 0.5652, reflecting a minor decline of 0.20% over the past 24 hours. This price action suggests a consolidation phase, with the pair finding resistance near the recent high of 0.5664 and support close to the low of 0.5651. The movement within this narrow range indicates indecision among traders, making it crucial to monitor for a breakout in either direction to gauge the next potential trend.\n\nFrom a technical perspective, the absence of RSI data limits our ability to assess momentum effectively. However, the MACD value of 0.00019 suggests that the momentum may be neutral, as it hovers close to zero. The Simple Moving Average (SMA) at 0.5662 further reinforces this neutrality, indicating that the NZD/USD pair is trading just below its short-term average. A move above the SMA could signal a bullish reversal, while a break below the support level may prompt further bearish sentiment.\n\nKey support is identified at 0.5651, which, if breached, could lead to a further decline towards the next psychological level around 0.5640. Conversely, resistance at 0.5664 must be overcome for any bullish momentum to gain traction. Traders should watch for price action around these levels, as they will be critical in determining the next move for the pair.\n\nGiven the current market conditions, a cautious trading approach is advisable. A short position could be considered if the price closes below 0.5651, targeting lower support levels. Alternatively, a breakout above 0.5664 could present a buying opportunity, particularly if confirmed by increased volume and positive momentum indicators. Keeping an eye on broader market trends and economic news from New Zealand and the U.S. will also be essential for making informed trading decisions."
+    }
+  }
+}

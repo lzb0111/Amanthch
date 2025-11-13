@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-13T00:54:03.001Z",
+  "price": {
+    "close": "4203.04641",
+    "high": "4205.14872",
+    "low": "4186.84182",
+    "open": "4191.30252",
+    "change": "0.28",
+    "datetime": "2025-11-13 11:00:00"
+  },
+  "indicators": {
+    "rsi": 70.052291,
+    "macd": 21.31657,
+    "macd_signal": 18.25495,
+    "sma20": 4160.20871
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡，关注关键支撑与阻力]",
+      "content": "当前黄金/美元（XAU/USD）在4203.04641附近震荡交易，短期趋势显示出一定的上升动能。24小时内价格波动有限，仅变化0.28%。在这样的背景下，投资者需密切关注高点4205.14872以及低点4186.84182，这两个水平将成为短期内的重要支撑与阻力位。\n\n从技术指标来看，MACD显示出21.31657的正值，表明短期内多头占优，市场情绪偏向于买入。然而，RSI指标尚未提供，缺乏超买或超卖信号，使得市场情绪的判断相对模糊。因此，投资者需要谨慎看待当前价格走势，避免盲目追高。\n\n在支撑方面，4160.20871的20日简单移动平均线（SMA）将是关键支撑位，一旦价格跌破，将可能引发进一步的回调。相对的，若突破4205.14872的阻力位，则可能开启新的上涨空间，为多头提供进一步的进场机会。\n\n综合来看，建议投资者在当前市场环境中采取谨慎策略。可在接近支撑位时考虑逢低买入，而在接近阻力位时则可进行适度的获利了结。保持灵活应变的交易策略，将有助于在波动市场中把握交易机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The recent price movement of XAU/USD indicates a stable upward trend, currently trading at 4203.04641. The slight 24-hour change of 0.28% reflects a cautious market sentiment, as traders seem to be weighing macroeconomic factors against gold's safe-haven appeal. The recent high at 4205.14872 suggests a resistance level that may be tested in the near term, while the low of 4186.84182 serves as a significant support level, providing a potential buying opportunity if prices retrace.\n\nThe absence of the RSI(14) makes it challenging to gauge overbought or oversold conditions, but the MACD value of 21.31657 indicates strong bullish momentum. This positive signal suggests that the upward trend may continue, provided that external factors remain favorable. Traders should closely monitor any changes in the MACD to identify potential reversals or continuations in price action.\n\nThe 20-period Simple Moving Average (SMA) at 4160.20871 reinforces the bullish outlook, as the current price is well above this level. Should the price pull back, the SMA could act as a dynamic support level, inviting buying interest from traders looking to capitalize on the long-term upward trend. A breach below the SMA could signal a shift in market sentiment, warranting caution.\n\nIn terms of trading strategy, consider entering long positions near the support level of 4186.84182 with a target at the recent high of 4205.14872. A stop-loss could be placed just below the SMA at 4160.20871 to manage risk effectively. Conversely, if the price breaks above 4205.14872 with strong volume, it may signal an opportunity to add to long positions, anticipating further gains."
+    }
+  }
+}

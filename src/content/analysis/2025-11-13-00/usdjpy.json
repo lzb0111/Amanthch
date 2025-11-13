@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-13T00:50:22.776Z",
+  "price": {
+    "close": "154.85100",
+    "high": "154.87900",
+    "low": "154.68700",
+    "open": "154.70100",
+    "change": "0.09",
+    "datetime": "2025-11-13 11:00:00"
+  },
+  "indicators": {
+    "rsi": 62.18477,
+    "macd": 0.10343427,
+    "macd_signal": 0.1222038,
+    "sma20": 154.74375
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：短期震荡趋向多头",
+      "content": "当前美元/日元价格在154.85100附近波动，整体趋势显示出短期内的震荡走势。考虑到24小时的微小变化（0.09%），市场似乎在等待进一步的方向性突破。短期来看，价格在154.68700至154.87900之间波动，表明该区间的支撑和阻力较为明显。\n\n技术指标方面，尽管RSI和MACD的具体值未提供，但从MACD的正值（0.10343427）来看，市场可能正处于多头趋势的初期阶段。SMA(20)在154.74375附近，为当前价格提供了一定的支撑。若价格能够成功突破154.87900的阻力位，可能会引发进一步的上涨。\n\n支撑位方面，154.68700是一个关键水平，若价格跌破该位，可能会引发更大幅度的回调。建议交易者关注这一支撑位的表现，并密切留意突破154.87900的动向。对于短线交易者，建议在支撑位附近寻找买入机会，而突破阻力位后则可考虑加仓。总体来看，市场情绪偏多，短期内仍有上涨潜力。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 154.851, showing a modest increase of 0.09% over the past 24 hours. The price has remained within a relatively tight range, with a high of 154.879 and a low of 154.687. This stability suggests a consolidation phase, as the market digests recent movements. The overall trend appears bullish, supported by the upward trajectory observed on the daily charts. Traders should monitor for any breakout above the recent high, which could signal further upward momentum.\n\nIn terms of technical indicators, the absence of the RSI and Signal for the MACD makes it challenging to assess momentum definitively. However, the current MACD value of 0.10343427 indicates that buyers are still in control, albeit with diminishing strength. The SMA(20) at 154.74375 reinforces the bullish sentiment, as the price is trading above this moving average. Should the price remain above the SMA, it may attract more buying interest. Conversely, a drop below this level could signal a shift in momentum.\n\nSupport levels are identified around the recent low of 154.687, which could act as a critical area for buyers to step in if the price retraces. A breach below this support may lead to further declines, with the next level of interest around 154.500. On the resistance side, the immediate level to watch is the high of 154.879, and a breakout above this level could pave the way for a move towards 155.200, a psychological resistance level.\n\nFor traders, the current market presents opportunities for both short-term and longer-term strategies. A breakout above 154.879 could be a signal to enter long positions, with a target set near 155.200. Conversely, if the price fails to hold above the SMA(20) and breaks below 154.687, it may be prudent to consider short positions, with a stop-loss just above the recent high to manage risk effectively. As always, fundamental factors should be considered alongside technical analysis to make informed trading decisions."
+    }
+  }
+}

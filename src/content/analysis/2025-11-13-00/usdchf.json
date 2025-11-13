@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-13T00:53:22.726Z",
+  "price": {
+    "close": "0.79832000",
+    "high": "0.79850000",
+    "low": "0.79777002",
+    "open": "0.79781002",
+    "change": "0.06",
+    "datetime": "2025-11-13 11:00:00"
+  },
+  "indicators": {
+    "rsi": 43.067599,
+    "macd": -0.00082558287,
+    "macd_signal": -0.00096698402,
+    "sma20": 0.79843501
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎（USD/CHF）在0.7983附近震荡整理，整体表现相对平稳。尽管近期价格波动有限，但仍需关注市场情绪的变化。短期内，若价格能突破0.7985的阻力位，则有可能向上测试更高的价位；相反，跌破0.7978的支撑位，则可能引发进一步调整。\n\n在技术指标方面，RSI尚不可用，但MACD显示出微弱的负值，表明短期内买方力量不足。当前SMA（20）在0.7984附近，提供了一定的支撑。若价格持续维持在这一均线之上，可能会吸引更多买盘入场。\n\n支撑位方面，0.7978和0.7970是关键水平，这些区域若被有效突破，可能会导致价格进一步下行。而在阻力位方面，0.7985和0.7990是需要关注的关键区域，突破将可能引发价格的进一步上行趋势。\n\n综合来看，建议投资者在当前震荡格局中保持观望，关注关键支撑和阻力位的突破信号。同时，建议设置止损位以控制潜在风险，灵活调整策略以应对市场变化。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The USD/CHF pair is currently trading at 0.79832000, indicating a mild bullish sentiment with a 24-hour change of 0.06%. The price has oscillated between a high of 0.79850000 and a low of 0.79777002 in the last trading session. The recent price action suggests a consolidation phase, with the market seeking direction. Traders should closely monitor this range as a breakout above 0.79850000 could signal a continuation of the upward trend, while a drop below 0.79777002 may indicate bearish momentum.\n\nTechnical indicators such as the MACD are currently showing a slight negative divergence, with a value of -0.00082558287. This suggests that while the price is hovering in a tight range, bullish momentum may not be as strong as it appears. The absence of a calculated RSI(14) further complicates the analysis, but the SMA(20) at 0.79843501 suggests that the pair is trading near its short-term average. Traders should be cautious, as the lack of momentum indicators could signal indecision in the market.\n\nKey support and resistance levels are crucial for determining potential entry and exit points. The immediate support level lies at 0.79777002, while resistance is observed at 0.79850000. A break below the support could lead to further declines toward the next significant support level, which may be tested at approximately 0.79700000. Conversely, a sustained move above resistance may open the door to higher targets, potentially reaching 0.80000000 in the medium term.\n\nIn terms of trading strategy, it may be prudent for traders to adopt a wait-and-see approach until a clearer trend emerges. A breakout above 0.79850000 could provide a buying opportunity, while a break below 0.79777002 might warrant a short position. Given the current market conditions, utilizing tight stop-loss orders in conjunction with this strategy can help manage risk effectively."
+    }
+  }
+}

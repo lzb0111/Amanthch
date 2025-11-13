@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-13T00:51:57.620Z",
+  "price": {
+    "close": "1.40094",
+    "high": "1.40120",
+    "low": "1.39990",
+    "open": "1.40095",
+    "change": "0.00",
+    "datetime": "2025-11-13 11:00:00"
+  },
+  "indicators": {
+    "rsi": 50.59355,
+    "macd": -0.0002843214,
+    "macd_signal": -0.00038126339,
+    "sma20": 1.40069
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理中]",
+      "content": "当前美元/加元（USD/CAD）价格在1.40094附近波动，表现出一定的震荡整理特征。从短期来看，价格在1.39990至1.40120区间内反复测试，显示出市场参与者对该价位的关注。若价格突破1.40120，可能会引发进一步上涨的动力；反之，若跌破1.39990，则有可能加速下行。\n\n技术指标方面，当前没有RSI和信号线的明确数据，但MACD显示出轻微的空头信号，表明短期内卖压存在。结合20日简单移动平均线（SMA）1.40069，价格在此附近形成了一个关键的支撑位，若能维持在其上方，可能会为多头提供机会。\n\n在支撑和阻力位方面，短期支撑位可关注1.39990，若跌破则需警惕进一步回调风险；而阻力位则位于1.40120，突破后有机会向1.40300靠拢。交易者应密切关注这些关键价位的动向，以便快速反应。\n\n建议投资者在当前震荡区间内采取观望策略，耐心等待价格突破关键支撑或阻力后再进行布局。如果价格突破上方阻力位，可以考虑短期买入机会；若跌破支撑位，则需谨慎考虑卖出操作。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently hovering around the 1.40094 mark, indicating a consolidation phase after recent fluctuations. The price action remains relatively stable, with a narrow range observed between the daily high of 1.40120 and low of 1.39990. This tight range suggests a lack of decisive momentum, which may indicate that traders are waiting for further economic data or geopolitical developments to provide clearer direction.\n\nFrom a trend perspective, the USD/CAD is maintaining a slight upward bias, given that the current price is above the 20-period Simple Moving Average (SMA) of 1.40069. This upward positioning implies a potential continuation of the bullish sentiment if the price can decisively break above the recent high of 1.40120. However, failure to hold above this level may prompt a pullback towards the lower end of the range, testing the support around 1.39990.\n\nIn terms of indicators, the MACD is currently showing a very slight bearish divergence, with a value just below zero. This could suggest weakening momentum for the USD, indicating that traders should remain cautious. The absence of the RSI data limits our ability to gauge overbought or oversold conditions; however, the overall market sentiment should be monitored closely for any shifts that could influence price movements.\n\nTraders may consider a strategy that involves waiting for a clear breakout above the resistance at 1.40120 for long positions, targeting higher levels with a stop-loss positioned just below recent support at 1.39990. Conversely, a break below this support could trigger selling opportunities, with potential targets set towards lower support levels. Overall, maintaining a disciplined approach in this environment is essential as the market seeks direction."
+    }
+  }
+}

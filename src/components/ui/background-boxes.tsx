@@ -6,13 +6,20 @@ import { cn } from "@/lib/utils";
 export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
   const rows = new Array(150).fill(1);
   const cols = new Array(100).fill(1);
+
+  // 使用原版的彩色方案
   let colors = [
-    "rgb(60, 60, 60)",
-    "rgb(80, 80, 80)",
-    "rgb(100, 100, 100)",
-    "rgb(120, 120, 120)",
-    "rgb(140, 140, 140)",
+    "--sky-300",
+    "--pink-300",
+    "--green-300",
+    "--yellow-300",
+    "--red-300",
+    "--purple-300",
+    "--blue-300",
+    "--indigo-300",
+    "--violet-300",
   ];
+
   const getRandomColor = () => {
     return colors[Math.floor(Math.random() * colors.length)];
   };
@@ -31,19 +38,19 @@ export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
       {rows.map((_, i) => (
         <motion.div
           key={`row` + i}
-          className="w-16 h-8  border-l  border-slate-700 relative"
+          className="w-16 h-8 border-l border-slate-700 relative"
         >
           {cols.map((_, j) => (
             <motion.div
               whileHover={{
-                backgroundColor: getRandomColor(),
+                backgroundColor: `rgb(var(${getRandomColor()}))`,
                 transition: { duration: 0 },
               }}
               animate={{
                 transition: { duration: 2 },
               }}
               key={`col` + j}
-              className="w-16 h-8  border-r border-t border-slate-700 relative"
+              className="w-16 h-8 border-r border-t border-slate-700 relative"
             >
               {j % 2 === 0 && i % 2 === 0 ? (
                 <svg

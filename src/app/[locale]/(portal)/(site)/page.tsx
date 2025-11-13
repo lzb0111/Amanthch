@@ -105,17 +105,17 @@ const DummyContent = () => {
             {/* CTAs */}
             <FadeInSlide direction="right" delay={0.6}>
               <div className="flex flex-col sm:flex-row gap-6">
-                <PulseButton>
+                <PulseButton className="w-full sm:w-auto">
                   <ShineButton
                     onClick={() => router.push(`/${language}/splan/join-us`)}
-                    className="px-12 py-6 bg-white text-black text-xl font-black border-2 border-white hover:bg-black hover:text-white transition-all shadow-lg"
+                    className="w-full px-12 py-6 bg-white text-black text-xl font-black border-2 border-white hover:bg-black hover:text-white transition-all shadow-lg"
                   >
                     {t('hero.cta.learn')}
                   </ShineButton>
                 </PulseButton>
                 <button
                   onClick={() => router.push(`/${language}/dashboard`)}
-                  className="px-12 py-6 bg-white dark:bg-black text-black dark:text-white text-xl font-black border-2 border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all"
+                  className="w-full sm:w-auto px-12 py-6 bg-white dark:bg-black text-black dark:text-white text-xl font-black border-2 border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all"
                 >
                   {t('hero.cta.dashboard')}
                 </button>

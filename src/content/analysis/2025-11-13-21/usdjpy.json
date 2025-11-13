@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-13T21:34:01.062Z",
+  "price": {
+    "close": "154.54601",
+    "high": "154.58600",
+    "low": "154.53600",
+    "open": "154.53999",
+    "change": "0.01",
+    "datetime": "2025-11-14 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.57101,
+    "macd": -0.052493789,
+    "macd_signal": -0.041506634,
+    "sma20": 154.58445
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理中]",
+      "content": "当前美元/日元（USD/JPY）价格在154.54601附近，近期价格波动显示出市场的震荡整理特征。虽然价格在154.58600与154.53600之间波动，但整体趋势并未明显扭转，市场情绪依然谨慎。投资者需关注即将公布的经济数据，以判断未来走势。\n\n技术指标方面，RSI（相对强弱指数）尚未提供，但MACD显示出轻微的看跌情绪，当前值为-0.052493789，表明卖压稍显增加。20日简单移动平均线（SMA）在154.58445附近，成为短期内的关键参考，若价格突破此水平，将可能引发更强的买入信号。\n\n在支撑和阻力位方面，154.53600是当前的短期支撑位，若跌破将可能引发更大的下行风险。相对的，154.58600则是重要的阻力位，突破后有望迎来新的上涨机会。结合当前市场情况，建议交易者在接近支撑位时考虑适度买入，而在接近阻力位时可考虑减仓或观望。\n\n总体而言，美元/日元目前处于震荡整理阶段，投资者需密切关注市场波动和宏观经济指标，以便及时调整交易策略。保持灵活应变的态度，将有助于在当前的市场环境中获得更好的交易机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.54601, exhibiting a slight upward movement with a 24-hour change of 0.01%. The price remains within a narrow range, having touched a high of 154.58600 and a low of 154.53600 in the past day. This range-bound behavior suggests a consolidation phase, where market participants are waiting for a catalyst to drive the next significant movement. The broader trend appears to be bullish, as the price is situated above the 20-period Simple Moving Average (SMA), which is currently at 154.58445.\n\nIn terms of technical indicators, the current MACD value of -0.052493789 indicates a bearish sentiment, albeit a weak one, as it remains close to the zero line. This could suggest that momentum is waning, and traders should be cautious of any potential reversals. The absence of an RSI reading makes it challenging to gauge overbought or oversold conditions. However, the proximity of the current price to the SMA suggests that the pair could be entering an equilibrium phase, where buying and selling pressures are balanced.\n\nKey support levels to watch include the recent low of 154.53600, which could provide a cushion against further downside. If this level holds, it may attract buying interest, allowing the pair to test higher resistance levels. Conversely, a break below this support could signal a shift in sentiment and open the door for further declines. On the resistance side, the high of 154.58600 is a critical level to monitor, as a decisive break above this point could trigger additional bullish momentum.\n\nTraders might consider a cautious approach, looking for confirmation before entering positions. A bounce off the support level could present a buying opportunity, especially if accompanied by bullish signals from other technical indicators. Conversely, if the price breaks below the support level, it may be prudent to consider short positions, particularly if further bearish confirmation is observed. Overall, maintaining a watchful eye on both the price action and key indicators will be crucial in navigating the potential movements in the USD/JPY currency pair."
+    }
+  }
+}

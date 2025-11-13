@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-13T21:38:25.725Z",
+  "price": {
+    "close": "4174.49948",
+    "high": "4186.31118",
+    "low": "4161.61167",
+    "open": "4163.27713",
+    "change": "0.27",
+    "datetime": "2025-11-14 08:00:00"
+  },
+  "indicators": {
+    "rsi": 43.9901,
+    "macd": -1.9323,
+    "macd_signal": 7.19176,
+    "sma20": 4205.6511
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，等待突破]",
+      "content": "当前黄金/美元(XAU/USD)的价格表现出一定的震荡整理特征。最新价格4174.50附近，较24小时变化0.27%，显示出市场情绪相对平稳。价格在4186.31和4161.61之间波动，表明短期内仍存在强烈的支撑与阻力。若突破此区间，将可能引发较大的价格波动。\n\n技术指标方面，MACD当前为-1.93230，显示出市场的弱势信号，且RSI尚未提供明确的超买或超卖信号，表明市场仍在观望状态。20日简单移动平均线(SMA)位于4205.65，进一步确认了当前价格处于下行趋势中。交易者应密切关注这些指标的变化，以捕捉可能的交易机会。\n\n在支撑和阻力位置方面，4161.61作为关键支撑位，将影响短期走势；如果价格下破该水平，可能会引发更深的回调。相反，4186.31则为阻力位，若价格突破此位置，则可能会迎来反弹行情。因此，建议投资者采取灵活的策略，根据价格突破情况进行相应的操作。\n\n总体来看，黄金/美元在当前价格区间内表现出震荡整理的态势，投资者应保持警惕，密切关注市场动态，以便及时调整交易策略。建议在支撑位附近寻找买入机会，而在阻力位附近则应考虑适时获利了结。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price action of Gold (XAU/USD) indicates a cautious stance as it trades at 4174.49, reflecting a modest 0.27% increase over the last 24 hours. The recent high of 4186.31 and a low of 4161.61 suggest a tight trading range, indicative of indecision among traders. This price behavior may signal a consolidation phase, as the market awaits further catalysts to break out decisively. A sustained move above the recent high could confirm bullish momentum, while a close below the low may ignite bearish sentiment.\n\nTechnical indicators present a mixed picture. The MACD at -1.9323 suggests bearish pressure, though without a signal line for confirmation, caution is warranted. The absence of an RSI reading complicates the analysis, but the SMA(20) at 4205.65 hints at potential resistance. If the price approaches this moving average, traders should watch for rejection or a breakout, as this could set the tone for the upcoming sessions. A bounce off this level may present a short-term buying opportunity.\n\nKey support is identified at 4161.61, which has held firm in recent trading sessions. A breach below this level could expose further downside, potentially targeting the next psychological support around 4150. Conversely, a rally past 4186.31 would shift focus to the SMA(20) and beyond, suggesting a possible retest of higher resistance levels. Traders should remain vigilant for any signs of reversal or continuation patterns around these critical levels.\n\nIn terms of trading strategy, a cautious approach is advisable. Consider entering long positions if the price breaks above 4186.31 with strong volume, while maintaining a stop-loss just below 4161.61 to manage risk. Alternatively, if bearish momentum accelerates, short positions may be warranted below support, targeting the 4150 area. Overall, maintaining a flexible strategy that adapts to market movements will be essential in navigating the current landscape of XAU/USD."
+    }
+  }
+}

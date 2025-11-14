@@ -358,7 +358,7 @@ export async function POST(request: Request) {
     });
 
     // Check if the model supports JSON mode and streaming
-    // o3-mini and some reasoning models may not support response_format
+    // o3-mini and some reasoning models may not support response_format, temperature, and streaming
     const isReasoningModel = openaiModel.toLowerCase().includes('o3') ||
                             openaiModel.toLowerCase().includes('o1');
 
@@ -367,33 +367,51 @@ export async function POST(request: Request) {
       model: openaiModel,
       messages: [
         {
-          role: 'system',
-          content: SYSTEM_PROMPT,
-        },
-        {
-          role: 'user',
-          content: `请根据以下核心内容，生成一篇完整的博客文章。你必须返回有效的JSON格式，包含以下字段：title, title_en, content, content_en, tags, tags_en, remark, remark_en\n\n核心内容：\n${userInput}`,
+          role: 'user', // Reasoning models don't support system messages in some cases
+          content: isReasoningModel
+            ? `${SYSTEM_PROMPT}\n\n---\n\n请根据以下核心内容，生成一篇完整的博客文章。你必须返回有效的JSON格式，包含以下字段：title, title_en, content, content_en, tags, tags_en, remark, remark_en\n\n核心内容：\n${userInput}`
+            : `请根据以下核心内容，生成一篇完整的博客文章。你必须返回有效的JSON格式，包含以下字段：title, title_en, content, content_en, tags, tags_en, remark, remark_en\n\n核心内容：\n${userInput}`,
         },
       ],
-      temperature: 0.7,
-      stream: true, // Enable streaming
     };
 
+    // Add system message for non-reasoning models
+    if (!isReasoningModel) {
+      requestBody.messages.unshift({
+        role: 'system',
+        content: SYSTEM_PROMPT,
+      });
+    }
+
+    // Reasoning models don't support temperature
+    if (!isReasoningModel) {
+      requestBody.temperature = 0.7;
+    }
+
+    // Reasoning models don't support streaming reliably
+    if (!isReasoningModel) {
+      requestBody.stream = true;
+    }
+
     // Only add response_format for models that support it
-    // Reasoning models (o3, o1) don't support response_format parameter
     if (!isReasoningModel) {
       requestBody.response_format = { type: 'json_object' };
     }
+
+    // Add max_completion_tokens for better control (works with both model types)
+    requestBody.max_completion_tokens = 16000;
 
     console.log('[BlogAI] Request config:', {
       model: openaiModel,
       isReasoningModel,
       hasResponseFormat: !isReasoningModel,
-      streaming: true
+      hasTemperature: !isReasoningModel,
+      streaming: !isReasoningModel,
+      maxTokens: 16000
     });
 
-    // Call OpenAI API with streaming
-    console.log('[BlogAI] Calling OpenAI API with streaming...');
+    // Call OpenAI API
+    console.log('[BlogAI] Calling OpenAI API...');
     const response = await fetch(openaiUrl, {
       method: 'POST',
       headers: {
@@ -405,14 +423,72 @@ export async function POST(request: Request) {
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.error('OpenAI API error:', errorText);
+      console.error('[BlogAI] OpenAI API error:', errorText);
       return NextResponse.json(
-        { error: `OpenAI API error: ${response.statusText}` },
+        { error: `OpenAI API error: ${errorText}` },
         { status: response.status }
       );
     }
 
-    // Create a streaming response
+    // Handle non-streaming response for reasoning models
+    if (isReasoningModel) {
+      console.log('[BlogAI] Processing non-streaming response for reasoning model');
+      const data = await response.json();
+      console.log('[BlogAI] Response received, extracting content');
+
+      const fullContent = data.choices?.[0]?.message?.content || '';
+      console.log('[BlogAI] Full content length:', fullContent.length);
+
+      // Try to extract JSON from the content
+      let jsonContent = fullContent.trim();
+
+      // Remove markdown code blocks if present
+      const codeBlockMatch = jsonContent.match(/```(?:json)?\s*(\{[\s\S]*\})\s*```/);
+      if (codeBlockMatch) {
+        jsonContent = codeBlockMatch[1];
+        console.log('[BlogAI] Extracted JSON from code block');
+      }
+
+      // Try to find JSON object if there's extra text
+      const jsonMatch = jsonContent.match(/\{[\s\S]*\}/);
+      if (jsonMatch && jsonMatch[0] !== jsonContent) {
+        jsonContent = jsonMatch[0];
+        console.log('[BlogAI] Extracted JSON from surrounding text');
+      }
+
+      let generatedContent;
+      try {
+        generatedContent = JSON.parse(jsonContent);
+      } catch (parseError) {
+        console.error('[BlogAI] JSON parse error:', parseError);
+        console.error('[BlogAI] Content that failed to parse:', jsonContent.substring(0, 500));
+        return NextResponse.json(
+          { error: `Failed to parse AI response as JSON. The model returned: ${fullContent.substring(0, 200)}...` },
+          { status: 500 }
+        );
+      }
+
+      // Validate required fields
+      const requiredFields = ['title', 'title_en', 'content', 'content_en', 'tags', 'tags_en', 'remark', 'remark_en'];
+      const missingFields = requiredFields.filter(field => !generatedContent[field]);
+
+      if (missingFields.length > 0) {
+        console.error('[BlogAI] Missing fields in generated content:', missingFields);
+        return NextResponse.json(
+          { error: `Generated content is missing required fields: ${missingFields.join(', ')}` },
+          { status: 500 }
+        );
+      }
+
+      // Set default author
+      generatedContent.author = 'FX Killer Team';
+
+      console.log('[BlogAI] Successfully generated blog post with reasoning model');
+      return NextResponse.json(generatedContent);
+    }
+
+    // Handle streaming response for standard models
+    console.log('[BlogAI] Processing streaming response');
     const encoder = new TextEncoder();
     const stream = new ReadableStream({
       async start(controller) {

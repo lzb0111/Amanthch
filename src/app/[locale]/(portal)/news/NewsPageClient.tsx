@@ -233,8 +233,8 @@ export default function NewsPageClient({ initialNews }: NewsPageClientProps) {
               </div>
             </div>
 
-            {/* Right: Main News List */}
-            <div className="lg:col-span-3">
+            {/* Center: Main News List */}
+            <div className="lg:col-span-2">
               <div className="grid gap-6">
                 {paginatedNews.map((item) => (
                   <div
@@ -347,6 +347,59 @@ export default function NewsPageClient({ initialNews }: NewsPageClientProps) {
                 </div>
               )}
             </div>
+
+            {/* Right Sidebar: Archive & Recent News */}
+            <aside className="lg:col-span-1 shrink-0">
+              <div className="sticky top-24 space-y-6">
+                {/* Archive Links */}
+                <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-6">
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4 pb-3 border-b-2 border-gray-200 dark:border-gray-800">
+                    {isZh ? '归档' : 'Archives'}
+                  </h3>
+                  <div className="space-y-3">
+                    <LocaleLink
+                      href="/news/archive"
+                      className="block px-4 py-3 bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white font-semibold hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                    >
+                      📅 {isZh ? '按月份归档' : 'By Month'}
+                    </LocaleLink>
+                    <LocaleLink
+                      href="/news/tags"
+                      className="block px-4 py-3 bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white font-semibold hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                    >
+                      🏷️ {isZh ? '按标签归档' : 'By Tags'}
+                    </LocaleLink>
+                  </div>
+                </div>
+
+                {/* Recent News */}
+                <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-800 p-6">
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4 pb-3 border-b-2 border-gray-200 dark:border-gray-800">
+                    {isZh ? '最新新闻' : 'Recent News'}
+                  </h3>
+                  <ul className="space-y-3">
+                    {recentNews.map((item) => (
+                      <li key={item.slug}>
+                        <LocaleLink
+                          href={`/news/${item.slug}`}
+                          className="block group"
+                        >
+                          <div className="text-sm font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 line-clamp-2 mb-1">
+                            {item.title}
+                          </div>
+                          <div className="text-xs text-gray-500 dark:text-gray-400">
+                            {new Date(item.date).toLocaleDateString(isZh ? 'zh-CN' : 'en-US', {
+                              month: 'short',
+                              day: 'numeric'
+                            })}
+                          </div>
+                        </LocaleLink>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </aside>
 
           </div>
         )}

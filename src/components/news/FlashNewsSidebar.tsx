@@ -112,7 +112,7 @@ export default function FlashNewsSidebar() {
 
                 {/* Related Stocks */}
                 {item.relatedStocks && item.relatedStocks.length > 0 && (
-                  <div className="flex flex-wrap gap-1 mb-2">
+                  <div className="flex flex-wrap gap-1">
                     {item.relatedStocks.map((stock: any) => (
                       <span
                         key={stock.code || stock}
@@ -123,16 +123,6 @@ export default function FlashNewsSidebar() {
                     ))}
                   </div>
                 )}
-
-                {/* Detail Link */}
-                <a
-                  href={item.detailUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs text-blue-600 dark:text-blue-400 hover:underline"
-                >
-                  {isZh ? '查看详情 →' : 'View details →'}
-                </a>
               </div>
             ))}
           </div>

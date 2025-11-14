@@ -357,6 +357,41 @@ export async function POST(request: Request) {
       hasKey: !!openaiKey
     });
 
+    // Check if the model supports JSON mode and streaming
+    // o3-mini and some reasoning models may not support response_format
+    const isReasoningModel = openaiModel.toLowerCase().includes('o3') ||
+                            openaiModel.toLowerCase().includes('o1');
+
+    // Prepare request body with conditional parameters
+    const requestBody: any = {
+      model: openaiModel,
+      messages: [
+        {
+          role: 'system',
+          content: SYSTEM_PROMPT,
+        },
+        {
+          role: 'user',
+          content: `请根据以下核心内容，生成一篇完整的博客文章。你必须返回有效的JSON格式，包含以下字段：title, title_en, content, content_en, tags, tags_en, remark, remark_en\n\n核心内容：\n${userInput}`,
+        },
+      ],
+      temperature: 0.7,
+      stream: true, // Enable streaming
+    };
+
+    // Only add response_format for models that support it
+    // Reasoning models (o3, o1) don't support response_format parameter
+    if (!isReasoningModel) {
+      requestBody.response_format = { type: 'json_object' };
+    }
+
+    console.log('[BlogAI] Request config:', {
+      model: openaiModel,
+      isReasoningModel,
+      hasResponseFormat: !isReasoningModel,
+      streaming: true
+    });
+
     // Call OpenAI API with streaming
     console.log('[BlogAI] Calling OpenAI API with streaming...');
     const response = await fetch(openaiUrl, {
@@ -365,22 +400,7 @@ export async function POST(request: Request) {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${openaiKey}`,
       },
-      body: JSON.stringify({
-        model: openaiModel,
-        messages: [
-          {
-            role: 'system',
-            content: SYSTEM_PROMPT,
-          },
-          {
-            role: 'user',
-            content: `请根据以下核心内容，生成一篇完整的博客文章：\n\n${userInput}`,
-          },
-        ],
-        temperature: 0.7,
-        response_format: { type: 'json_object' },
-        stream: true, // Enable streaming
-      }),
+      body: JSON.stringify(requestBody),
     });
 
     if (!response.ok) {
@@ -440,7 +460,41 @@ export async function POST(request: Request) {
 
           // Parse the complete JSON response
           console.log('[BlogAI] Full content length:', fullContent.length);
-          const generatedContent = JSON.parse(fullContent);
+          console.log('[BlogAI] Raw content preview:', fullContent.substring(0, 200));
+
+          // Try to extract JSON from the content
+          // Some models may wrap JSON in markdown code blocks or add extra text
+          let jsonContent = fullContent.trim();
+
+          // Remove markdown code blocks if present
+          const codeBlockMatch = jsonContent.match(/```(?:json)?\s*(\{[\s\S]*\})\s*```/);
+          if (codeBlockMatch) {
+            jsonContent = codeBlockMatch[1];
+            console.log('[BlogAI] Extracted JSON from code block');
+          }
+
+          // Try to find JSON object if there's extra text
+          const jsonMatch = jsonContent.match(/\{[\s\S]*\}/);
+          if (jsonMatch && jsonMatch[0] !== jsonContent) {
+            jsonContent = jsonMatch[0];
+            console.log('[BlogAI] Extracted JSON from surrounding text');
+          }
+
+          let generatedContent;
+          try {
+            generatedContent = JSON.parse(jsonContent);
+          } catch (parseError) {
+            console.error('[BlogAI] JSON parse error:', parseError);
+            console.error('[BlogAI] Content that failed to parse:', jsonContent.substring(0, 500));
+            controller.enqueue(
+              encoder.encode(`data: ${JSON.stringify({
+                type: 'error',
+                data: `Failed to parse AI response as JSON. Please try again or use a different model.`
+              })}\n\n`)
+            );
+            controller.close();
+            return;
+          }
 
           // Validate required fields
           const requiredFields = ['title', 'title_en', 'content', 'content_en', 'tags', 'tags_en', 'remark', 'remark_en'];

@@ -2,6 +2,10 @@ import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServe
 import { parseVideoUrl } from '@/lib/videoEmbedParser';
 import LiveTradingClient from './LiveTradingClient';
 
+// Force dynamic rendering - no caching
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const lang = getLanguageFromLocale(locale);

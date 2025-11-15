@@ -52,7 +52,7 @@ function TradingViewWidget({ symbol }: TradingViewWidgetProps) {
   }, [symbol]);
 
   return (
-    <div className="tradingview-widget-container w-full h-[600px]" ref={container}>
+    <div className="tradingview-widget-container w-full h-[800px]" ref={container}>
       <div className="tradingview-widget-container__widget h-[calc(100%-32px)] w-full"></div>
     </div>
   );

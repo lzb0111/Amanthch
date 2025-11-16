@@ -69,18 +69,26 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
 
       const decoder = new TextDecoder();
       let fullContent = '';
+      let buffer = ''; // Buffer for incomplete lines
 
       while (true) {
         const { done, value } = await reader.read();
         if (done) break;
 
         const chunk = decoder.decode(value, { stream: true });
-        const lines = chunk.split('\n');
+        buffer += chunk; // Append to buffer
+
+        // Split by newlines but keep the last incomplete line in buffer
+        const lines = buffer.split('\n');
+        // The last element might be incomplete, so keep it in buffer
+        buffer = lines.pop() || '';
 
         for (const line of lines) {
           if (line.startsWith('data: ')) {
             try {
-              const jsonStr = line.slice(6);
+              const jsonStr = line.slice(6).trim();
+              if (!jsonStr) continue; // Skip empty lines
+
               console.log('[BlogAI] Parsing JSON:', jsonStr.substring(0, 200));
               const data = JSON.parse(jsonStr);
 
@@ -100,13 +108,28 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
                 throw new Error(data.data);
               }
             } catch (e) {
-              // Only ignore parse errors for incomplete chunks
               const error = e as Error;
-              if (error.message && !error.message.includes('Unexpected end of JSON')) {
-                console.error('[BlogAI] JSON parse error:', error, 'Line:', line);
-              }
+              console.error('[BlogAI] JSON parse error:', error.message, 'Line length:', line.length);
+              // Don't throw, just log and continue
             }
           }
+        }
+      }
+
+      // Process any remaining data in buffer
+      if (buffer.trim() && buffer.startsWith('data: ')) {
+        try {
+          const jsonStr = buffer.slice(6).trim();
+          console.log('[BlogAI] Processing final buffer:', jsonStr.substring(0, 200));
+          const data = JSON.parse(jsonStr);
+
+          if (data.type === 'complete') {
+            console.log('[BlogAI] Complete event from buffer:', data.data);
+            setProgress(100);
+            onGenerated({ ...data.data, author: 'FX Killer Team' });
+          }
+        } catch (e) {
+          console.error('[BlogAI] Error processing final buffer:', e);
         }
       }
     } catch (err: any) {

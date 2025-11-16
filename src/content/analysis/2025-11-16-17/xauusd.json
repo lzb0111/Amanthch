@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-16T17:38:01.164Z",
+  "price": {
+    "close": "4080.52757",
+    "high": "4080.63709",
+    "low": "4080.3925",
+    "open": "4080.45349",
+    "change": "0.00",
+    "datetime": "2025-11-17 04:00:00"
+  },
+  "indicators": {
+    "rsi": 32.45795,
+    "macd": -10.27415,
+    "macd_signal": -13.61107,
+    "sma20": 4080.48262
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡整理]",
+      "content": "当前黄金/美元（XAU/USD）价格维持在4080.52附近，显示出短期内的震荡整理特征。价格在4080.63至4080.39之间波动，表明市场尚未形成明确的趋势。在没有明显的上涨或下跌动能支持下，投资者需保持警惕，关注价格突破的可能性。\n\n从技术指标上看，MACD显示为负值，表明短期内卖方力量较强，但由于RSI未提供，暂时无法判断超买或超卖状态。20日简单移动平均线（SMA）为4080.48，价格轻微高于该水平，暗示短期支撑位在此附近，若跌破可能进一步回调。\n\n在支撑与阻力方面，4080.39为关键短期支撑位，而4080.63则是近期阻力位。若价格突破4080.63，可能会引发上涨动能；反之，若跌破4080.39，则需警惕更大幅度的下跌风险。整体来看，建议短线交易者在此区域内寻找机会，谨慎设置止损以控制风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4080.53 indicates a stable market, showing no price change over the past 24 hours. This stability suggests a consolidation phase, which often precedes a breakout in either direction. The high and low of the day, at 4080.64 and 4080.39 respectively, highlight a narrow trading range, indicating a lack of volatility. Traders should be cautious as the market appears to be waiting for a catalyst to drive significant movements.\n\nFrom a trend analysis perspective, XAU/USD has been oscillating around the SMA(20) of 4080.48, reinforcing the significance of this moving average as a dynamic support level. If the price maintains above this SMA, it could signal bullish sentiment, potentially leading to a retest of higher levels. Conversely, a drop below this average may trigger bearish momentum, prompting traders to reassess their positions and consider selling opportunities.\n\nThe MACD is currently negative at -10.27, suggesting that the momentum is favoring sellers. However, without a signal line available, it’s crucial to monitor for any divergence or shifts in momentum. The Relative Strength Index (RSI) is not provided, but generally, an RSI above 70 indicates overbought conditions, while below 30 suggests oversold. Traders should keep an eye on these indicators for potential reversal signals.\n\nFor trading suggestions, maintaining a close watch on the support at 4080.39 and resistance at 4080.64 is vital. A breakout above the resistance level could open up opportunities for long positions, targeting higher price points. Conversely, a breakdown below support may present short-selling opportunities. As always, employing strict risk management strategies will be crucial in navigating this potentially volatile environment."
+    }
+  }
+}

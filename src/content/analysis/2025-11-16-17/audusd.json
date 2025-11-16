@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-16T17:35:22.312Z",
+  "price": {
+    "close": "0.65359",
+    "high": "0.65386",
+    "low": "0.65342",
+    "open": "0.65351",
+    "change": "0.01",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 49.90043,
+    "macd": -0.0000534858,
+    "macd_signal": -0.00020182608,
+    "sma20": 0.6533045
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理，待突破]",
+      "content": "在当前市场环境中，澳元/美元（AUD/USD）维持在0.6535附近，表现出震荡整理的趋势。价格在0.65342至0.65386的区间内波动，显示出市场参与者在该区域的犹豫不决。若价格突破0.65386，将可能迎来新的上涨动能，而跌破0.65342则可能引发进一步下行。\n\n从技术指标来看，目前的RSI值尚不可用，但MACD处于负值区间，显示出短期内卖压仍然存在。同时，20日简单移动平均线（SMA）位于0.6533045，提供了一定的支撑。若价格持续在此均线之上，将可能吸引更多买入信号。\n\n在支撑与阻力方面，0.65342为短期支撑位，而0.65386为关键阻力位。投资者应密切关注这两个价位的突破情况，以判断后市走向。若价格在支撑位附近企稳，可以考虑适度入场做多，反之则需谨慎。\n\n综合来看，AUD/USD目前处于震荡整理阶段，建议投资者保持观望，待价格突破关键支撑或阻力位后再做决策，以降低风险并把握市场机会。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently exhibiting a narrow range, with a latest price of 0.65359 after a minor 24-hour change of 0.01%. The price has been contained between a high of 0.65386 and a low of 0.65342, indicating a period of consolidation. This tight trading range suggests indecision in the market, as traders await further economic data or events that could influence the Australian dollar or the US dollar.\n\nFrom a trend perspective, the pair is hovering just above the 20-day Simple Moving Average (SMA) at 0.6533045, which could act as a dynamic support level. A sustained move above this SMA might signal a potential upward momentum, while a breach below could confirm a bearish outlook. The lack of significant movement in the RSI and MACD indicates that the market is currently lacking strong bullish or bearish momentum, emphasizing the importance of watching for breakouts from the established range.\n\nIn terms of support and resistance levels, the immediate support can be identified around 0.65342, while resistance is found at 0.65386. A decisive breakout above the resistance level may lead to a test of higher levels, potentially targeting 0.6550 or beyond. Conversely, if the price breaks below the support level, it could open the door for a deeper correction, with potential targets around 0.6500.\n\nTraders should consider employing a range trading strategy, capitalizing on the current consolidation phase. A cautious approach would be to set buy orders near the support level and sell orders close to resistance. Those looking for a more aggressive stance might watch for confirmation of a breakout in either direction, using stop-loss orders to manage risk effectively. Keeping an eye on economic releases and geopolitical developments will also be essential, as these factors can quickly shift market sentiment."
+    }
+  }
+}

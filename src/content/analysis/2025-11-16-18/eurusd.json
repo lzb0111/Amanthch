@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-16T18:50:58.145Z",
+  "price": {
+    "close": "1.16154",
+    "high": "1.16239",
+    "low": "1.16154",
+    "open": "1.16211",
+    "change": "-0.05",
+    "datetime": "2025-11-15 08:00:00"
+  },
+  "indicators": {
+    "rsi": 45.36101,
+    "macd": -0.00020076625,
+    "macd_signal": 0.000024967323,
+    "sma20": 1.16275
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理中]",
+      "content": "当前欧元/美元在1.16154附近震荡整理，短期内走势缺乏明显方向。虽然24小时内价格小幅下跌0.05%，但整体波动幅度有限，显示出市场参与者的犹豫情绪。这种状态可能预示着即将到来的趋势变化，投资者需保持警惕。\n\n从技术指标来看，MACD目前处于负值区域，表明卖方力量仍然存在。虽然RSI未提供，但若其在未来几日出现超卖信号，则可能为买入的信号。此外，20日简单移动平均线（SMA）显示出价格在其下方运行，进一步增强了短期看跌的信号。\n\n在支撑与阻力方面，当前支撑位可以观察1.16000，而阻力位则在1.16500附近。若价格突破阻力位，可能会引发进一步上升走势；反之，跌破支撑位则可能加重下行压力。建议投资者在此区间内保持谨慎，等待明确的趋势信号后再做决策。短期内可考虑短线交易，但要设置好止损以控制风险。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The EUR/USD pair is currently exhibiting a slight bearish sentiment, with a recent price of 1.16154 reflecting a modest 24-hour decline of 0.05%. The pair has struggled to maintain momentum above the recent high of 1.16239, indicating potential resistance at this level. A failure to break through this barrier could suggest a continuation of the downward trend, especially if the price consolidates below the 20-period simple moving average (SMA) at 1.16275.\n\nKey support levels are identified around the recent low of 1.16154. If the price breaches this level decisively, it could open the door for further declines, with potential targets lying around 1.16000. Conversely, if the pair can reclaim ground above the SMA at 1.16275, it may signal a bullish reversal, allowing for a test of the resistance at 1.16239 and potentially higher levels thereafter.\n\nThe MACD indicator is currently showing a slight negative value, indicating that bearish momentum may be present, though the absence of a defined signal line limits interpretative depth. Traders should monitor the RSI closely as it becomes available; a reading near oversold conditions could indicate an impending bounce. Conversely, if the RSI approaches overbought territory, it could reinforce the bearish narrative.\n\nIn terms of trading strategy, a prudent approach would involve waiting for a clear breakout above the 1.16275 level to initiate long positions, while keeping a close eye on the broader market sentiment. Conversely, those with a bearish bias might consider shorting near the resistance level, particularly if the price fails to sustain above it and confirms weakness around key technical indicators. Risk management remains crucial, especially in a market that has shown slight volatility."
+    }
+  }
+}

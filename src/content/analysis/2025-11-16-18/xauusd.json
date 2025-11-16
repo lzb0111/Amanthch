@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-16T18:55:42.696Z",
+  "price": {
+    "close": "4080.43044",
+    "high": "4080.63709",
+    "low": "4080.39233",
+    "open": "4080.45349",
+    "change": "-0.00",
+    "datetime": "2025-11-17 05:00:00"
+  },
+  "indicators": {
+    "rsi": 32.30848,
+    "macd": -9.58444,
+    "macd_signal": -12.80566,
+    "sma20": 4080.47823
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，短期观望]",
+      "content": "当前黄金/美元（XAU/USD）价格在4080.43附近，显示出一定的震荡整理趋势。价格在过去24小时内几乎没有波动，显示出市场参与者的观望情绪。短期内，若突破4080.64的高点可能会吸引买盘，而下方4080.39的低点则为短期支撑位，值得关注。\n\n从技术指标来看，虽然RSI和MACD尚未提供明确的信号，但MACD的负值表明卖方仍占优。SMA（20）线在4080.48附近，若价格持续在此线附近波动，可能会形成进一步的整理区间。投资者应密切关注这些指标的变化，以捕捉潜在的交易机会。\n\n在支撑和阻力方面，4080.64为关键阻力位，若价格突破，将有可能引发多头回补，推动价格上行。而4080.39则是强支撑位，跌破此位可能引发进一步的卖压，导致价格下探。因此，投资者可以考虑在这两个关键水平附近进行交易。\n\n综合来看，建议投资者在短期内保持观望，等待价格突破关键水平后再做出决策。如果价格突破上方阻力位，可以考虑做多；反之，如果跌破支撑位，则应谨慎布局，避免不必要的风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The gold market against the US dollar (XAU/USD) is currently exhibiting a narrow trading range, with the latest price hovering around 4080.43. The price action has shown minimal volatility, as indicated by the 24-hour change of -0.00%. This stability suggests that traders are awaiting further developments or economic data that could influence market sentiment. The high and low for the day, at 4080.64 and 4080.39 respectively, reinforce the notion of consolidation, indicating a lack of strong directional momentum.\n\nFrom a technical standpoint, the absence of clear signals in the relative strength index (RSI) and the moving average convergence divergence (MACD) implies a cautious market environment. The MACD value of -9.58 indicates bearish momentum, although it is essential to consider the potential for a correction if buying interest emerges. The simple moving average (SMA) at 4080.48 serves as a potential pivot point, suggesting that a breakout either above this level or below could provide further trading opportunities.\n\nKey support and resistance levels can be identified near the recent high and low. The resistance level at 4080.64 may act as a barrier for upward movements, while the support level at 4080.39 could provide a floor for any downturns. A sustained move above the resistance level may open the door for a bullish trend, while a drop below support could lead to increased selling pressure.\n\nTraders may consider a wait-and-see approach in the current environment, monitoring price action closely around the key levels identified. If the price breaks above resistance, a short-term long position may be appropriate. Conversely, a breakdown below support could signal an opportunity to enter short positions. Overall, the current market dynamics suggest that careful monitoring of price movements is crucial for effective trading strategies."
+    }
+  }
+}

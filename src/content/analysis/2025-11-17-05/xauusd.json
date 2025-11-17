@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-17T05:45:19.024Z",
+  "price": {
+    "close": "4053.01738",
+    "high": "4078.94205",
+    "low": "4050.88346",
+    "open": "4078.90485",
+    "change": "-0.64",
+    "datetime": "2025-11-17 16:00:00"
+  },
+  "indicators": {
+    "rsi": 27.46925,
+    "macd": -5.91372,
+    "macd_signal": -5.61154,
+    "sma20": 4080.8268
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[短期震荡回调，关注支撑位]",
+      "content": "当前黄金/美元（XAU/USD）价格在4053.01738附近波动，24小时变化为-0.64%，显示出短期内的震荡回调趋势。从高点4078.94205回落至低点4050.88346，市场情绪略显谨慎，投资者需关注价格是否能有效维持在4050附近的支撑位。\n\n从技术指标来看，MACD值为-5.91372，显示出短期内卖压较强，市场可能面临进一步下行风险。尽管RSI(14)数据缺失，但结合当前的价格走势，市场可能处于超卖状态，未来可能出现反弹的机会。建议投资者密切关注RSI指标的变化，以判断是否有回升的信号。\n\n支撑位方面，4050.88346是关键支撑区域，一旦跌破，可能引发更大的卖盘压力，进一步向4000的心理关口靠近。反之，若价格成功企稳于此水平以上，可能会给市场带来反弹的机会，目标价位可关注在4080附近的阻力位。\n\n综合来看，短期内黄金/美元可能维持震荡行情，投资者应保持谨慎，适时调整仓位。在4050附近寻找买入机会，同时在接近4080时考虑适当获利了结，切勿追高。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of gold against the US dollar shows a slight decline of 0.64% over the last 24 hours, trading at 4053.01738. This price action indicates a potential bearish sentiment in the short term. The recent high at 4078.94205 suggests a resistance level that traders should monitor closely, while the low of 4050.88346 acts as a key support level. A break below this support could intensify selling pressure, whereas a rebound could signal a correction.\n\nIn terms of indicators, the MACD at -5.91372 suggests the momentum is currently in a bearish phase. Although the RSI is not available, the negative MACD indicates a lack of buying strength. Traders should be cautious as this negative momentum may continue to drive prices lower in the near term. A potential crossover in the MACD could provide early signals for a reversal, but further confirmation would be necessary.\n\nThe 20-period Simple Moving Average (SMA) at 4080.82680 further emphasizes the bearish outlook. The price trading below this SMA suggests that sellers are in control. If the price can reclaim the SMA, it may indicate a trend reversal or a short-term bullish opportunity. Conversely, consistent trading below this level could reinforce bearish sentiment, compelling traders to look for short positions.\n\nFor trading strategies, traders should consider focusing on the support level at 4050.88346 as a critical point for entry. A stop-loss above the recent high at 4078.94205 could help manage risk for short positions. Alternatively, if the price breaks above the SMA, it may provide an opportunity for bullish trades, but confirmation through additional indicators would be essential before entering the market."
+    }
+  }
+}

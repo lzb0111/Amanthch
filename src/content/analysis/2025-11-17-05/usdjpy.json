@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-17T05:41:49.988Z",
+  "price": {
+    "close": "154.60899",
+    "high": "154.65800",
+    "low": "154.58400",
+    "open": "154.62300",
+    "change": "-0.01",
+    "datetime": "2025-11-17 16:00:00"
+  },
+  "indicators": {
+    "rsi": 52.018266,
+    "macd": 0.031946639,
+    "macd_signal": 0.013826954,
+    "sma20": 154.52675
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理趋势]",
+      "content": "当前美元/日元（USD/JPY）在154.60附近震荡整理，24小时变化幅度较小，显示出市场情绪的谨慎与观望。价格在154.65的高点和154.58的低点之间波动，表明短期内缺乏明确的方向。投资者需密切关注市场消息，以判断未来走势。\n\n从技术指标来看，虽然RSI未提供，但MACD显示出略微的上升动能，当前值为0.0319，表明短期内可能存在一定的买入兴趣。SMA（20）为154.53，提供了一定的支撑，若价格持续在此上方运行，可能会有进一步反弹的机会。\n\n支撑位方面，154.58是重要的心理支撑位，若突破此水平，可能会加大下行风险。阻力位则在154.65，若价格突破该点位，则有可能引发更多买盘，推动价格上涨至更高水平。投资者应关注这些关键价位的突破情况。\n\n综合来看，建议投资者在154.58附近寻找买入机会，设定止损于154.50下方，以应对潜在的下行风险。同时，若价格上破154.65，可考虑适时增持，捕捉上涨机会。保持警惕，关注市场动态，将有助于更好地把握交易时机。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair currently trades at 154.609, reflecting a minor decline of 0.01% over the past 24 hours. The price remains within a narrow range defined by a high of 154.658 and a low of 154.584. This stability suggests a consolidation phase, with market participants assessing the next potential move. The overall trend appears bullish given the recent upward momentum, but the lack of significant movement indicates that traders should remain cautious and vigilant for breakout opportunities.\n\nAnalyzing the technical indicators, the absence of an RSI value makes it difficult to gauge overbought or oversold conditions. However, the MACD shows a positive value of 0.0319, indicating a slight bullish momentum. Meanwhile, the 20-day Simple Moving Average (SMA) at 154.527 serves as a critical dynamic support level. If the price holds above this SMA, it may strengthen the bullish outlook, but a drop below could signal a potential reversal.\n\nKey support levels are established around the recent low of 154.584, while resistance appears to be at the high of 154.658. A break above this resistance could pave the way for a further rally towards higher targets, potentially testing the psychological level of 155.00. Conversely, if prices breach the support level, a retest of the SMA at 154.527 could be expected, providing traders with an opportunity to reassess their positions.\n\nFor traders, a strategy involving a breakout above the current resistance or a bounce off the support level could be effective. If bullish momentum is confirmed with additional indicators, long positions may be warranted. Conversely, a decisive move below 154.584 could trigger short positions, especially if accompanied by strong volume. Overall, a cautious approach with clear entry and exit strategies is recommended in this environment of consolidation."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-17T02:59:03.955Z",
+  "price": {
+    "close": "4084.57144",
+    "high": "4092.7694",
+    "low": "4082.92796",
+    "open": "4091.39037",
+    "change": "-0.17",
+    "datetime": "2025-11-17 13:00:00"
+  },
+  "indicators": {
+    "rsi": 46.031485,
+    "macd": -3.62304,
+    "macd_signal": -6.58857,
+    "sma20": 4082.22462
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡走势]",
+      "content": "当前黄金/美元(XAU/USD)的价格为4084.57，近期表现出震荡整理的趋势。24小时内价格微幅下跌0.17%，在高点4092.77和低点4082.93之间波动。这种价格行为显示出市场情绪的谨慎，投资者可能在等待更明确的趋势信号。\n\n从技术指标来看，MACD目前为负值-3.62304，表明近期卖压较强，但尚未出现明确的卖出信号。由于RSI数据缺失，我们无法准确评估超买或超卖的情况。短期内，20日简单移动平均线(SMA)位于4082.22附近，提供了一个关键的支撑位。\n\n结合支撑和阻力位来看，4082.93是重要的支撑位，而4092.77则构成了阻力位。若价格突破4092.77，可能会向4100大关迈进，反之若跌破4082.93，则可能进一步下探至4075的支撑区域。\n\n建议投资者在当前震荡区间内保持谨慎，若价格接近支撑位可考虑低吸，而若突破阻力位则可适当追涨。同时，需密切关注市场的基本面变化，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4084.57 reflects a slight downward movement of 0.17% over the past 24 hours. This minor decline suggests a potential consolidation phase after the recent fluctuations. The high and low range, marked at 4092.77 and 4082.93 respectively, indicates a narrow trading band, which may point to market indecision. Traders should watch for a breakout above 4092.77, which could signal a bullish trend, while a fall below 4082.93 may reaffirm bearish sentiment.\n\nIn terms of technical indicators, the SMA (20) at 4082.22 is currently serving as a crucial support level. The proximity of the latest price to this moving average suggests that it could act as a buffer against further declines. Meanwhile, the MACD reading of -3.62304 indicates bearish momentum, suggesting that sellers may have the upper hand. However, without the signal line data, the MACD's implication remains somewhat ambiguous. Traders should look for confirmation from other indicators before making decisive moves.\n\nThe absence of a recent RSI value leaves a gap in momentum analysis, but historically, an RSI below 30 would indicate oversold conditions, while above 70 would suggest overbought territory. Monitoring these levels upon their release will provide additional context for potential reversals or continuations in the trend. Moreover, establishing resistance at 4092.77 and support at 4082.93 will help in framing potential trade setups.\n\nFor trading strategies, a conservative approach may involve waiting for a confirmed breakout above the resistance level to enter long positions, targeting further highs. Conversely, a breakdown below 4082.93 could provide a shorting opportunity, with stops placed just above this level to manage risk. Overall, traders should remain vigilant as market sentiment evolves, especially in response to upcoming economic data releases that could impact both gold and the US dollar."
+    }
+  }
+}

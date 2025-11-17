@@ -21,7 +21,7 @@ export default function BrandName({ inNavbar = false, inHero = false }: BrandNam
     return () => clearTimeout(timer);
   }, []);
 
-  const text = language === 'zh' ? '汇刃' : 'FXKiller';
+  const text = language === 'zh' ? 'Apex Traders' : 'FXKiller';
   const chars = text.split('');
 
   return (

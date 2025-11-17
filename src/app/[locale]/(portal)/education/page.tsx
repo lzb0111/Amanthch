@@ -7,7 +7,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const lang = getLanguageFromLocale(locale);
 
   return generateBilingualMetadata(
-    '外汇交易教育中心丨汇刃丨日内交易员培训、全职交易员培训',
+    '外汇交易教育中心丨Apex Traders丨日内交易员培训、全职交易员培训',
     'Forex Trading Education Center丨FX Killer丨Day Trader Training, Full-Time Trader Training',
     '完整的外汇交易教育体系，涵盖基础知识、技术分析、交易策略、风险管理。从零基础到职业交易员，FX Killer助你系统化学习外汇交易。25+专业课程，4大学习方向，100%免费学习。专业日内交易员培训和全职交易员培训体系。',
     'Complete forex trading education system covering fundamentals, technical analysis, trading strategies, and risk management. From beginner to professional trader with FX Killer. 25+ professional courses, 4 learning categories, 100% free. Professional day trader training and full-time trader training system.',

@@ -11,8 +11,8 @@ export default function StructuredData() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    "name": language === 'zh' ? "汇刃 FX Killer" : "FX Killer",
-    "alternateName": language === 'zh' ? "FX Killer" : "汇刃",
+    "name": language === 'zh' ? "Apex Traders FX Killer" : "FX Killer",
+    "alternateName": language === 'zh' ? "FX Killer" : "Apex Traders",
     "url": "https://fxkiller.com",
     "logo": "https://fxkiller.com/logo.png",
     "description": language === 'zh'

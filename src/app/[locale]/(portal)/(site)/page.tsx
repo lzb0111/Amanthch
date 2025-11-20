@@ -42,6 +42,10 @@ const DummyContent = () => {
     '/profits/13.png',
     '/profits/14.png',
     '/profits/15.png',
+    '/profits/16.png',
+    '/profits/17.png',
+    '/profits/18.png',
+    '/profits/19.png',
   ];
 
   // 自动滚动图片 - 每次显示3张

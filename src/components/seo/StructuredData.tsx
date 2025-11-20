@@ -12,7 +12,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
     "name": language === 'zh' ? "江恩轮（GannWheel）" : "江恩轮（GannWheel）",
-    "alternateName": language === 'zh' ? "FX Killer" : "江恩轮（GannWheel）",
+    "alternateName": language === 'zh' ? "江恩轮（GannWheel）" : "江恩轮（GannWheel）",
     "url": "https://fxkiller.com",
     "logo": "https://fxkiller.com/logo.png",
     "description": language === 'zh'
@@ -50,13 +50,13 @@ export default function StructuredData() {
   const courseSchema = pathname.includes('/splan/courses') ? {
     "@context": "https://schema.org",
     "@type": "Course",
-    "name": language === 'zh' ? "FX Killer 职业交易员培训课程" : "FX Killer Professional Trader Training Course",
+    "name": language === 'zh' ? "江恩轮（GannWheel） 职业交易员培训课程" : "GannWheel Professional Trader Training Course",
     "description": language === 'zh'
       ? "全面系统的外汇交易培训课程，涵盖基础知识、技术分析、风险管理、交易心理等"
       : "Comprehensive forex trading training course covering fundamentals, technical analysis, risk management, and trading psychology",
     "provider": {
       "@type": "Organization",
-      "name": "FX Killer"
+      "name": "GannWheel"
     },
     "courseMode": "online",
     "educationalLevel": "Beginner to Advanced"

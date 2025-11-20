@@ -26,8 +26,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://fxkiller.com'),
   title: {
-    default: "FX Killer - Professional FX Trader Training Platform | Apex Traders·外汇交易职业交易员培训",
-    template: "%s | FX Killer"
+    default: "GannWheel - Professional FX Trader Training Platform | GannWheel·外汇交易职业交易员培训",
+    template: "%s | GannWheel"
   },
   description: "江恩轮（GannWheel） - 专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。培养真正适合外汇市场的专业交易员。",
   keywords: [
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
     "资金管理",
     "技术分析",
   ],
-  authors: [{ name: "FX Killer Team" }],
-  creator: "FX Killer",
-  publisher: "FX Killer",
+  authors: [{ name: "GannWheel Team" }],
+  creator: "GannWheel",
+  publisher: "GannWheel",
   formatDetection: {
     email: false,
     address: false,
@@ -75,14 +75,14 @@ export const metadata: Metadata = {
     alternateLocale: ["en_US"],
     url: "https://fxkiller.com",
     siteName: "江恩轮（GannWheel）",
-    title: "FX Killer - Professional FX Trader Training Platform | Apex Traders·职业交易员培训",
+    title: "GannWheel - Professional FX Trader Training Platform | GannWheel·职业交易员培训",
     description: "专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "FX Killer - Professional FX Trader Training Platform",
+        alt: "GannWheel - Professional FX Trader Training Platform",
         type: "image/jpeg",
       }
     ],
@@ -91,7 +91,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@fxkiller",
     creator: "@fxkiller",
-    title: "FX Killer - Professional FX Trader Training Platform",
+    title: "GannWheel - Professional FX Trader Training Platform",
     description: "专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。",
     images: ["/og-image.jpg"],
   },

@@ -1282,7 +1282,7 @@ export default function CurrencyPairsGuidePage() {
               想系统学习货币对交易策略？
             </h2>
             <p className="text-xl mb-8 text-gray-300 dark:text-gray-700">
-              加入 FX Killer 30天系统化培训，掌握不同货币对的特性和交易技巧
+              加入江恩轮（GannWheel） 30天系统化培训，掌握不同货币对的特性和交易技巧
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <LocaleLink

@@ -294,10 +294,10 @@ async function generateContent() {
           const zhBody = zhLines.slice(1).filter(line => line.trim()).join('\n\n');
 
           // 从中文正文中提取前150字作为描述，添加 SEO 关键词
-          const zhDescription = zhBody.replace(/\n/g, ' ').substring(0, 120) + '。FX Killer 提供免费外汇交易培训。';
+          const zhDescription = zhBody.replace(/\n/g, ' ').substring(0, 120) + '江恩轮（GannWheel） 提供免费外汇交易培训。';
 
           // 生成中文 SEO 关键词
-          const zhKeywords = ["外汇", "交易", "市场分析", "外汇新闻", "外汇培训", "交易员孵化", "FX Killer"];
+          const zhKeywords = ["外汇", "交易", "市场分析", "外汇新闻", "外汇培训", "交易员孵化", "江恩轮（GannWheel）"];
 
           // 生成中文Markdown
           const markdownZh = `---
@@ -306,7 +306,7 @@ date: "${dayjs().format('YYYY-MM-DD HH:mm:ss')}"
 description: "${zhDescription.replace(/"/g, '\\"')}"
 keywords: ${JSON.stringify(zhKeywords)}
 category: "外汇新闻"
-source: "FX Killer 分析团队"
+source: "江恩轮（GannWheel） 分析团队"
 language: "zh"
 ---
 

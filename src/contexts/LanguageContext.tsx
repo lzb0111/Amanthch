@@ -40,7 +40,7 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.cta.dashboard': '进入交易系统',
 
     // Why Choose Section
-    'why.title': '为什么选择Apex Traders',
+    'why.title': '为什么选择江恩轮（GannWheel）',
     'why.subtitle': '专注筛选和培养顶尖外汇交易员，培养真正适合的人，留下极少数，劝返大多数',
 
     // Advantages

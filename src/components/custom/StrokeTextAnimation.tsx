@@ -61,7 +61,7 @@ export default function StrokeTextAnimation({ className = "", loop = true }: Str
 
   return (
     <div className={`flex items-center gap-8 ${className}`}>
-      {/* Apex Traders - SVG 手写动画 */}
+      {/* 江恩轮（GannWheel） - SVG 手写动画 */}
       <svg
         width="200"
         height="100"

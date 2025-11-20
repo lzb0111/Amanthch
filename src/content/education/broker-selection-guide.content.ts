@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const brokerSelectionContent = {
   zh: {
-    title: '外汇经纪商选择指南丨汇刃丨日内交易员培训、全职交易员培训',
+    title: '外汇经纪商选择指南丨江恩轮（GannWheel）丨日内交易员培训、全职交易员培训',
     description: '全面讲解外汇经纪商选择标准：监管资质识别、平台类型对比（MM/STP/ECN）、资金安全保障。日内交易员和全职交易员培训必知的经纪商选择技巧，避开黑平台。',
     keywords: '日内交易员培训, 全职交易员培训, 外汇经纪商, 外汇平台选择, 经纪商监管, ECN经纪商',
 

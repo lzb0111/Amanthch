@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const spreadsCommissionsContent = {
   zh: {
-    title: '外汇点差与佣金详解丨汇刃丨职业交易员培训、全职交易员培训',
+    title: '外汇点差与佣金详解丨江恩轮（GannWheel）丨职业交易员培训、全职交易员培训',
     description: '全面解析外汇交易成本：点差类型、佣金模式、隐藏费用、如何选择低成本经纪商。职业交易员和全职交易员培训必学的降低交易成本技巧，提升长期盈利能力。',
     keywords: '职业交易员培训, 全职交易员培训, 外汇点差, 外汇佣金, 交易成本, 固定点差, 浮动点差',
 

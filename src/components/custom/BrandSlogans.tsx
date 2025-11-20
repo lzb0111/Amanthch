@@ -7,8 +7,8 @@ import { useLanguage } from '@/contexts/LanguageContext';
 // 品牌标语集合 - 体现力量、精准、专业
 const slogans = [
   {
-    zh: "Apex Traders，外汇交易市场的一把利刃",
-    en: "FX Killer, the sharp blade in forex trading"
+    zh: "江恩轮（GannWheel）外汇交易市场的一把利刃",
+    en: "GannWheel, the sharp blade in forex trading"
   },
   {
     zh: "精准，如刀锋般锐利",

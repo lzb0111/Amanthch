@@ -27,19 +27,19 @@ export default function PartnersLogos() {
   const partners = [
     {
       name: 'EC Markets',
-      code: '99R9C',
+      code: 'xxx',
       link: 'https://i.ecmarkets.com/api/client/pm/2/99R9C',
       benefit: isZh ? '超低点差 + 全额返佣' : 'Ultra-low spreads + Full rebate'
     },
     {
       name: 'TickMill',
-      code: 'IB47958600',
+      code: 'xxx',
       link: 'https://my.tickmill.com?utm_campaign=ib_link&utm_content=IB47958600&utm_medium=Open+Account&utm_source=link&lp=https%3A%2F%2Fmy.tickmill.com%2Fzh%2Fsign-up%2F',
       benefit: isZh ? '超低点差 + 全额返佣' : 'Ultra-low spreads + Full rebate'
     },
     {
       name: 'Binance',
-      code: 'YYSTARK',
+      code: 'xxx',
       link: 'https://www.maxweb.red/join?ref=YYSTARK',
       benefit: isZh ? '最低手续费 + 最高返佣' : 'Lowest fees + Maximum rebate'
     },
@@ -51,7 +51,7 @@ export default function PartnersLogos() {
     },
     {
       name: 'FundedNext',
-      code: 'REFQKEAYK',
+      code: 'xxx',
       link: 'https://fundednext.com/',
       benefit: isZh ? '专属优惠 + 立减折扣' : 'Exclusive offers + Instant discount'
     }
@@ -124,7 +124,7 @@ export default function PartnersLogos() {
               <p className="text-base md:text-lg text-[#ff102a]">
                 {isZh ? (
                   <>
-                    Apex Traders是 <span className="font-bold">EC Markets</span>、<span className="font-bold">TickMill</span>、<span className="font-bold">Binance</span>、<span className="font-bold">FTMO</span>、<span className="font-bold">FundedNext</span> 的<span className="font-black text-xl underline decoration-2 underline-offset-4">官方合作伙伴</span>
+                    GannWheel是 <span className="font-bold">EC Markets</span>、<span className="font-bold">TickMill</span>、<span className="font-bold">Binance</span>、<span className="font-bold">FTMO</span>、<span className="font-bold">FundedNext</span> 的<span className="font-black text-xl underline decoration-2 underline-offset-4">官方合作伙伴</span>
                   </>
                 ) : (
                   <>

@@ -27,11 +27,11 @@ export const blogPosts: BlogPost[] = [
  id: '1',
  slug: 'about-fx-killer',
  title: {
- zh: '关于汇刃 (FX Killer) - 军事化外汇交易员训练营',
+ zh: '关于江恩轮（GannWheel） - 军事化外汇交易员训练营',
  en: 'About FX Killer - Military-Style Forex Trader Training Camp'
  },
  excerpt: {
- zh: '汇刃 (FX Killer) 是一个专注于筛选和培养外汇交易员的训练营。我们的理念：培养真正适合的人，留下极少数，劝返大多数。通过率10%-15%，30个工作日完整培训，盈利分成60%-90%。',
+ zh: '江恩轮（GannWheel） 是一个专注于筛选和培养外汇交易员的训练营。我们的理念：培养真正适合的人，留下极少数，劝返大多数。通过率10%-15%，30个工作日完整培训，盈利分成60%-90%。',
  en: 'FX Killer is a training camp focused on selecting and cultivating forex traders. Our philosophy: cultivating those truly suited, retaining the few, advising the majority. Pass rate 10%-15%, 30 working days complete training, 60%-90% profit share.'
  },
  content: {
@@ -2919,7 +2919,7 @@ export const blogPosts: BlogPost[] = [
 <div class="space-y-6 mb-8">
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
 <p class="text-xl font-bold mb-4 text-black dark:text-white">📈 案例：从$5,000到$50,000的12个月</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">某汇刃学员的真实交易记录（已脱敏）</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">某江恩轮（GannWheel）学员的真实交易记录（已脱敏）</p>
 <div class="overflow-x-auto">
 <table class="w-full border-2 border-gray-300 dark:border-gray-700">
 <thead>

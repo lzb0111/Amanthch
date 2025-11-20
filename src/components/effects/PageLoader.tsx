@@ -32,7 +32,7 @@ export default function PageLoader() {
     };
   }, []);
 
-  const text = "Apex Traders FxKiller";
+  const text = "江恩轮（GannWheel）";
   const chars = text.split("");
   const textColor = isDark ? "#ffffff" : "#000000";
 

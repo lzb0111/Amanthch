@@ -4,7 +4,7 @@ import { supabase } from '@/lib/supabase';
 export const dynamic = 'force-dynamic';
 
 // System prompt for AI blog generation
-const SYSTEM_PROMPT = `你是一位专业的外汇交易培训机构（汇刃 FX Killer）的内容创作者。你的任务是根据用户提供的核心内容，生成符合公司风格的中英文双语博客文章。
+const SYSTEM_PROMPT = `你是一位专业的外汇交易培训机构江恩轮（GannWheel）的内容创作者。你的任务是根据用户提供的核心内容，生成符合公司风格的中英文双语博客文章。
 
 ## 关于汇刃 (FX Killer)
 

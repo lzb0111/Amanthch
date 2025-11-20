@@ -71,11 +71,11 @@ export default function ParticleTestPage() {
         {/* Apex Traders动画 */}
         <div className="mb-8">
           <h3 className="text-xl font-bold text-center mb-4 text-black dark:text-white">
-            Apex Traders
+           江恩轮（GannWheel）
           </h3>
           <div className="w-full h-40 border-2 border-black dark:border-white bg-gray-50 dark:bg-gray-900">
             <ParticleText
-              text="Apex Traders"
+              text="江恩轮（GannWheel）"
               fontSize={100}
               color="#000000"
               particleCount={3000}

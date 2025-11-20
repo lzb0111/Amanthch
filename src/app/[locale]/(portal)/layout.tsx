@@ -29,10 +29,9 @@ export const metadata: Metadata = {
     default: "FX Killer - Professional FX Trader Training Platform | Apex Traders·外汇交易职业交易员培训",
     template: "%s | FX Killer"
   },
-  description: "FX Killer (Apex Traders) - 专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。培养真正适合外汇市场的专业交易员。",
+  description: "江恩轮（GannWheel） - 专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。培养真正适合外汇市场的专业交易员。",
   keywords: [
-    "FX Killer",
-    "Apex Traders",
+    "江恩轮（GannWheel）",
     "外汇交易",
     "外汇培训",
     "职业交易员",
@@ -75,7 +74,7 @@ export const metadata: Metadata = {
     locale: "zh_CN",
     alternateLocale: ["en_US"],
     url: "https://fxkiller.com",
-    siteName: "FX Killer | Apex Traders",
+    siteName: "江恩轮（GannWheel）",
     title: "FX Killer - Professional FX Trader Training Platform | Apex Traders·职业交易员培训",
     description: "专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。",
     images: [

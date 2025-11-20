@@ -56,7 +56,7 @@ export default function AnimationShowcase() {
             </p>
           </div>
           <div className="min-h-[200px] border-2 border-black dark:border-white rounded-lg flex items-center justify-center p-8 bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-black">
-            <ModernTextAnimation key={keys.typewriter} text="Apex Traders FxKiller" type="typewriter" />
+            <ModernTextAnimation key={keys.typewriter} text="江恩轮（GannWheel）" type="typewriter" />
           </div>
         </div>
 
@@ -71,7 +71,7 @@ export default function AnimationShowcase() {
             </p>
           </div>
           <div className="min-h-[200px] border-2 border-black dark:border-white rounded-lg flex items-center justify-center p-8 bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-black">
-            <ModernTextAnimation key={keys.gradient} text="Apex Traders FxKiller" type="gradient" />
+            <ModernTextAnimation key={keys.gradient} text="江恩轮（GannWheel）" type="gradient" />
           </div>
         </div>
 
@@ -86,7 +86,7 @@ export default function AnimationShowcase() {
             </p>
           </div>
           <div className="min-h-[200px] border-2 border-black dark:border-white rounded-lg flex items-center justify-center p-8 bg-black dark:bg-gray-950">
-            <ModernTextAnimation key={keys.glitch} text="Apex Traders FxKiller" type="glitch" />
+            <ModernTextAnimation key={keys.glitch} text="江恩轮（GannWheel）" type="glitch" />
           </div>
         </div>
 
@@ -101,7 +101,7 @@ export default function AnimationShowcase() {
             </p>
           </div>
           <div className="min-h-[200px] border-2 border-black dark:border-white rounded-lg flex items-center justify-center p-8 bg-black dark:bg-gray-950">
-            <ModernTextAnimation key={keys.neon} text="Apex Traders FxKiller" type="neon" />
+            <ModernTextAnimation key={keys.neon} text="江恩轮（GannWheel）" type="neon" />
           </div>
         </div>
 
@@ -116,7 +116,7 @@ export default function AnimationShowcase() {
             </p>
           </div>
           <div className="min-h-[200px] border-2 border-black dark:border-white rounded-lg flex items-center justify-center p-8 bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-black">
-            <ModernTextAnimation key={keys.scale} text="Apex Traders FxKiller" type="scale" />
+            <ModernTextAnimation key={keys.scale} text="江恩轮（GannWheel）" type="scale" />
           </div>
         </div>
 
@@ -131,7 +131,7 @@ export default function AnimationShowcase() {
             </p>
           </div>
           <div className="min-h-[200px] border-2 border-black dark:border-white rounded-lg flex items-center justify-center p-8 bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-black">
-            <ModernTextAnimation key={keys.split} text="Apex Traders FxKiller" type="split" />
+            <ModernTextAnimation key={keys.split} text="江恩轮（GannWheel）" type="split" />
           </div>
         </div>
 

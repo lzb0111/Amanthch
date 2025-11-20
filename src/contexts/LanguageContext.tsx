@@ -18,7 +18,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations: Record<Language, Record<string, string>> = {
   zh: {
     // 品牌名
-    'brand.name': 'Apex Traders',
+    'brand.name': '江恩轮（GannWheel）',
     'brand.full': 'FX Killer',
 
     // 导航栏
@@ -53,7 +53,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Comparison
     'comparison.vs': 'VS 传统外汇培训',
-    'comparison.fxkiller': 'Apex Traders',
+    'comparison.fxkiller': '江恩轮（GannWheel）',
     'comparison.traditional': '传统培训机构',
     'comparison.free': '完全免费 - 无任何培训费用',
     'comparison.practical': '实战培养 - 30天系统化职业训练',
@@ -167,7 +167,7 @@ const translations: Record<Language, Record<string, string>> = {
     'footer.contact.focus': '专注外汇交易培训',
     'footer.contact.cultivate': '培养职业外汇交易员',
     'footer.contact.apply': '立即申请',
-    'footer.copyright': '© Apex Traders · 专业外汇交易员培训平台 · fxkiller.com',
+    'footer.copyright': '© 江恩轮（GannWheel） · 专业外汇交易员培训平台',
     'footer.disclaimer': ' 外汇交易有风险，投资需谨慎 · 本站内容仅供学习参考，不构成投资建议',
     'footer.partners.title': '合作伙伴',
     'footer.partners.brokers': '合作经纪商',
@@ -179,7 +179,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Join Us Page
     'joinus.hero.badge': 'PROFESSIONAL TRADER TRAINING',
-    'joinus.hero.title1': 'Apex Traders',
+    'joinus.hero.title1': '江恩轮（GannWheel）',
     'joinus.hero.title2': '外汇交易员培训',
     'joinus.hero.subtitle': '培养真正适合的人，留下极少数，劝返大多数',
     'joinus.hero.stat1': '通过率',

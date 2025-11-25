@@ -70,7 +70,7 @@ export const spreadsCommissionsContent = {
     ],
 
     ctaTitle: '想要获得更优质的交易条件？',
-    ctaDescription: 'FX Killer 合作经纪商提供极具竞争力的点差和佣金',
+    ctaDescription: 'GannWheel 合作经纪商提供极具竞争力的点差和佣金',
     ctaPrimaryButton: '查看合作经纪商',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const spreadsCommissionsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Forex Spreads & Commissions Explained丨FX Killer丨Professional Trader Training, Full-Time Trader Training',
+    title: 'Forex Spreads & Commissions Explained丨GannWheel丨Professional Trader Training, Full-Time Trader Training',
     description: 'Comprehensive analysis of forex trading costs: spread types (fixed vs floating), commission models, hidden fees, and how to choose low-cost brokers. Master cost reduction strategies for long-term profitability.',
     keywords: 'Professional Trader Training, Full-Time Trader Training, forex spreads, forex commissions, trading costs',
 
@@ -149,7 +149,7 @@ export const spreadsCommissionsContent = {
     ],
 
     ctaTitle: 'Want Better Trading Conditions?',
-    ctaDescription: 'FX Killer partner brokers offer highly competitive spreads and commissions',
+    ctaDescription: 'GannWheel partner brokers offer highly competitive spreads and commissions',
     ctaPrimaryButton: 'View Partner Brokers',
     ctaSecondaryButton: 'Free Psychology Test',
 

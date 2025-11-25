@@ -81,7 +81,7 @@ export const dayTradingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Day Trading Guide丨FX Killer丨Professional Trader Training, Day Trader Training',
+    title: 'Complete Day Trading Guide丨GannWheel丨Professional Trader Training, Day Trader Training',
     description: 'In-depth day trading guide: timeframe selection, entry/exit strategies, position sizing, stop-loss. Professional trader training and day trader training curriculum sharing intraday trading techniques on M5, M15, H1 charts.',
     keywords: 'Professional Trader Training, Day Trader Training, day trading, intraday trading, M5 trading, M15 trading',
 

@@ -66,7 +66,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   if (error || !data) {
     return {
-      title: lang === 'zh' ? '文章未找到丨Apex Traders' : 'Article Not Found丨FX Killer',
+      title: lang === 'zh' ? '文章未找到丨GannWheel' : 'Article Not Found丨GannWheel',
     };
   }
 
@@ -95,8 +95,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     : `${selectedKeywords[0].en}, ${selectedKeywords[1].en}`;
 
   // Build title with tags and SEO framework
-  const zhTitle = `${post.title}丨Apex Traders丨${keywordSuffix}`;
-  const enTitle = `${post.title_en}丨FX Killer丨${keywordSuffix}`;
+  const zhTitle = `${post.title}丨GannWheel丨${keywordSuffix}`;
+  const enTitle = `${post.title_en}丨GannWheel丨${keywordSuffix}`;
 
   // Build description from content excerpt
   const stripHTML = (html: string) => html.replace(/<[^>]*>/g, '').substring(0, 160);

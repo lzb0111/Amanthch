@@ -1,10 +1,19 @@
 ---
 title: "EUR/CAD steady amid ECB caution, Canadian Dollar strength from Oil"
 date: "2025-11-14 16:24:23"
-description: "EUR/CAD trades with minimal movement on Friday, holding near 1.6310 at the time of writing, as investors assess the impa. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "EUR/CAD trades with minimal movement on Friday, holding near 1.6310 at the time of writing, as investors assess the impa. Free forex trading training by GannWheel."
+keywords:
+  [
+    "forex",
+    "trading",
+    "market analysis",
+    "forex news",
+    "forex training",
+    "trader incubation",
+    "GannWheel",
+  ]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "GannWheel Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +23,15 @@ Meanwhile, the Canadian Dollar is bolstered by the recent strength in oil prices
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About GannWheel Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? GannWheel offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: GannWheel Analysis Team
 **Updated**: 2025-11-14 16:24
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

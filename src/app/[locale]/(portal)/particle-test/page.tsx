@@ -68,7 +68,7 @@ export default function ParticleTestPage() {
           方案3：粒子动画
         </h2>
 
-        {/* Apex Traders动画 */}
+        {/* GannWheel动画 */}
         <div className="mb-8">
           <h3 className="text-xl font-bold text-center mb-4 text-black dark:text-white">
            江恩轮（GannWheel）

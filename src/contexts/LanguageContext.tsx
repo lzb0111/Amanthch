@@ -495,7 +495,7 @@ const translations: Record<Language, Record<string, string>> = {
     'blog.backToBlog': '返回博客',
     'blog.relatedPosts': '相关文章',
     'blog.cta.title': '准备开始您的交易之旅？',
-    'blog.cta.subtitle': '加入FX Killer，接受专业的交易员培训',
+    'blog.cta.subtitle': '加入GannWheel，接受专业的交易员培训',
     'blog.cta.button': '立即加入',
   },
   en: {

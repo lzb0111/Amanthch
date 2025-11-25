@@ -1,10 +1,19 @@
 ---
 title: "Japanese Yen struggles amid BoJ uncertainty; USD/JPY holds steady below nine-month high"
 date: "2025-11-14 02:57:50"
-description: "The Japanese Yen (JPY) oscillates in a narrow band against its American counterpart during the Asian session on Friday a. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "The Japanese Yen (JPY) oscillates in a narrow band against its American counterpart during the Asian session on Friday a. Free forex trading training by GannWheel."
+keywords:
+  [
+    "forex",
+    "trading",
+    "market analysis",
+    "forex news",
+    "forex training",
+    "trader incubation",
+    "GannWheel",
+  ]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "GannWheel Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +23,15 @@ This stagnation highlights the broader implications of BoJ's policies amid risin
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About GannWheel Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? GannWheel offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: GannWheel Analysis Team
 **Updated**: 2025-11-14 02:57
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

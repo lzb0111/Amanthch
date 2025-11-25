@@ -1,10 +1,19 @@
 ---
 title: "Australian Dollar rises as strong jobs data boost RBA caution"
 date: "2025-11-13 05:43:26"
-description: "The Australian Dollar (AUD) gains ground against the US Dollar (USD) on Thursday, extending its gains for the second con. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "The Australian Dollar (AUD) gains ground against the US Dollar (USD) on Thursday, extending its gains for the second con. Free forex trading training by GannWheel."
+keywords:
+  [
+    "forex",
+    "trading",
+    "market analysis",
+    "forex news",
+    "forex training",
+    "trader incubation",
+    "GannWheel",
+  ]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "GannWheel Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +23,15 @@ As a result of this positive jobs data, the exchange rate for AUD/USD saw notabl
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About GannWheel Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? GannWheel offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: GannWheel Analysis Team
 **Updated**: 2025-11-13 05:43
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

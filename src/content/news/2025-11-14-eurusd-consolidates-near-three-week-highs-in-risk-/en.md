@@ -1,10 +1,19 @@
 ---
 title: "EUR/USD consolidates near three-week highs in risk-off markets"
 date: "2025-11-14 12:38:48"
-description: "EUR/USD remains practically flat on the daily chart, trading at 1.1630, at a short distance from the three-week highs of. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "EUR/USD remains practically flat on the daily chart, trading at 1.1630, at a short distance from the three-week highs of. Free forex trading training by GannWheel."
+keywords:
+  [
+    "forex",
+    "trading",
+    "market analysis",
+    "forex news",
+    "forex training",
+    "trader incubation",
+    "GannWheel",
+  ]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "GannWheel Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +23,15 @@ Market sentiment has shifted, contributing to the euro's strength amid uncertain
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About GannWheel Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? GannWheel offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: GannWheel Analysis Team
 **Updated**: 2025-11-14 12:38
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

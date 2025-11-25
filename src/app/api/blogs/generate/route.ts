@@ -297,7 +297,7 @@ const SYSTEM_PROMPT = `你是一位专业的外汇交易培训机构江恩轮（
    - 核心观点必须用高亮框强调
    - 对比信息优先使用表格
    - 多用引用块突出重要引言
-10. **作者固定为**: FX Killer Team
+10. **作者固定为**: GannWheel Team
 
 请基于用户提供的核心内容，创作一篇专业、吸引人、符合汇刃品牌风格、视觉丰富的博客文章。`;
 
@@ -360,7 +360,7 @@ export async function POST(request: Request) {
     // Check if the model supports JSON mode and streaming
     // o3-mini and some reasoning models may not support response_format, temperature, and streaming
     const isReasoningModel = openaiModel.toLowerCase().includes('o3') ||
-                            openaiModel.toLowerCase().includes('o1');
+      openaiModel.toLowerCase().includes('o1');
 
     // Prepare request body with conditional parameters
     const requestBody: any = {
@@ -481,7 +481,7 @@ export async function POST(request: Request) {
       }
 
       // Set default author
-      generatedContent.author = 'FX Killer Team';
+      generatedContent.author = 'GannWheel Team';
 
       console.log('[BlogAI] Successfully generated blog post with reasoning model');
       return NextResponse.json(generatedContent);
@@ -589,7 +589,7 @@ export async function POST(request: Request) {
           }
 
           // Set default author
-          generatedContent.author = 'FX Killer Team';
+          generatedContent.author = 'GannWheel Team';
 
           console.log('[BlogAI] Successfully generated blog post');
 

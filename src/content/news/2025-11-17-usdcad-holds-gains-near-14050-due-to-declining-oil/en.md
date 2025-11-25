@@ -1,10 +1,19 @@
 ---
 title: "USD/CAD holds gains near 1.4050 due to declining Oil prices"
 date: "2025-11-17 03:53:09"
-description: "USD/CAD edges higher after registering modest losses in the previous session, trading around 1.4030 during the Asian hou. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "USD/CAD edges higher after registering modest losses in the previous session, trading around 1.4030 during the Asian hou. Free forex trading training by GannWheel."
+keywords:
+  [
+    "forex",
+    "trading",
+    "market analysis",
+    "forex news",
+    "forex training",
+    "trader incubation",
+    "GannWheel",
+  ]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "GannWheel Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +23,15 @@ Declining crude oil prices are weighing heavily on the CAD, impacting its streng
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About GannWheel Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? GannWheel offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: GannWheel Analysis Team
 **Updated**: 2025-11-17 03:53
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

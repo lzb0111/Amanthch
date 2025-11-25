@@ -70,7 +70,7 @@ export const dayTradingContent = {
     ],
 
     ctaTitle: '想要系统学习日内交易？',
-    ctaDescription: '加入 FX Killer 培训计划，获取专业日内交易策略和实时交易指导',
+    ctaDescription: '加入 GannWheel 培训计划，获取专业日内交易策略和实时交易指导',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -149,7 +149,7 @@ export const dayTradingContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Day Trading?',
-    ctaDescription: 'Join FX Killer training for professional day trading strategies and live trading guidance',
+    ctaDescription: 'Join GannWheel training for professional day trading strategies and live trading guidance',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

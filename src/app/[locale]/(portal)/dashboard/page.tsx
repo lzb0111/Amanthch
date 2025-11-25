@@ -87,7 +87,7 @@ export default function TradingDashboard() {
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-lg font-bold text-black dark:text-white">
-                {language === 'zh' ? '江恩轮（GannWheel）控制台' : '江恩轮（GannWheel） Dashboard'}
+                {language === 'zh' ? '江恩轮（GannWheel）控制台' : 'GannWheel Dashboard'}
               </h2>
             </div>
             <button

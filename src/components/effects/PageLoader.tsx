@@ -2,11 +2,13 @@
 
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 // 页面加载动画
 export default function PageLoader() {
   const [isLoading, setIsLoading] = useState(true);
   const [isDark, setIsDark] = useState(false);
+  const { language } = useLanguage();
 
   useEffect(() => {
     // 检测暗黑模式
@@ -32,7 +34,7 @@ export default function PageLoader() {
     };
   }, []);
 
-  const text = "江恩轮（GannWheel）";
+  const text = language === 'zh' ? "江恩轮（GannWheel）" : "GannWheel";
   const chars = text.split("");
   const textColor = isDark ? "#ffffff" : "#000000";
 

@@ -314,7 +314,7 @@ ${zhBody}
 
 ---
 
-#### 关于 FX Killer 交易员孵化计划
+#### 关于 GannWheel 交易员孵化计划
 
 想成为专业交易员？FX Killer 提供**完全免费**的职业交易员培训计划。我们提供系统化课程、实战训练、专业导师指导，帮助您从零基础成长为全职交易员。
 
@@ -322,15 +322,15 @@ ${zhBody}
 
 ---
 
-**数据来源**: FX Killer 分析团队
+**数据来源**: GannWheel 分析团队
 **更新时间**: ${dayjs().format('YYYY-MM-DD HH:mm')}
 
 **免责声明**: 本文仅供参考，不构成投资建议。外汇交易存在风险，请谨慎决策。
 `;
 
           // 英文描述和关键词
-          const enDescription = cleanDesc.substring(0, 120) + '. Free forex trading training by FX Killer.';
-          const enKeywords = ["forex", "trading", "market analysis", "forex news", "forex training", "trader incubation", "FX Killer"];
+          const enDescription = cleanDesc.substring(0, 120) + '. Free forex trading training by GannWheel.';
+          const enKeywords = ["forex", "trading", "market analysis", "forex news", "forex training", "trader incubation", "GannWheel"];
 
           // 生成英文Markdown
           const markdownEn = `---
@@ -339,7 +339,7 @@ date: "${dayjs().format('YYYY-MM-DD HH:mm:ss')}"
 description: "${enDescription.replace(/"/g, '\\"')}"
 keywords: ${JSON.stringify(enKeywords)}
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "GannWheel Analysis Team"
 language: "en"
 ---
 
@@ -347,15 +347,15 @@ ${contentEn}
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About GannWheel Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? GannWheel offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: GannWheel Analysis Team
 **Updated**: ${dayjs().format('YYYY-MM-DD HH:mm')}
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

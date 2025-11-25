@@ -21,7 +21,7 @@ export default function BrandName({ inNavbar = false, inHero = false }: BrandNam
     return () => clearTimeout(timer);
   }, []);
 
-  const text = language === 'zh' ? '江恩轮（GannWheel）' : '江恩轮（GannWheel）';
+  const text = language === 'zh' ? '江恩轮（GannWheel）' : 'GannWheel';
   const chars = text.split('');
 
   return (

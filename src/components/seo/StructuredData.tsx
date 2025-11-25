@@ -11,8 +11,8 @@ export default function StructuredData() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    "name": language === 'zh' ? "江恩轮（GannWheel）" : "江恩轮（GannWheel）",
-    "alternateName": language === 'zh' ? "江恩轮（GannWheel）" : "江恩轮（GannWheel）",
+    "name": language === 'zh' ? "江恩轮（GannWheel）" : "GannWheel",
+    "alternateName": language === 'zh' ? "江恩轮（GannWheel）" : "GannWheel",
     "url": "https://fxkiller.com",
     "logo": "https://fxkiller.com/logo.png",
     "description": language === 'zh'
@@ -34,7 +34,7 @@ export default function StructuredData() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "FX Killer",
+    "name": "GannWheel",
     "url": "https://fxkiller.com",
     "potentialAction": {
       "@type": "SearchAction",

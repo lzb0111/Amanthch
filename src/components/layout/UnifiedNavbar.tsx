@@ -20,69 +20,94 @@ export default function UnifiedNavbar() {
 
   const navItems = [
     {
-      name: t('nav.training'),
+      name: t("nav.training"),
       link: "/splan/join-us",
     },
     {
-      name: language === 'zh' ? '教育' : 'Education',
+      name: language === "zh" ? "学院" : "Academy",
       link: "/education",
       hasDropdown: true,
       dropdownItems: [
-        { name: language === 'zh' ? '基础知识' : 'Basics', link: '/education#basics' },
-        { name: language === 'zh' ? '技术分析' : 'Technical Analysis', link: '/education#technical' },
-        { name: language === 'zh' ? '交易策略' : 'Trading Strategies', link: '/education#strategies' },
-        { name: language === 'zh' ? '风险管理' : 'Risk Management', link: '/education#risk' },
-      ]
+        {
+          name: language === "zh" ? "基础知识" : "Basics",
+          link: "/education#basics",
+        },
+        {
+          name: language === "zh" ? "技术分析" : "Technical Analysis",
+          link: "/education#technical",
+        },
+        {
+          name: language === "zh" ? "交易策略" : "Trading Strategies",
+          link: "/education#strategies",
+        },
+        {
+          name: language === "zh" ? "风险管理" : "Risk Management",
+          link: "/education#risk",
+        },
+      ],
     },
     {
-      name: language === 'zh' ? '新闻' : 'News',
+      name: language === "zh" ? "新闻" : "News",
       link: "/news",
     },
     {
-      name: language === 'zh' ? '行情' : 'Market',
+      name: language === "zh" ? "行情" : "Market",
       link: "/market-analysis",
     },
     {
-      name: t('nav.liveTrading'),
+      name: t("nav.liveTrading"),
       link: "/live-trading",
     },
     {
-      name: t('nav.blog'),
+      name: t("nav.blog"),
       link: "/splan/blog",
     },
     {
-      name: t('nav.psychology'),
+      name: t("nav.psychology"),
       link: "/splan/psychology-test",
     },
     {
-      name: t('nav.dashboard'),
+      name: t("nav.dashboard"),
       link: "/dashboard",
     },
     {
-      name: language === 'zh' ? '日历' : 'Calendar',
+      name: language === "zh" ? "日历" : "Calendar",
       link: "/economic-calendar",
     },
     {
-      name: language === 'zh' ? '天梯' : 'Leaderboard',
+      name: language === "zh" ? "天梯" : "Leaderboard",
       link: "/top-traders",
     },
     {
-      name: t('nav.tradingTools'),
+      name: t("nav.tradingTools"),
       link: "/tools/position-calculator",
       hasDropdown: true,
       dropdownItems: [
-        { name: language === 'zh' ? '仓位计算器' : 'Position Calculator', link: '/tools/position-calculator' },
-        { name: language === 'zh' ? '风险回报计算器' : 'Risk/Reward Calculator', link: '/tools/risk-reward-calculator' },
-        { name: language === 'zh' ? '点值计算器' : 'Pip Calculator', link: '/tools/pip-calculator' },
-      ]
+        {
+          name: language === "zh" ? "仓位计算器" : "Position Calculator",
+          link: "/tools/position-calculator",
+        },
+        {
+          name: language === "zh" ? "风险回报计算器" : "Risk/Reward Calculator",
+          link: "/tools/risk-reward-calculator",
+        },
+        {
+          name: language === "zh" ? "点值计算器" : "Pip Calculator",
+          link: "/tools/pip-calculator",
+        },
+      ],
     },
     {
-      name: t('nav.faq'),
+      name: t("nav.faq"),
       link: "/splan/faq",
     },
     {
-      name: t('nav.membership'),
+      name: t("nav.membership"),
       link: "/splan/donate",
+    },
+    {
+      name: t("nav.aboutUs"),
+      link: "/splan/aboutUs",
     },
   ];
 

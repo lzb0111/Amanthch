@@ -75,7 +75,7 @@ export default function JoinUsPage() {
         </section>
 
         {/* About */}
-        <section>
+        {/* <section>
           <div className="flex items-center gap-4 mb-8">
             <div className="w-1 h-16 bg-black dark:bg-white"></div>
             <h2 className="text-4xl font-black text-gray-900 dark:text-white">{t('joinus.about.title')}</h2>
@@ -109,7 +109,7 @@ export default function JoinUsPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Video Resources */}
         <section>

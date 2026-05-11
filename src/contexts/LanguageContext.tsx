@@ -20,7 +20,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(
 const translations: Record<Language, Record<string, string>> = {
   zh: {
     // 品牌名
-    "brand.name": "江恩轮（GannWheel）11111",
+    "brand.name": "江恩轮（GannWheel）",
     "brand.full": "GannWheel",
 
     // 导航栏

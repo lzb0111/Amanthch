@@ -25,8 +25,8 @@ const translations: Record<Language, Record<string, string>> = {
 
     // 导航栏
     "nav.home": "首页",
-    "nav.training": "新手课程",
-    "nav.liveTrading": "实盘",
+    "nav.training": "训练营:2周免费模拟盘训练",
+    "nav.liveTrading": "实盘挑战赛",
     "nav.tradingTools": "工具",
     "nav.blog": "博客",
     "nav.psychology": "测评",
@@ -574,8 +574,8 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Navigation
     "nav.home": "Home",
-    "nav.training": "Beginner Course",
-    "nav.liveTrading": "Live",
+    "nav.training": "Training Camp: 2-Week Free Simulated Trading Practice",
+    "nav.liveTrading": "LiveTradingChallenge",
     "nav.tradingTools": "Tools",
     "nav.blog": "Blog",
     "nav.psychology": "Test",

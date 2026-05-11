@@ -46,61 +46,61 @@ export default function UnifiedNavbar() {
         },
       ],
     },
-    {
-      name: language === "zh" ? "新闻" : "News",
-      link: "/news",
-    },
-    {
-      name: language === "zh" ? "行情" : "Market",
-      link: "/market-analysis",
-    },
+    // {
+    //   name: language === "zh" ? "新闻" : "News",
+    //   link: "/news",
+    // },
+    // {
+    //   name: language === "zh" ? "行情" : "Market",
+    //   link: "/market-analysis",
+    // },
     {
       name: t("nav.liveTrading"),
       link: "/live-trading",
     },
-    {
-      name: t("nav.blog"),
-      link: "/splan/blog",
-    },
+    // {
+    //   name: t("nav.blog"),
+    //   link: "/splan/blog",
+    // },
     {
       name: t("nav.psychology"),
       link: "/splan/psychology-test",
     },
-    {
-      name: t("nav.dashboard"),
-      link: "/dashboard",
-    },
-    {
-      name: language === "zh" ? "日历" : "Calendar",
-      link: "/economic-calendar",
-    },
-    {
-      name: language === "zh" ? "天梯" : "Leaderboard",
-      link: "/top-traders",
-    },
     // {
-    //   name: t("nav.tradingTools"),
-    //   link: "/tools/position-calculator",
-    //   hasDropdown: true,
-    //   dropdownItems: [
-    //     {
-    //       name: language === "zh" ? "仓位计算器" : "Position Calculator",
-    //       link: "/tools/position-calculator",
-    //     },
-    //     {
-    //       name: language === "zh" ? "风险回报计算器" : "Risk/Reward Calculator",
-    //       link: "/tools/risk-reward-calculator",
-    //     },
-    //     {
-    //       name: language === "zh" ? "点值计算器" : "Pip Calculator",
-    //       link: "/tools/pip-calculator",
-    //     },
-    //   ],
+    //   name: t("nav.dashboard"),
+    //   link: "/dashboard",
+    // },
+    // {
+    //   name: language === "zh" ? "日历" : "Calendar",
+    //   link: "/economic-calendar",
+    // },
+    // {
+    //   name: language === "zh" ? "天梯" : "Leaderboard",
+    //   link: "/top-traders",
     // },
     {
-      name: t("nav.faq"),
-      link: "/splan/faq",
+      name: t("nav.tradingTools"),
+      link: "/tools/position-calculator",
+      hasDropdown: true,
+      dropdownItems: [
+        {
+          name: language === "zh" ? "仓位计算器" : "Position Calculator",
+          link: "/tools/position-calculator",
+        },
+        {
+          name: language === "zh" ? "风险回报计算器" : "Risk/Reward Calculator",
+          link: "/tools/risk-reward-calculator",
+        },
+        {
+          name: language === "zh" ? "点值计算器" : "Pip Calculator",
+          link: "/tools/pip-calculator",
+        },
+      ],
     },
+    // {
+    //   name: t("nav.faq"),
+    //   link: "/splan/faq",
+    // },
     {
       name: t("nav.membership"),
       link: "/splan/donate",

@@ -1201,6 +1201,13 @@ const translations: Record<Language, Record<string, string>> = {
     "blog.cta.title": "Ready to Start Your Trading Journey?",
     "blog.cta.subtitle": "Join GannWheel for professional trader training",
     "blog.cta.button": "Join Now",
+
+    //系统合作
+    "collaboration.about.title": "System collaboration",
+    "collaboration.about.desc1":
+      "Training donations for failed assessments; $2000/Registration within one week after assessment is limited to 30% off/Three months.",
+    "collaboration.about.desc2":
+      "System pure collaboration: $1000 per computer per month, minimum six-month commitment.",
   },
 };
 

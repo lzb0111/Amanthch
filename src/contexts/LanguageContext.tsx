@@ -26,7 +26,7 @@ const translations: Record<Language, Record<string, string>> = {
     // 导航栏
     "nav.home": "首页",
     "nav.training": "训练营:2周免费模拟盘训练",
-    "nav.liveTrading": "实盘挑战赛",
+    "nav.liveTrading": "挑战赛",
     "nav.tradingTools": "工具",
     "nav.blog": "博客",
     "nav.psychology": "测评",
@@ -35,6 +35,7 @@ const translations: Record<Language, Record<string, string>> = {
     "nav.membership": "捐赠",
     "nav.aboutUs": "关于我们",
     "nav.join": "立即报名",
+    "nav.collaboration": "系统合作",
 
     // Hero Section
     "hero.title": "Professional FX Trader Training Platform",
@@ -566,6 +567,12 @@ const translations: Record<Language, Record<string, string>> = {
     "blog.cta.title": "准备开始您的交易之旅？",
     "blog.cta.subtitle": "加入GannWheel，接受专业的交易员培训",
     "blog.cta.button": "立即加入",
+
+    //系统合作
+    "collaboration.about.title": "系统合作",
+    "collaboration.about.desc1":
+      "考核失败的训练捐赠；2000美金/考核后一周内报名限时7折/三个月。",
+    "collaboration.about.desc2": "系统纯合作：每台电脑每月1000美金，半年起定。",
   },
   en: {
     // Brand Name
@@ -575,7 +582,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Navigation
     "nav.home": "Home",
     "nav.training": "Training Camp: 2-Week Free Simulated Trading Practice",
-    "nav.liveTrading": "LiveTradingChallenge",
+    "nav.liveTrading": "Challenge",
     "nav.tradingTools": "Tools",
     "nav.blog": "Blog",
     "nav.psychology": "Test",
@@ -584,6 +591,7 @@ const translations: Record<Language, Record<string, string>> = {
     "nav.membership": "Donate",
     "nav.aboutUs": "About Us",
     "nav.join": "Join Now",
+    "nav.collaboration": "SystemCollaboration",
 
     // Hero Section
     "hero.title": "Professional FX Trader Training Platform",

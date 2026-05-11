@@ -109,6 +109,10 @@ export default function UnifiedNavbar() {
       name: t("nav.aboutUs"),
       link: "/splan/aboutUs",
     },
+    {
+      name: t("nav.collaboration"),
+      link: "/splan/collaboration",
+    },
   ];
 
   useEffect(() => {

@@ -294,7 +294,7 @@ export default function LiveTradingClient({ members }: LiveTradingClientProps) {
                 </div>
 
                 {/* 价格 */}
-                <div className="mt-auto mb-4">
+                {/* <div className="mt-auto mb-4">
                   <p className="text-xs text-gray-500 mb-1">
                     {isZh
                       ? "一次性可退还费用，来自"
@@ -303,7 +303,7 @@ export default function LiveTradingClient({ members }: LiveTradingClientProps) {
                   <p className="text-3xl font-bold text-red-500">
                     {plan.price.toFixed(2)}美金
                   </p>
-                </div>
+                </div> */}
 
                 {/* 按钮 */}
                 <button className="w-full py-3 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-lg transition-colors">

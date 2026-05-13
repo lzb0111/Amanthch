@@ -1,41 +1,41 @@
 export interface BlogPost {
- id: string;
- slug: string;
- title: {
- zh: string;
- en: string;
- };
- excerpt: {
- zh: string;
- en: string;
- };
- content: {
- zh: string;
- en: string;
- };
- category: string;
- tags: string[];
- author: string;
- date: string;
- readTime: number; // minutes
- featured: boolean;
+    id: string;
+    slug: string;
+    title: {
+        zh: string;
+        en: string;
+    };
+    excerpt: {
+        zh: string;
+        en: string;
+    };
+    content: {
+        zh: string;
+        en: string;
+    };
+    category: string;
+    tags: string[];
+    author: string;
+    date: string;
+    readTime: number; // minutes
+    featured: boolean;
 }
 
 export const blogPosts: BlogPost[] = [
- // 1. 网站介绍 - 扩展版本
- {
- id: '1',
- slug: 'about-GannWheel',
- title: {
- zh: '关于江恩轮（GannWheel） - 军事化外汇交易员训练营',
- en: 'About GannWheel - Military-Style Forex Trader Training Camp'
- },
- excerpt: {
- zh: '江恩轮（GannWheel） 是一个专注于筛选和培养外汇交易员的训练营。我们的理念：培养真正适合的人，留下极少数，劝返大多数。通过率10%-15%，30个工作日完整培训，盈利分成60%-90%。',
- en: 'GannWheel is a training camp focused on selecting and cultivating forex traders. Our philosophy: cultivating those truly suited, retaining the few, advising the majority. Pass rate 10%-15%, 30 working days complete training, 60%-90% profit share.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">关于江恩轮 (GannWheel)</h1>
+    // 1. 网站介绍 - 扩展版本
+    {
+        id: '1',
+        slug: 'about-GannWheel',
+        title: {
+            zh: '关于江恩轮（GannWheel） - 军事化外汇交易员训练营',
+            en: 'About GannWheel - Military-Style Forex Trader Training Camp'
+        },
+        excerpt: {
+            zh: '江恩轮（GannWheel） 是一个专注于筛选和培养外汇交易员的训练营。我们的理念：培养真正适合的人，留下极少数，劝返大多数。通过率10%-15%，30个工作日完整培训，盈利分成60%-90%。',
+            en: 'GannWheel is a training camp focused on selecting and cultivating forex traders. Our philosophy: cultivating those truly suited, retaining the few, advising the majority. Pass rate 10%-15%, 30 working days complete training, 60%-90% profit share.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">关于江恩轮 (GannWheel)</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">江恩轮是一个专注于筛选和培养顶尖外汇交易员的军事化训练营。我们不追求数量，只培养真正适合的人。这是一个严格、高强度、高淘汰率的专业训练项目。</p>
 
@@ -513,7 +513,7 @@ export const blogPosts: BlogPost[] = [
 <div class="flex-grow">
 <p class="text-xl font-bold mb-2 text-black dark:text-white">邮件联系团队长</p>
 <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">通过邮件提交你的申请资料，包括：个人简历、学历证明、心理测评结果、申请理由（200字以内）。</p>
-<p class="text-sm text-gray-500 dark:text-gray-500">邮箱：1621836644@qq.com</p>
+<p class="text-sm text-gray-500 dark:text-gray-500">邮箱：jiangenlun@163.com</p>
 </div>
 </div>
 </div>
@@ -552,7 +552,7 @@ export const blogPosts: BlogPost[] = [
 <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="font-bold">•</span><span>如有虚假信息，一经发现立即淘汰</span></li>
 </ul>
 </div>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">About GannWheel (GannWheel)</h1>
+            en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">About GannWheel (GannWheel)</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">GannWheel is a military-style training camp focused on selecting and cultivating top forex traders. We don't pursue quantity, only cultivating those truly suited. This is a strict, high-intensity, high-elimination professional training program.</p>
 
@@ -943,7 +943,7 @@ export const blogPosts: BlogPost[] = [
 <div class="flex-grow">
 <p class="text-xl font-bold mb-2 text-black dark:text-white">Email Team Leader</p>
 <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">Submit your application materials via email, including: resume, education certificates, psychological assessment results, application reason (within 200 words).</p>
-<p class="text-sm text-gray-500 dark:text-gray-500">Email: 1621836644@qq.com</p>
+<p class="text-sm text-gray-500 dark:text-gray-500">Email: jiangenlun@163.com</p>
 </div>
 </div>
 </div>
@@ -1028,35 +1028,35 @@ export const blogPosts: BlogPost[] = [
 
 <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
 <p class="text-3xl font-bold mb-4 text-white dark:text-black text-center">Are you ready to accept the challenge?</p>
-<p class="text-lg text-center text-white dark:text-black">Email us: 1621836644@qq.com</p>
+<p class="text-lg text-center text-white dark:text-black">Email us: jiangenlun@163.com</p>
 </div>
 
 <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">Risk Warning:</strong> Forex trading carries risk, investment requires caution. Site content for learning reference only, not investment advice.</p>
 
 <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">*Last Updated: January 2025*</p>`
- },
- category: 'about',
- tags: ['introduction', 'platform', 'training'],
- author: 'GannWheel Team',
- date: '2025-01-15',
- readTime: 20,
- featured: true
- },
+        },
+        category: 'about',
+        tags: ['introduction', 'platform', 'training'],
+        author: 'GannWheel Team',
+        date: '2025-01-15',
+        readTime: 20,
+        featured: true
+    },
 
- // 2. 外汇交易入门 - 扩展版本
- {
- id: '2',
- slug: 'forex-trading-beginner-guide',
- title: {
- zh: '外汇交易入门指南：从零开始的交易之路',
- en: 'Forex Trading Beginner Guide: Starting Your Trading Journey from Zero'
- },
- excerpt: {
- zh: '外汇市场是全球最大的金融市场，日交易量超过6万亿美元。本文将系统地带你了解外汇交易的基础知识，帮助你迈出交易生涯的第一步。',
- en: 'The forex market is the world\'s largest financial market with daily volume exceeding $6 trillion. This comprehensive guide covers fundamental forex knowledge to help you take your first trading steps.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">外汇市场基础知识</h1>
+    // 2. 外汇交易入门 - 扩展版本
+    {
+        id: '2',
+        slug: 'forex-trading-beginner-guide',
+        title: {
+            zh: '外汇交易入门指南：从零开始的交易之路',
+            en: 'Forex Trading Beginner Guide: Starting Your Trading Journey from Zero'
+        },
+        excerpt: {
+            zh: '外汇市场是全球最大的金融市场，日交易量超过6万亿美元。本文将系统地带你了解外汇交易的基础知识，帮助你迈出交易生涯的第一步。',
+            en: 'The forex market is the world\'s largest financial market with daily volume exceeding $6 trillion. This comprehensive guide covers fundamental forex knowledge to help you take your first trading steps.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">外汇市场基础知识</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">外汇市场(Forex/FX)是全球最大、流动性最强的金融市场。了解外汇市场的基础知识，是成为职业交易员的第一步。</p>
 
@@ -1399,7 +1399,7 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">关键提示</p>
 <p class="text-lg text-center text-white dark:text-black">外汇交易不是快速致富的捷径，而是需要长期学习和实践的专业技能。保持耐心，控制风险，持续学习，才能在这个市场中生存并盈利。</p>
 </div>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Forex Market Fundamentals</h1>
+            en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Forex Market Fundamentals</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">The forex market (Forex/FX) is the world's largest and most liquid financial market. Understanding forex market fundamentals is the first step to becoming a professional trader.</p>
 
@@ -1742,29 +1742,29 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">Key Reminder</p>
 <p class="text-lg text-center text-white dark:text-black">Forex trading is not a shortcut to quick wealth, but a professional skill that requires long-term learning and practice. Stay patient, control risks, and continuously learn to survive and profit in this market.</p>
 </div>`,
- },
- category: 'forex',
- tags: ['beginner', 'forex', 'guide', 'education'],
- author: 'GannWheel Team',
- date: '2025-01-16',
- readTime: 25,
- featured: true
- },
+        },
+        category: 'forex',
+        tags: ['beginner', 'forex', 'guide', 'education'],
+        author: 'GannWheel Team',
+        date: '2025-01-16',
+        readTime: 25,
+        featured: true
+    },
 
- // 3. 外汇风险管理
- {
- id: '3',
- slug: 'forex-risk-management',
- title: {
- zh: '外汇交易的风险管理策略：保护你的交易资本',
- en: 'Forex Risk Management Strategies: Protecting Your Capital'
- },
- excerpt: {
- zh: '风险管理是交易成功的基石。学会如何控制风险，比学会如何赚钱更重要。本文将分享专业交易员的风险管理技巧。',
- en: 'Risk management is the foundation of trading success. Learning to control risk is more important than learning to make money. Professional risk management techniques revealed.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">外汇交易的风险管理策略</h1>
+    // 3. 外汇风险管理
+    {
+        id: '3',
+        slug: 'forex-risk-management',
+        title: {
+            zh: '外汇交易的风险管理策略：保护你的交易资本',
+            en: 'Forex Risk Management Strategies: Protecting Your Capital'
+        },
+        excerpt: {
+            zh: '风险管理是交易成功的基石。学会如何控制风险，比学会如何赚钱更重要。本文将分享专业交易员的风险管理技巧。',
+            en: 'Risk management is the foundation of trading success. Learning to control risk is more important than learning to make money. Professional risk management techniques revealed.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">外汇交易的风险管理策略</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">成功的交易员不是因为从不亏损，而是因为懂得控制风险。风险管理是交易的生命线，决定了你能在市场中存活多久。</p>
 
@@ -2159,7 +2159,7 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">风险管理的终极目标</p>
 <p class="text-lg text-center text-white dark:text-black">不是避免亏损，而是确保你能在市场中长期生存，等待并抓住那些真正的大机会。记住：保护本金永远是第一位的。</p>
 </div>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Complete Guide to Forex Risk Management</h1>
+            en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Complete Guide to Forex Risk Management</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">Risk management is the cornerstone of successful trading. Master these principles to survive and thrive in the forex market.</p>
 
@@ -2405,29 +2405,29 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">The Ultimate Goal of Risk Management</p>
 <p class="text-lg text-center text-white dark:text-black">Not to avoid losses, but to ensure you survive in the market long enough to catch those truly massive opportunities. Remember: protecting capital is always priority number one.</p>
 </div>`
- },
- category: 'forex',
- tags: ['risk-management', 'forex', 'advanced'],
- author: 'GannWheel Team',
- date: '2025-01-17',
- readTime: 20,
- featured: true
- },
+        },
+        category: 'forex',
+        tags: ['risk-management', 'forex', 'advanced'],
+        author: 'GannWheel Team',
+        date: '2025-01-17',
+        readTime: 20,
+        featured: true
+    },
 
- // 4. 黄金交易最佳时机
- {
- id: '4',
- slug: 'gold-trading-best-timing',
- title: {
- zh: '黄金交易的最佳时机：把握市场节奏',
- en: 'Best Timing for Gold Trading: Mastering Market Rhythm'
- },
- excerpt: {
- zh: '黄金作为避险资产，其价格波动受多种因素影响。了解黄金交易的最佳时机，能显著提高你的交易成功率。',
- en: 'Gold as a safe-haven asset is influenced by multiple factors. Understanding optimal trading times can significantly improve your success rate.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">黄金交易的最佳时机</h1>
+    // 4. 黄金交易最佳时机
+    {
+        id: '4',
+        slug: 'gold-trading-best-timing',
+        title: {
+            zh: '黄金交易的最佳时机：把握市场节奏',
+            en: 'Best Timing for Gold Trading: Mastering Market Rhythm'
+        },
+        excerpt: {
+            zh: '黄金作为避险资产，其价格波动受多种因素影响。了解黄金交易的最佳时机，能显著提高你的交易成功率。',
+            en: 'Gold as a safe-haven asset is influenced by multiple factors. Understanding optimal trading times can significantly improve your success rate.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">黄金交易的最佳时机</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">黄金是最受欢迎的避险资产，了解最佳交易时机能显著提高成功率。</p>
 
@@ -2548,7 +2548,7 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">💎 黄金法则</p>
 <p class="text-lg text-center text-white dark:text-black">在正确的时间，用正确的策略，做正确的方向。时机选择决定了50%的交易成败。</p>
 </div>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Best Timing for Gold Trading: Mastering Market Rhythm </h1>
+            en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Best Timing for Gold Trading: Mastering Market Rhythm </h1>
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"></div>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
@@ -2774,29 +2774,29 @@ export const blogPosts: BlogPost[] = [
  By mastering gold trading timing patterns, you control the market's pulse. Remember: the best traders aren't those who trade most often, but those who trade at the best times. May every trade hit the perfect timing, ushering in your golden era!
  </p>
 </div>`
- },
- category: 'gold',
- tags: ['gold', 'timing', 'strategy'],
- author: 'GannWheel Team',
- date: '2025-01-18',
- readTime: 22,
- featured: false
- },
+        },
+        category: 'gold',
+        tags: ['gold', 'timing', 'strategy'],
+        author: 'GannWheel Team',
+        date: '2025-01-18',
+        readTime: 22,
+        featured: false
+    },
 
- // 5. 黄金市场获利
- {
- id: '5',
- slug: 'profit-in-gold-market',
- title: {
- zh: '如何在黄金市场中持续获利：实战技巧分享',
- en: 'Consistent Profits in Gold Market: Practical Techniques'
- },
- excerpt: {
- zh: '黄金交易不仅需要判断方向，更需要科学的交易系统和严格的纪律。本文分享专业交易员的实战获利技巧。',
- en: 'Gold trading requires not just direction prediction, but systematic approach and strict discipline. Professional trading techniques revealed.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">如何在黄金市场中持续获利</h1>
+    // 5. 黄金市场获利
+    {
+        id: '5',
+        slug: 'profit-in-gold-market',
+        title: {
+            zh: '如何在黄金市场中持续获利：实战技巧分享',
+            en: 'Consistent Profits in Gold Market: Practical Techniques'
+        },
+        excerpt: {
+            zh: '黄金交易不仅需要判断方向，更需要科学的交易系统和严格的纪律。本文分享专业交易员的实战获利技巧。',
+            en: 'Gold trading requires not just direction prediction, but systematic approach and strict discipline. Professional trading techniques revealed.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">如何在黄金市场中持续获利</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">黄金交易不是靠运气，而是系统化的策略和严格的执行。</p>
 
@@ -2964,7 +2964,7 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">持续获利的秘密</p>
 <p class="text-lg text-center text-white dark:text-black">不是找到完美的交易系统，而是长期坚持一个可行的系统。</p>
 </div>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">How to Achieve Consistent Profits in Gold Market</h1>
+            en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">How to Achieve Consistent Profits in Gold Market</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">Gold trading isn't about luck—it's about systematic strategy and disciplined execution.</p>
 
@@ -3132,32 +3132,32 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">The Secret to Consistent Profits</p>
 <p class="text-lg text-center text-white dark:text-black">It's not about finding the perfect trading system—it's about consistently sticking to a workable system long-term.</p>
 </div>`
- },
- category: 'gold',
- tags: ['gold', 'profit', 'strategy', 'advanced'],
- author: 'GannWheel Team',
- date: '2025-01-19',
- readTime: 24,
- featured: false
- },
+        },
+        category: 'gold',
+        tags: ['gold', 'profit', 'strategy', 'advanced'],
+        author: 'GannWheel Team',
+        date: '2025-01-19',
+        readTime: 24,
+        featured: false
+    },
 
- // Continue with remaining 10 articles...
- // Due to length, I'll create abbreviated versions for the remaining articles
+    // Continue with remaining 10 articles...
+    // Due to length, I'll create abbreviated versions for the remaining articles
 
- // 6. 数字货币交易基础
- {
- id: '6',
- slug: 'cryptocurrency-trading-basics',
- title: {
- zh: '数字货币交易基础知识：进入加密世界的第一课',
- en: 'Cryptocurrency Trading Basics: Your First Lesson in Crypto'
- },
- excerpt: {
- zh: '数字货币市场充满机遇与风险。了解区块链、比特币、以太坊等基础概念，是成功交易的第一步。',
- en: 'Cryptocurrency markets offer both opportunities and risks. Understanding blockchain, Bitcoin, Ethereum basics is the first step to successful trading.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">数字货币交易基础知识</h1>
+    // 6. 数字货币交易基础
+    {
+        id: '6',
+        slug: 'cryptocurrency-trading-basics',
+        title: {
+            zh: '数字货币交易基础知识：进入加密世界的第一课',
+            en: 'Cryptocurrency Trading Basics: Your First Lesson in Crypto'
+        },
+        excerpt: {
+            zh: '数字货币市场充满机遇与风险。了解区块链、比特币、以太坊等基础概念，是成功交易的第一步。',
+            en: 'Cryptocurrency markets offer both opportunities and risks. Understanding blockchain, Bitcoin, Ethereum basics is the first step to successful trading.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">数字货币交易基础知识</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">加密货币是金融市场的新兴领域，具有高波动性和24/7全天候交易的特点。</p>
 
@@ -3291,7 +3291,7 @@ export const blogPosts: BlogPost[] = [
 <p class="text-lg text-center text-white dark:text-black mb-4">加密货币交易不可逆！一旦转错地址或被盗，几乎无法追回。</p>
 <p class="text-center text-white dark:text-black">宁可多花时间确认，也不要因疏忽损失资产。</p>
 </div>`,
- en: `<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+            en: `<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
  <h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Cryptocurrency Trading Basics: Your First Lesson in Crypto </h1>
  <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">The cryptocurrency market represents the future of finance. From Bitcoin to Ethereum, from blockchain technology to decentralized finance, this rapidly evolving field is changing how we think about money and value. This comprehensive guide will provide you with all the foundational knowledge needed to enter the crypto world and understand this exciting emerging market.</p>
 </div>
@@ -4073,29 +4073,29 @@ export const blogPosts: BlogPost[] = [
  <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">"In cryptocurrency markets, knowledge is power, patience is wealth, and risk management is life." 
  </p>
 </div>`
- },
- category: 'crypto',
- tags: ['cryptocurrency', 'beginner', 'blockchain'],
- author: 'GannWheel Team',
- date: '2025-01-20',
- readTime: 25,
- featured: false
- },
+        },
+        category: 'crypto',
+        tags: ['cryptocurrency', 'beginner', 'blockchain'],
+        author: 'GannWheel Team',
+        date: '2025-01-20',
+        readTime: 25,
+        featured: false
+    },
 
- // 7. 加密货币交易心理学
- {
- id: '7',
- slug: 'crypto-trading-psychology',
- title: {
- zh: '加密货币交易心理学：如何在极端波动中保持理性',
- en: 'Crypto Trading Psychology: Staying Rational in Extreme Volatility'
- },
- excerpt: {
- zh: '数字货币市场的极端波动会考验每个交易者的心理素质。学会控制情绪，是在加密市场生存的必备技能。',
- en: 'Extreme volatility in crypto markets tests every trader\'s psychology. Emotional control is essential for survival in cryptocurrency trading.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">加密货币交易心理学</h1>
+    // 7. 加密货币交易心理学
+    {
+        id: '7',
+        slug: 'crypto-trading-psychology',
+        title: {
+            zh: '加密货币交易心理学：如何在极端波动中保持理性',
+            en: 'Crypto Trading Psychology: Staying Rational in Extreme Volatility'
+        },
+        excerpt: {
+            zh: '数字货币市场的极端波动会考验每个交易者的心理素质。学会控制情绪，是在加密市场生存的必备技能。',
+            en: 'Extreme volatility in crypto markets tests every trader\'s psychology. Emotional control is essential for survival in cryptocurrency trading.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">加密货币交易心理学</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">在极端波动的加密市场中，心理素质比技术分析更重要。</p>
 
@@ -4204,7 +4204,7 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">心理素质是可以训练的</p>
 <p class="text-lg text-center text-white dark:text-black">不要指望一夜之间变得冷静理性，通过持续练习和反思，每个人都能提高心理素质。</p>
 </div>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Crypto Trading Psychology</h1>
+            en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Crypto Trading Psychology</h1>
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Psychological Challenges in Crypto</h2>
 
@@ -4266,29 +4266,29 @@ export const blogPosts: BlogPost[] = [
 <hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
 
 <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">*In crypto markets, psychology matters more than technique.*</p>`
- },
- category: 'crypto',
- tags: ['cryptocurrency', 'psychology', 'emotions'],
- author: 'GannWheel Team',
- date: '2025-01-21',
- readTime: 22,
- featured: false
- },
+        },
+        category: 'crypto',
+        tags: ['cryptocurrency', 'psychology', 'emotions'],
+        author: 'GannWheel Team',
+        date: '2025-01-21',
+        readTime: 22,
+        featured: false
+    },
 
- // 8-15. Remaining articles (abbreviated for brevity)
- {
- id: '8',
- slug: 'trader-psychology-development',
- title: {
- zh: '职业交易员的心理素质培养：从新手到专家的蜕变',
- en: 'Professional Trader Psychology Development: From Novice to Expert'
- },
- excerpt: {
- zh: '心理素质是区分成功交易员和失败交易员的关键因素。本文详解如何系统地培养交易心理素质。',
- en: 'Psychology differentiates successful from failed traders. Systematic approach to developing trading psychology.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">职业交易员的心理素质培养</h1>
+    // 8-15. Remaining articles (abbreviated for brevity)
+    {
+        id: '8',
+        slug: 'trader-psychology-development',
+        title: {
+            zh: '职业交易员的心理素质培养：从新手到专家的蜕变',
+            en: 'Professional Trader Psychology Development: From Novice to Expert'
+        },
+        excerpt: {
+            zh: '心理素质是区分成功交易员和失败交易员的关键因素。本文详解如何系统地培养交易心理素质。',
+            en: 'Psychology differentiates successful from failed traders. Systematic approach to developing trading psychology.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">职业交易员的心理素质培养</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">从新手到专家的蜕变，不仅是技术的提升，更是心理素质的磨练。</p>
 
@@ -4456,7 +4456,7 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">心理素质培养需要时间</p>
 <p class="text-lg text-center text-white dark:text-black">最少3个月，通常需要6-12个月。但一旦建立，将终身受益。</p>
 </div>`,
- en: `<!-- Psychology Article - Calm Green/Teal Theme -->
+            en: `<!-- Psychology Article - Calm Green/Teal Theme -->
 <div class="prose max-w-none">
 
 <h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Professional Trader Psychology Development</h1>
@@ -4763,28 +4763,28 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 </div>`
- },
- category: 'psychology',
- tags: ['psychology', 'professional', 'development'],
- author: 'GannWheel Team',
- date: '2025-01-22',
- readTime: 11,
- featured: false
- },
+        },
+        category: 'psychology',
+        tags: ['psychology', 'professional', 'development'],
+        author: 'GannWheel Team',
+        date: '2025-01-22',
+        readTime: 11,
+        featured: false
+    },
 
- {
- id: '9',
- slug: 'daily-routine-of-professional-trader',
- title: {
- zh: '职业交易员的一天：日常工作流程详解',
- en: 'A Day in the Life: Professional Trader\'s Daily Routine'
- },
- excerpt: {
- zh: '职业交易员每天都做些什么？详细揭秘专业交易员的日常工作流程和时间安排。',
- en: 'What do professional traders do daily? Detailed revelation of professional traders\' daily workflow and schedule.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">职业交易员的一天：日常工作流程详解</h1>
+    {
+        id: '9',
+        slug: 'daily-routine-of-professional-trader',
+        title: {
+            zh: '职业交易员的一天：日常工作流程详解',
+            en: 'A Day in the Life: Professional Trader\'s Daily Routine'
+        },
+        excerpt: {
+            zh: '职业交易员每天都做些什么？详细揭秘专业交易员的日常工作流程和时间安排。',
+            en: 'What do professional traders do daily? Detailed revelation of professional traders\' daily workflow and schedule.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">职业交易员的一天：日常工作流程详解</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">深入了解职业交易员的真实工作状态，从早晨准备到深夜复盘，每个时段都有其独特的价值与挑战。</p>
 
@@ -5243,7 +5243,7 @@ export const blogPosts: BlogPost[] = [
 <p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">成功的一天 = 准备充分 + 执行到位 + 总结反思</p>
 <p class="text-lg text-center text-white dark:text-black">不是交易量越多越好，而是每一笔交易都符合标准，都有充分准备。</p>
 </div>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">A Day in the Life of a Professional Trader</h1>
+            en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">A Day in the Life of a Professional Trader</h1>
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Morning (7:00-9:00)</h2>
 
@@ -5345,29 +5345,29 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">*Successful traders have regular schedules and strict discipline.*</p>`
- },
- category: 'professional',
- tags: ['professional', 'routine', 'workflow', 'daily'],
- author: 'GannWheel Team',
- date: '2025-01-28',
- readTime: 11,
- featured: true
- },
+        },
+        category: 'professional',
+        tags: ['professional', 'routine', 'workflow', 'daily'],
+        author: 'GannWheel Team',
+        date: '2025-01-28',
+        readTime: 11,
+        featured: true
+    },
 
- // 10. 交易员悟道
- {
- id: '10',
- slug: 'trader-enlightenment-journey',
- title: {
- zh: '交易员的"悟道"：从追涨杀跌到与市场共生',
- en: 'Trader Enlightenment: From Chasing Trends to Harmonizing with Markets'
- },
- excerpt: {
- zh: '交易员圈子里总说"悟道"，这两个字听着玄乎，实则是从"想赢"到"会输"、从"预判市场"到"顺应市场"的认知崩塌与重建。这篇文章深度剖析交易员成长的三个阶段，以及最终领悟的核心心法。',
- en: 'In trading circles, "enlightenment" sounds mystical, but it\'s really about the cognitive collapse and reconstruction from "wanting to win" to "knowing how to lose", from "predicting markets" to "following markets". This article deeply analyzes the three stages of trader growth and the core wisdom ultimately realized.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">交易员的"悟道"：从追涨杀跌到与市场共生</h1>
+    // 10. 交易员悟道
+    {
+        id: '10',
+        slug: 'trader-enlightenment-journey',
+        title: {
+            zh: '交易员的"悟道"：从追涨杀跌到与市场共生',
+            en: 'Trader Enlightenment: From Chasing Trends to Harmonizing with Markets'
+        },
+        excerpt: {
+            zh: '交易员圈子里总说"悟道"，这两个字听着玄乎，实则是从"想赢"到"会输"、从"预判市场"到"顺应市场"的认知崩塌与重建。这篇文章深度剖析交易员成长的三个阶段，以及最终领悟的核心心法。',
+            en: 'In trading circles, "enlightenment" sounds mystical, but it\'s really about the cognitive collapse and reconstruction from "wanting to win" to "knowing how to lose", from "predicting markets" to "following markets". This article deeply analyzes the three stages of trader growth and the core wisdom ultimately realized.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">交易员的"悟道"：从追涨杀跌到与市场共生</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">交易员圈子里总说"悟道"，这两个字听着玄乎，实则是从"想赢"到"会输"、从"预判市场"到"顺应市场"的认知崩塌与重建。</p>
 
@@ -5548,7 +5548,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <p class="text-base leading-relaxed text-center text-gray-700 dark:text-gray-300 italic">愿每一位交易员，都能在自己的道路上，找到属于自己的"悟道时刻"。</p>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Trader Enlightenment: From Chasing Trends to Harmonizing with Markets</h1>
+            en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Trader Enlightenment: From Chasing Trends to Harmonizing with Markets</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">In trading circles, "enlightenment" sounds mystical, but it's really about the cognitive collapse and reconstruction from "wanting to win" to "knowing how to lose", from "predicting markets" to "following markets".</p>
 
@@ -5729,29 +5729,29 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <p class="text-base leading-relaxed text-center text-gray-700 dark:text-gray-300 italic">May every trader find their own "moment of enlightenment" on their journey.</p>`
- },
- category: 'wisdom',
- tags: ['trading psychology', 'professional development', 'trading wisdom', '交易心理', '悟道', '职业成长'],
- author: 'GannWheel Team',
- date: '2025-11-11',
- readTime: 8,
- featured: true
- },
+        },
+        category: 'wisdom',
+        tags: ['trading psychology', 'professional development', 'trading wisdom', '交易心理', '悟道', '职业成长'],
+        author: 'GannWheel Team',
+        date: '2025-11-11',
+        readTime: 8,
+        featured: true
+    },
 
- // 11. 1%的选择
- {
- id: '11',
- slug: 'the-one-percent-choice',
- title: {
- zh: '1%的选择：交易世界的残酷真相',
- en: 'The 1% Choice: The Brutal Truth of Trading'
- },
- excerpt: {
- zh: '建群以来，作为最活跃的交易群，我跟大家一样喜欢爬楼。我发现绝大多数时候，交易就像在一片雾茫茫的沼泽地前行。没有方向，没有指引，四周是风险，脚下是陷阱。而最让人窒息的，是孤独。',
- en: 'Since the group was established, as the most active trading community, I enjoy reading through messages like everyone else. I\'ve discovered that most of the time, trading is like walking through a foggy swamp. No direction, no guidance, surrounded by risks, with traps underfoot. But what\'s most suffocating is the loneliness.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">1%的选择：交易世界的残酷真相</h1>
+    // 11. 1%的选择
+    {
+        id: '11',
+        slug: 'the-one-percent-choice',
+        title: {
+            zh: '1%的选择：交易世界的残酷真相',
+            en: 'The 1% Choice: The Brutal Truth of Trading'
+        },
+        excerpt: {
+            zh: '建群以来，作为最活跃的交易群，我跟大家一样喜欢爬楼。我发现绝大多数时候，交易就像在一片雾茫茫的沼泽地前行。没有方向，没有指引，四周是风险，脚下是陷阱。而最让人窒息的，是孤独。',
+            en: 'Since the group was established, as the most active trading community, I enjoy reading through messages like everyone else. I\'ve discovered that most of the time, trading is like walking through a foggy swamp. No direction, no guidance, surrounded by risks, with traps underfoot. But what\'s most suffocating is the loneliness.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">1%的选择：交易世界的残酷真相</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">建群以来，作为最活跃的交易群，我跟大家一样喜欢爬楼。我发现绝大多数时候，交易就像在一片雾茫茫的沼泽地前行。</p>
 
@@ -5892,7 +5892,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <p class="text-base leading-relaxed text-center text-gray-700 dark:text-gray-300 italic">献给所有在交易道路上孤独前行的人。</p>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">The 1% Choice: The Brutal Truth of Trading</h1>
+            en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">The 1% Choice: The Brutal Truth of Trading</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">Since the group was established, as the most active trading community, I enjoy reading through messages like everyone else. I've discovered that most of the time, trading is like walking through a foggy swamp.</p>
 
@@ -6033,29 +6033,29 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <p class="text-base leading-relaxed text-center text-gray-700 dark:text-gray-300 italic">Dedicated to all who walk alone on the trading path.</p>`
- },
- category: 'wisdom',
- tags: ['trading psychology', 'discipline', 'trading wisdom', '交易心理', '纪律', '孤独', 'loneliness'],
- author: 'GannWheel Team',
- date: '2025-11-11',
- readTime: 10,
- featured: true
- },
+        },
+        category: 'wisdom',
+        tags: ['trading psychology', 'discipline', 'trading wisdom', '交易心理', '纪律', '孤独', 'loneliness'],
+        author: 'GannWheel Team',
+        date: '2025-11-11',
+        readTime: 10,
+        featured: true
+    },
 
- // 12. 为什么穷人更要做交易
- {
- id: '12',
- slug: 'why-poor-should-trade',
- title: {
- zh: '为什么穷人更要做交易？',
- en: 'Why Should the Poor Trade More?'
- },
- excerpt: {
- zh: '"穷人别碰交易"，这句话像一道枷锁，捆住了太多想挣脱困境的人。可只有真正穷过的人才懂：我们攥在手里的，从来不是"要不要做交易"的选择题，而是"要不要抓住唯一可能跳出循环的机会"的生存题。',
- en: '"Poor people shouldn\'t touch trading" - this phrase is like a shackle binding too many who want to break free. But only those who\'ve truly been poor understand: what we hold isn\'t a choice of "whether to trade", but a survival question of "whether to seize the only chance to break the cycle".'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">为什么穷人更要做交易？</h1>
+    // 12. 为什么穷人更要做交易
+    {
+        id: '12',
+        slug: 'why-poor-should-trade',
+        title: {
+            zh: '为什么穷人更要做交易？',
+            en: 'Why Should the Poor Trade More?'
+        },
+        excerpt: {
+            zh: '"穷人别碰交易"，这句话像一道枷锁，捆住了太多想挣脱困境的人。可只有真正穷过的人才懂：我们攥在手里的，从来不是"要不要做交易"的选择题，而是"要不要抓住唯一可能跳出循环的机会"的生存题。',
+            en: '"Poor people shouldn\'t touch trading" - this phrase is like a shackle binding too many who want to break free. But only those who\'ve truly been poor understand: what we hold isn\'t a choice of "whether to trade", but a survival question of "whether to seize the only chance to break the cycle".'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">为什么穷人更要做交易？</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">"穷人别碰交易"，这句话像一道枷锁，捆住了太多想挣脱困境的人。</p>
 
@@ -6218,7 +6218,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <p class="text-base leading-relaxed text-center text-gray-700 dark:text-gray-300 italic">献给所有在底层挣扎，却不肯放弃向上的人。</p>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Why Should the Poor Trade More?</h1>
+            en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Why Should the Poor Trade More?</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">"Poor people shouldn't touch trading" - this phrase is like a shackle binding too many who want to break free.</p>
 
@@ -6381,29 +6381,29 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <p class="text-base leading-relaxed text-center text-gray-700 dark:text-gray-300 italic">Dedicated to all who struggle at the bottom yet refuse to give up reaching upward.</p>`
- },
- category: 'wisdom',
- tags: ['trading psychology', 'mindset', 'poor traders', '交易心理', '思维方式', '穷人', 'opportunity'],
- author: 'GannWheel Team',
- date: '2025-11-11',
- readTime: 12,
- featured: true
- },
+        },
+        category: 'wisdom',
+        tags: ['trading psychology', 'mindset', 'poor traders', '交易心理', '思维方式', '穷人', 'opportunity'],
+        author: 'GannWheel Team',
+        date: '2025-11-11',
+        readTime: 12,
+        featured: true
+    },
 
- // 13. 交易中最重要的5个认知
- {
- id: '13',
- slug: 'five-key-cognitions-in-trading',
- title: {
- zh: '交易中最重要的5个认知：调好你的交易导航',
- en: 'Five Key Cognitions in Trading: Calibrate Your Trading Navigation'
- },
- excerpt: {
- zh: '一谈到认知问题，很多人就会觉得又玄乎又没用，还不如直接告诉我交易技术。但赚钱是一个多面性问题，不是单纯知道某个点就能轻松赚到。就像开车，如果一开始导航就错了，永远也到不了目的地。',
- en: 'When cognition is mentioned, many think it\'s mystical and useless, preferring direct trading techniques. But making money is multifaceted - not simply knowing one point makes it easy. Like driving, if your navigation is wrong from the start, you\'ll never reach your destination.'
- },
- content: {
- zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">交易中最重要的5个认知：调好你的交易导航</h1>
+    // 13. 交易中最重要的5个认知
+    {
+        id: '13',
+        slug: 'five-key-cognitions-in-trading',
+        title: {
+            zh: '交易中最重要的5个认知：调好你的交易导航',
+            en: 'Five Key Cognitions in Trading: Calibrate Your Trading Navigation'
+        },
+        excerpt: {
+            zh: '一谈到认知问题，很多人就会觉得又玄乎又没用，还不如直接告诉我交易技术。但赚钱是一个多面性问题，不是单纯知道某个点就能轻松赚到。就像开车，如果一开始导航就错了，永远也到不了目的地。',
+            en: 'When cognition is mentioned, many think it\'s mystical and useless, preferring direct trading techniques. But making money is multifaceted - not simply knowing one point makes it easy. Like driving, if your navigation is wrong from the start, you\'ll never reach your destination.'
+        },
+        content: {
+            zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">交易中最重要的5个认知：调好你的交易导航</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">在交易中，我们先抛去那些复杂的理论和对交易技术的追求，先把我们的交易导航调一调。</p>
 
@@ -6617,7 +6617,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <p class="text-base leading-relaxed text-center text-gray-700 dark:text-gray-300 italic">愿每一位交易者，都能调好自己的交易导航，找到属于自己的盈利之路。</p>`,
- en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Five Key Cognitions in Trading: Calibrate Your Trading Navigation</h1>
+            en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Five Key Cognitions in Trading: Calibrate Your Trading Navigation</h1>
 
 <p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">In trading, let's set aside complex theories and pursuit of techniques, and first calibrate our trading navigation.</p>
 
@@ -6831,13 +6831,13 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <p class="text-base leading-relaxed text-center text-gray-700 dark:text-gray-300 italic">May every trader calibrate their trading navigation and find their own path to profitability.</p>`
- },
- category: 'wisdom',
- tags: ['trading psychology', 'cognition', 'trading wisdom', '交易心理', '认知', '交易智慧', 'mindset'],
- author: 'GannWheel Team',
- date: '2025-11-11',
- readTime: 15,
- featured: true
- },
+        },
+        category: 'wisdom',
+        tags: ['trading psychology', 'cognition', 'trading wisdom', '交易心理', '认知', '交易智慧', 'mindset'],
+        author: 'GannWheel Team',
+        date: '2025-11-11',
+        readTime: 15,
+        featured: true
+    },
 
 ];

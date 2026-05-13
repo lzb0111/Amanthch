@@ -1,8 +1,8 @@
 "use client";
 
-import React from 'react';
-import { motion, AnimatePresence } from 'motion/react';
-import { useLanguage } from '@/contexts/LanguageContext';
+import React from "react";
+import { motion, AnimatePresence } from "motion/react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface EmailContactModalProps {
   isOpen: boolean;
@@ -11,12 +11,17 @@ interface EmailContactModalProps {
   emailSubject?: string;
 }
 
-export default function EmailContactModal({ isOpen, onClose, title, emailSubject: customEmailSubject }: EmailContactModalProps) {
+export default function EmailContactModal({
+  isOpen,
+  onClose,
+  title,
+  emailSubject: customEmailSubject,
+}: EmailContactModalProps) {
   const { t } = useLanguage();
-  const emailAddress = "1621836644@qq.com";
+  const emailAddress = "jiangenlun@163.com";
 
-  const displayTitle = title || t('email.default.title');
-  const emailSubject = customEmailSubject || t('email.subject');
+  const displayTitle = title || t("email.default.title");
+  const emailSubject = customEmailSubject || t("email.subject");
 
   const handleSendEmail = () => {
     window.location.href = `mailto:${emailAddress}?subject=${encodeURIComponent(emailSubject)}`;
@@ -24,7 +29,7 @@ export default function EmailContactModal({ isOpen, onClose, title, emailSubject
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(emailAddress);
-    alert(t('email.copied'));
+    alert(t("email.copied"));
   };
 
   if (!isOpen) return null;
@@ -46,24 +51,38 @@ export default function EmailContactModal({ isOpen, onClose, title, emailSubject
           className="bg-white dark:bg-gray-900 max-w-md w-full p-6 border-2 border-gray-200 dark:border-gray-700"
         >
           <div className="flex items-start justify-between mb-4">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{displayTitle}</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+              {displayTitle}
+            </h2>
             <button
               onClick={onClose}
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             </button>
           </div>
 
           <div className="space-y-4">
             <p className="text-gray-700 dark:text-gray-300">
-              {t('email.description')}
+              {t("email.description")}
             </p>
 
             <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4">
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{t('email.address.label')}</p>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                {t("email.address.label")}
+              </p>
               <div className="flex items-center justify-between gap-2">
                 <code className="text-black dark:text-white font-mono text-sm flex-1">
                   {emailAddress}
@@ -72,13 +91,15 @@ export default function EmailContactModal({ isOpen, onClose, title, emailSubject
                   onClick={handleCopyEmail}
                   className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 text-sm font-semibold whitespace-nowrap"
                 >
-                  {t('email.copy')}
+                  {t("email.copy")}
                 </button>
               </div>
             </div>
 
             <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4">
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{t('email.subject.label')}</p>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                {t("email.subject.label")}
+              </p>
               <code className="text-gray-900 dark:text-white font-mono text-sm">
                 {emailSubject}
               </code>
@@ -86,7 +107,8 @@ export default function EmailContactModal({ isOpen, onClose, title, emailSubject
 
             <div className="bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 p-4">
               <p className="text-sm text-gray-800 dark:text-gray-200">
-                <strong>{t('email.tip')}</strong>{t('email.tip.text')}
+                <strong>{t("email.tip")}</strong>
+                {t("email.tip.text")}
               </p>
             </div>
 
@@ -95,13 +117,13 @@ export default function EmailContactModal({ isOpen, onClose, title, emailSubject
                 onClick={handleSendEmail}
                 className="flex-1 px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition-all"
               >
-                {t('email.send')}
+                {t("email.send")}
               </button>
               <button
                 onClick={onClose}
                 className="px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 font-semibold hover:bg-gray-300 dark:hover:bg-gray-600 transition-all"
               >
-                {t('email.close')}
+                {t("email.close")}
               </button>
             </div>
           </div>

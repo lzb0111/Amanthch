@@ -3,7 +3,7 @@ name: Auto Fetch Forex News
 on:
   schedule:
     # 每30分钟运行一次
-    - cron: '*/30 * * * *'
+    - cron: "*/30 * * * *"
   workflow_dispatch: # 允许手动触发
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
@@ -38,7 +38,7 @@ jobs:
       - name: Commit and push if changes
         run: |
           git config --global user.name 'C-L-STARK'
-          git config --global user.email '1621836644@qq.com'
+          git config --global user.email 'jiangenlun@163.com'
 
           # Check if there are changes
           git add src/content/news/
@@ -72,7 +72,7 @@ jobs:
       - name: Commit Google submission history if updated
         run: |
           git config --global user.name 'C-L-STARK'
-          git config --global user.email '1621836644@qq.com'
+          git config --global user.email 'jiangenlun@163.com'
 
           # Check if there are changes
           git add .google-submitted-urls.json

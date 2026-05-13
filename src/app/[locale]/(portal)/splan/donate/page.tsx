@@ -1,440 +1,305 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
-import { motion } from 'motion/react';
-import EmailContactModal from '@/components/custom/EmailContactModal';
-import { useLanguage } from '@/contexts/LanguageContext';
-import LocaleLink from '@/components/navigation/LocaleLink';
+import React from "react";
+import { motion } from "motion/react";
+import { useLanguage } from "@/contexts/LanguageContext";
+import LocaleLink from "@/components/navigation/LocaleLink";
 
 export default function DonatePage() {
-  const [donationAmount, setDonationAmount] = useState(0);
-  const [isEmailModalOpen, setIsEmailModalOpen] = useState(false);
-  const [walletAddress, setWalletAddress] = useState<string>('');
-  const [loadingAddress, setLoadingAddress] = useState(true);
-  const [copied, setCopied] = useState(false);
   const { t, language } = useLanguage();
 
-  // 计算捐赠金额：从2025年10月1日开始，每天增加$5
-  useEffect(() => {
-    const startDate = new Date('2025-10-01T00:00:00');
-    const today = new Date();
-    const daysPassed = Math.floor((today.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24));
-    const currentAmount = 999 + (daysPassed * 5);
-    setDonationAmount(Math.max(999, currentAmount)); // 最低999
-  }, []);
+  // 套餐数据
+  const plans = [
+    {
+      name: "单月突击计划",
+      nameEn: "1-Month Crash Plan",
+      price: "$100",
+      icon: "📅",
+      features: [
+        "核心考点精讲 + 真题解析",
+        "30天",
+        "1次",
+        "工作日 24 小时内回复",
+        "✓",
+        "-",
+        "时间紧张，短期冲刺的考生",
+      ],
+    },
+    {
+      name: "双月突击计划",
+      nameEn: "2-Month Crash Plan",
+      price: "$200",
+      icon: "🗓️",
+      features: [
+        "核心考点精讲 + 真题解析 + 专题强化",
+        "60天",
+        "1次",
+        "工作日 24 小时内回复",
+        "✓",
+        "备考资料包",
+        "需要更充足时间巩固的考生",
+      ],
+    },
+    {
+      name: "补考进阶计划",
+      nameEn: "Resit Advanced Plan",
+      price: "$1299",
+      icon: "👑",
+      features: [
+        "全套课程 + 专题强化 + 冲刺预测",
+        "180天",
+        "3次",
+        "优先答疑 12 小时内回复",
+        "✓",
+        "一对一学习规划 + 备考资料包",
+        "补考或需要系统提升的考生",
+      ],
+    },
+  ];
 
-  // Fetch wallet address from Config table
-  useEffect(() => {
-    const fetchWalletAddress = async () => {
-      try {
-        const response = await fetch('/api/config/COFFEE');
-        if (response.ok) {
-          const data = await response.json();
-          setWalletAddress(data.key_content || '');
-        } else {
-          console.error('Failed to fetch wallet address');
-        }
-      } catch (error) {
-        console.error('Error fetching wallet address:', error);
-      } finally {
-        setLoadingAddress(false);
-      }
-    };
-
-    fetchWalletAddress();
-  }, []);
-
-  // Copy wallet address to clipboard
-  const copyToClipboard = async () => {
-    if (walletAddress) {
-      try {
-        await navigator.clipboard.writeText(walletAddress);
-        setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
-      } catch (error) {
-        console.error('Failed to copy:', error);
-      }
-    }
-  };
+  const featureLabels = [
+    "课程内容",
+    "访问时长",
+    "模拟考试",
+    "答疑服务",
+    "学习报告",
+    "额外福利",
+    "适合人群",
+  ];
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
-      {/* Hero Section - 增强版 */}
-      <div className="relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black border-b-2 border-gray-800">
-        {/* 装饰性背景 */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 right-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
-          <div className="absolute bottom-10 left-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
-        </div>
-
-        <div className="relative max-w-6xl mx-auto px-6 py-24">
-          <motion.div
-            initial={{ opacity: 0, y: -30 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-center"
-          >
-            <div className="inline-block px-6 py-2 bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
-              <span className="text-sm font-semibold tracking-wider text-white">{t('donate.hero.badge')}</span>
-            </div>
-            <h1 className="text-5xl md:text-7xl font-black mb-6 text-white">
-              {t('donate.hero.title1')}<br />
-              <span className="text-4xl md:text-5xl font-normal text-gray-300">{t('donate.hero.title2')}</span>
-            </h1>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-8">
-              {t('donate.hero.desc')}
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 text-sm">
-              <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm text-white">
-                <span className="font-bold">{t('donate.hero.stat1.value')}</span> {t('donate.hero.stat1')}
-              </div>
-              <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm text-white">
-                <span className="font-bold">{t('donate.hero.stat2.value')}</span> {t('donate.hero.stat2')}
-              </div>
-              <div className="px-4 py-2 bg-white/5 border border-white/20 backdrop-blur-sm text-white">
-                <span className="font-bold">{t('donate.hero.stat3.value')}</span> {t('donate.hero.stat3')}
-              </div>
-            </div>
-          </motion.div>
-        </div>
+    <div className="min-h-screen bg-gray-50">
+      {/* 标题区域 */}
+      <div className="max-w-6xl mx-auto px-6 py-16 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <h1 className="text-4xl font-bold text-gray-900 mb-3">
+            {language === "zh" ? "会员计划" : "Membership Plans"}
+          </h1>
+          <p className="text-gray-600">
+            {language === "zh"
+              ? "选择适合您的学习计划，助您高效备考，成功通关"
+              : "Choose the right plan for you, help you study efficiently and pass the exam"}
+          </p>
+        </motion.div>
       </div>
 
-      {/* Main Content */}
-      <div className="max-w-6xl mx-auto px-6 py-20 space-y-20">
-
-        {/* Donation Amount Card - 重新设计 */}
+      {/* 计划对比表格 */}
+      <div className="max-w-6xl mx-auto px-6 pb-20">
         <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.2 }}
-          className="relative"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="bg-white rounded-lg shadow-lg overflow-hidden"
         >
-          {/* 背景光效 */}
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-blue-500/20 blur-2xl"></div>
+          {/* 表格头部 */}
+          <div className="bg-blue-900 text-white text-center py-3 font-semibold text-lg">
+            {language === "zh" ? "学习计划对比" : "Plan Comparison"}
+          </div>
 
-          <div className="relative bg-gradient-to-br from-black to-gray-900 dark:from-white dark:to-gray-100 p-12 border-2 border-black dark:border-white shadow-2xl">
+          {/* 表格主体 */}
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-gray-200">
+                  <th className="text-left p-4 font-medium text-gray-600 w-32"></th>
+                  {plans.map((plan, index) => (
+                    <th
+                      key={index}
+                      className={`p-4 text-center font-medium ${
+                        index === 0
+                          ? "bg-blue-50 text-blue-900"
+                          : index === 1
+                            ? "bg-green-50 text-green-900"
+                            : "bg-yellow-50 text-yellow-900"
+                      }`}
+                    >
+                      <div className="flex flex-col items-center gap-1">
+                        <span className="text-2xl">{plan.icon}</span>
+                        <span className="font-bold">
+                          {language === "zh" ? plan.name : plan.nameEn}
+                        </span>
+                        <span className="text-xl font-semibold">
+                          {plan.price}
+                        </span>
+                      </div>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {featureLabels.map((label, rowIndex) => (
+                  <tr
+                    key={rowIndex}
+                    className={`border-b border-gray-200 ${
+                      rowIndex % 2 === 0 ? "bg-gray-50" : "bg-white"
+                    }`}
+                  >
+                    <td className="p-4 font-medium text-gray-700 flex items-center gap-2">
+                      {rowIndex === 0 && (
+                        <svg
+                          className="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                          <path
+                            fillRule="evenodd"
+                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      )}
+                      {rowIndex === 1 && (
+                        <svg
+                          className="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      )}
+                      {rowIndex === 2 && (
+                        <svg
+                          className="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      )}
+                      {rowIndex === 3 && (
+                        <svg
+                          className="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      )}
+                      {rowIndex === 4 && (
+                        <svg
+                          className="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zm6-4a1 1 0 011-1h2a1 1 0 011 1v13a1 1 0 01-1 1h-2a1 1 0 01-1-1V3z" />
+                        </svg>
+                      )}
+                      {rowIndex === 5 && (
+                        <svg
+                          className="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      )}
+                      {rowIndex === 6 && (
+                        <svg
+                          className="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      )}
+                      {label}
+                    </td>
+                    {plans.map((plan, colIndex) => (
+                      <td
+                        key={colIndex}
+                        className={`p-4 text-center text-gray-700 ${
+                          colIndex === 0
+                            ? "bg-blue-50"
+                            : colIndex === 1
+                              ? "bg-green-50"
+                              : "bg-yellow-50"
+                        }`}
+                      >
+                        {plan.features[rowIndex]}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </motion.div>
+
+        {/* 软件合作模块 */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="mt-12 bg-white rounded-lg shadow-lg overflow-hidden"
+        >
+          <div className="bg-purple-800 text-white text-center py-3 font-semibold text-lg">
+            {language === "zh" ? "软件合作" : "Software Partnership"}
+          </div>
+          <div className="p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="flex items-center gap-4">
+              <div className="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center">
+                <svg
+                  className="w-10 h-10 text-purple-800"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M3 5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-2.22l.123.489.804.804A.75.75 0 0113 18H7a.75.75 0 01-.53-1.282l.804-.804.123-.489H5a2 2 0 01-2-2V5zm16-2a1 1 0 00-1-1H1a1 1 0 00-1 1v12a1 1 0 001 1h14a1 1 0 001-1V3zM7.5 10a.5.5 0 000 1h5a.5.5 0 000-1h-5z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900">
+                  {language === "zh" ? "软件合作" : "Software Partnership"}
+                </h3>
+                <p className="text-gray-600 text-sm max-w-md">
+                  {language === "zh"
+                    ? "我们与多家优秀软件平台合作，为会员提供专属优惠与便捷服务，助您在学习与实践中更加得心应手。"
+                    : "We partner with leading software platforms to offer exclusive discounts and convenient services for members, helping you succeed in learning and practice."}
+                </p>
+              </div>
+            </div>
             <div className="text-center">
-              <div className="inline-block px-4 py-2 bg-white/10 dark:bg-black/10 border border-white/20 dark:border-black/20 backdrop-blur-sm mb-6">
-                <p className="text-sm font-semibold text-white dark:text-black">{t('donate.amount.badge')}</p>
-              </div>
-
-              <div className="mb-6">
-                <div className="flex items-baseline justify-center gap-3 mb-3">
-                  <span className="text-7xl md:text-8xl font-black text-white dark:text-black">
-                    ${donationAmount}
-                  </span>
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <span className="px-3 py-1 bg-white/20 dark:bg-black/20 text-white dark:text-black text-sm font-bold">USDT</span>
-                  <span className="text-white/60 dark:text-black/60">/</span>
-                  <span className="px-3 py-1 bg-white/20 dark:bg-black/20 text-white dark:text-black text-sm font-bold">USDC</span>
-                </div>
-              </div>
-
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-yellow-500/20 border border-yellow-500/30 backdrop-blur-sm">
-                <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                </svg>
-                <span className="text-yellow-500 font-bold text-sm">{t('donate.amount.warning')}</span>
-              </div>
-
-              <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div className="bg-white/5 dark:bg-black/5 backdrop-blur-sm p-4 border border-white/10 dark:border-black/10">
-                  <p className="text-xs text-gray-400 dark:text-gray-600 mb-1">{t('donate.amount.start')}</p>
-                  <p className="text-2xl font-bold text-white dark:text-black">$999</p>
-                </div>
-                <div className="bg-white/5 dark:bg-black/5 backdrop-blur-sm p-4 border border-white/10 dark:border-black/10">
-                  <p className="text-xs text-gray-400 dark:text-gray-600 mb-1">{t('donate.amount.daily')}</p>
-                  <p className="text-2xl font-bold text-white dark:text-black">+$5</p>
-                </div>
-                <div className="bg-white/5 dark:bg-black/5 backdrop-blur-sm p-4 border border-white/10 dark:border-black/10">
-                  <p className="text-xs text-gray-400 dark:text-gray-600 mb-1">{t('donate.amount.payment')}</p>
-                  <p className="text-sm font-bold text-white dark:text-black">{t('donate.amount.crypto')}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-
-        {/* Wallet Address Section - 新增 */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.25 }}
-          className="relative"
-        >
-          <div className="relative bg-white dark:bg-gray-800 p-8 border-2 border-gray-200 dark:border-gray-700 hover:border-black dark:hover:border-white transition-all">
-            <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                {language === 'zh' ? '捐赠地址' : 'Donation Address'}
-              </h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
-                {language === 'zh' ? 'USDT / USDC 钱包地址' : 'USDT / USDC Wallet Address'}
-              </p>
-            </div>
-
-            {loadingAddress ? (
-              <div className="flex items-center justify-center py-6">
-                <svg className="animate-spin w-8 h-8 text-gray-400" fill="none" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                </svg>
-              </div>
-            ) : walletAddress ? (
-              <div className="bg-gray-50 dark:bg-gray-900 p-6 border-2 border-gray-200 dark:border-gray-700">
-                <p className="font-mono text-sm md:text-base text-gray-900 dark:text-white break-all text-center">
-                  {walletAddress}
-                </p>
-              </div>
-            ) : (
-              <div className="text-center py-6 text-gray-500 dark:text-gray-400">
-                {language === 'zh' ? '暂无捐赠地址' : 'No donation address available'}
-              </div>
-            )}
-          </div>
-        </motion.div>
-
-        {/* Benefits Section - 重新设计 */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
-        >
-          <div className="text-center mb-12">
-            <div className="flex items-center gap-4 justify-center mb-4">
-              <div className="h-1 w-12 bg-black dark:bg-white"></div>
-              <h2 className="text-4xl font-black text-gray-900 dark:text-white">{t('donate.benefits.title')}</h2>
-              <div className="h-1 w-12 bg-black dark:bg-white"></div>
-            </div>
-            <p className="text-lg text-gray-600 dark:text-gray-400">
-              {t('donate.benefits.desc')}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
-              className="group bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 p-8 border-2 border-gray-200 dark:border-gray-700 hover:border-black dark:hover:border-white transition-all hover:shadow-xl"
-            >
-              <div className="w-16 h-16 bg-black dark:bg-white flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <span className="text-3xl text-white dark:text-black font-black">A</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                {t('donate.benefits.a.title')}
-              </h3>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                {t('donate.benefits.a.desc')}
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5 }}
-              className="group bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 p-8 border-2 border-gray-200 dark:border-gray-700 hover:border-black dark:hover:border-white transition-all hover:shadow-xl"
-            >
-              <div className="w-16 h-16 bg-black dark:bg-white flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <span className="text-3xl text-white dark:text-black font-black">B</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                {t('donate.benefits.b.title')}
-              </h3>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                {t('donate.benefits.b.desc')}
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6 }}
-              className="group bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 p-8 border-2 border-gray-200 dark:border-gray-700 hover:border-black dark:hover:border-white transition-all hover:shadow-xl"
-            >
-              <div className="w-16 h-16 bg-black dark:bg-white flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <span className="text-3xl text-white dark:text-black font-black">C</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                {t('donate.benefits.c.title')}
-              </h3>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                {t('donate.benefits.c.desc')}
-              </p>
-            </motion.div>
-          </div>
-        </motion.div>
-
-        {/* Challenge Success Reward - 重新设计 */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.7 }}
-          className="relative"
-        >
-          <div className="text-center mb-12">
-            <div className="flex items-center gap-4 justify-center mb-4">
-              <div className="h-1 w-12 bg-black dark:bg-white"></div>
-              <h2 className="text-4xl font-black text-gray-900 dark:text-white">{t('donate.rewards.title')}</h2>
-              <div className="h-1 w-12 bg-black dark:bg-white"></div>
-            </div>
-            <p className="text-lg text-gray-600 dark:text-gray-400">
-              {t('donate.rewards.desc')}
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-black/5 to-gray-900/5 dark:from-white/5 dark:to-gray-100/5 blur-xl group-hover:blur-2xl transition-all"></div>
-              <div className="relative bg-white dark:bg-gray-800 p-10 border-2 border-black dark:border-white hover:shadow-2xl transition-all">
-                <div className="w-20 h-20 bg-black dark:bg-white flex items-center justify-center mb-6">
-                  <span className="text-4xl text-white dark:text-black font-black">A</span>
-                </div>
-                <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-                  {t('donate.rewards.a.title')}
-                </h3>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                  {t('donate.rewards.a.desc')}
-                </p>
-              </div>
-            </div>
-
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 to-blue-500/20 blur-xl group-hover:blur-2xl transition-all"></div>
-              <div className="relative bg-black dark:bg-white p-10 border-2 border-black dark:border-white hover:shadow-2xl transition-all">
-                <div className="w-20 h-20 bg-white dark:bg-black flex items-center justify-center mb-6">
-                  <span className="text-4xl text-black dark:text-white font-black">B</span>
-                </div>
-                <h3 className="text-3xl font-bold text-white dark:text-black mb-4">
-                  {t('donate.rewards.b.title')}
-                </h3>
-                <p className="text-lg text-gray-300 dark:text-gray-700 leading-relaxed">
-                  {t('donate.rewards.b.desc')}
-                </p>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-
-        {/* How to Donate Section - 重新设计 */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.8 }}
-        >
-          <div className="text-center mb-12">
-            <div className="flex items-center gap-4 justify-center mb-4">
-              <div className="h-1 w-12 bg-black dark:bg-white"></div>
-              <h2 className="text-4xl font-black text-gray-900 dark:text-white">{t('donate.how.title')}</h2>
-              <div className="h-1 w-12 bg-black dark:bg-white"></div>
-            </div>
-            <p className="text-lg text-gray-600 dark:text-gray-400">
-              {t('donate.how.desc')}
-            </p>
-          </div>
-
-          <div className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 border-2 border-gray-200 dark:border-gray-700 p-10">
-            <h3 className="text-2xl font-bold text-center text-gray-900 dark:text-white mb-8">
-              {t('donate.how.flow.title')}
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-              {[
-                {
-                  num: "1",
-                  title: t('donate.how.step1.title'),
-                  desc: t('donate.how.step1.desc')
-                },
-                {
-                  num: "2",
-                  title: t('donate.how.step2.title'),
-                  desc: t('donate.how.step2.desc')
-                },
-                {
-                  num: "3",
-                  title: t('donate.how.step3.title'),
-                  desc: t('donate.how.step3.desc')
-                },
-                {
-                  num: "4",
-                  title: t('donate.how.step4.title'),
-                  desc: t('donate.how.step4.desc')
-                }
-              ].map((step, index) => (
-                <div key={index} className="flex items-start gap-4 bg-white dark:bg-gray-900 p-6 border-2 border-gray-200 dark:border-gray-700">
-                  <div className="w-14 h-14 bg-black dark:bg-white flex items-center justify-center flex-shrink-0">
-                    <span className="text-white dark:text-black font-black text-2xl">{step.num}</span>
-                  </div>
-                  <div className="flex-1">
-                    <h4 className="font-bold text-lg text-gray-900 dark:text-white mb-2">{step.title}</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                      {step.desc}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <LocaleLink
-                href="/splan/psychology-test"
-                className="px-10 py-5 bg-black dark:bg-white text-white dark:text-black font-bold text-lg hover:bg-gray-800 dark:hover:bg-gray-200 transition-all border-2 border-black dark:border-white text-center hover:shadow-lg"
+              <span className="text-2xl font-bold text-purple-800">
+                价格根据需求定制
+              </span>
+              {/* <LocaleLink
+                href="/software-partnership"
+                className="block mt-2 px-6 py-2 bg-purple-800 text-white rounded-md hover:bg-purple-700 transition-colors text-sm"
               >
-                {t('donate.how.cta.test')}
-              </LocaleLink>
-              <button
-                onClick={() => setIsEmailModalOpen(true)}
-                className="px-10 py-5 bg-white dark:bg-black text-black dark:text-white font-bold text-lg border-2 border-black dark:border-white hover:bg-gray-100 dark:hover:bg-gray-900 transition-all text-center hover:shadow-lg animate-shake"
-              >
-                {t('donate.how.cta.email')}
-              </button>
-            </div>
-          </div>
-        </motion.div>
-
-        {/* Important Notice - 重新设计 */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.9 }}
-          className="relative"
-        >
-          <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 via-yellow-500/10 to-red-500/10 blur-2xl"></div>
-
-          <div className="relative bg-gradient-to-br from-black via-gray-900 to-black dark:from-white dark:via-gray-100 dark:to-white p-10 border-2 border-black dark:border-white">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="w-16 h-16 bg-yellow-500 flex items-center justify-center">
-                <svg className="w-10 h-10 text-black" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/>
-                </svg>
-              </div>
-              <h2 className="text-3xl font-black text-white dark:text-black">
-                {t('donate.notice.title')}
-              </h2>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {[
-                t('donate.notice.1'),
-                t('donate.notice.2'),
-                t('donate.notice.3'),
-                t('donate.notice.4')
-              ].map((text, index) => (
-                <div key={index} className="flex items-start gap-3 bg-white/5 dark:bg-black/5 backdrop-blur-sm p-4 border border-white/10 dark:border-black/10">
-                  <svg className="w-6 h-6 text-yellow-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-white dark:text-black text-sm leading-relaxed">{text}</span>
-                </div>
-              ))}
+                {language === "zh" ? "了解详情" : "Learn More"}
+              </LocaleLink> */}
             </div>
           </div>
         </motion.div>
       </div>
-
-      {/* Email Contact Modal */}
-      <EmailContactModal
-        isOpen={isEmailModalOpen}
-        onClose={() => setIsEmailModalOpen(false)}
-        title={t('donate.modal.title')}
-      />
     </div>
   );
 }

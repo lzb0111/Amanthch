@@ -1,20 +1,20 @@
 "use client";
 
-import { useState } from 'react';
-import { useLanguage } from '@/contexts/LanguageContext';
+import { useState } from "react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function FloatingContactForm() {
   const [isOpen, setIsOpen] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
   });
   const { language } = useLanguage();
-  const isZh = language === 'zh';
+  const isZh = language === "zh";
 
-  const emailAddress = "1621836644@qq.com";
+  const emailAddress = "jiangenlun@163.com";
   const siteUrl = "https://fxkiller.com";
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -23,7 +23,7 @@ export default function FloatingContactForm() {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({
       ...formData,
@@ -38,8 +38,8 @@ export default function FloatingContactForm() {
         <button
           onClick={() => setIsOpen(true)}
           className="fixed right-6 bottom-20 z-40 bg-black dark:bg-white text-white dark:text-black p-3 border-2 border-black dark:border-white shadow-2xl hover:scale-110 transition-transform"
-          aria-label={isZh ? '联系我们' : 'Contact Us'}
-          title={isZh ? '快速联系我们' : 'Quick Contact'}
+          aria-label={isZh ? "联系我们" : "Contact Us"}
+          title={isZh ? "快速联系我们" : "Quick Contact"}
         >
           <svg
             className="w-5 h-5"
@@ -64,12 +64,12 @@ export default function FloatingContactForm() {
             {/* Header */}
             <div className="bg-black dark:bg-white text-white dark:text-black px-6 py-4 flex items-center justify-between">
               <h3 className="text-lg font-bold">
-                {isZh ? '快速联系' : 'Quick Contact'}
+                {isZh ? "快速联系" : "Quick Contact"}
               </h3>
               <button
                 onClick={() => setIsOpen(false)}
                 className="hover:scale-110 transition-transform"
-                aria-label={isZh ? '关闭' : 'Close'}
+                aria-label={isZh ? "关闭" : "Close"}
               >
                 <svg
                   className="w-6 h-6"
@@ -100,11 +100,7 @@ export default function FloatingContactForm() {
                 name="_next"
                 value={`${siteUrl}/${language}/thank-you`}
               />
-              <input
-                type="hidden"
-                name="_subject"
-                value="职业交易员沟通"
-              />
+              <input type="hidden" name="_subject" value="职业交易员沟通" />
               <input type="hidden" name="_captcha" value="false" />
 
               {/* Name Field */}
@@ -113,7 +109,7 @@ export default function FloatingContactForm() {
                   htmlFor="name"
                   className="block text-sm font-bold mb-2 text-black dark:text-white"
                 >
-                  {isZh ? '姓名 *' : 'Name *'}
+                  {isZh ? "姓名 *" : "Name *"}
                 </label>
                 <input
                   type="text"
@@ -123,7 +119,7 @@ export default function FloatingContactForm() {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
-                  placeholder={isZh ? '请输入您的姓名' : 'Enter your name'}
+                  placeholder={isZh ? "请输入您的姓名" : "Enter your name"}
                 />
               </div>
 
@@ -133,7 +129,7 @@ export default function FloatingContactForm() {
                   htmlFor="email"
                   className="block text-sm font-bold mb-2 text-black dark:text-white"
                 >
-                  {isZh ? '邮箱 *' : 'Email *'}
+                  {isZh ? "邮箱 *" : "Email *"}
                 </label>
                 <input
                   type="email"
@@ -143,7 +139,7 @@ export default function FloatingContactForm() {
                   value={formData.email}
                   onChange={handleChange}
                   className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
-                  placeholder={isZh ? '请输入您的邮箱' : 'Enter your email'}
+                  placeholder={isZh ? "请输入您的邮箱" : "Enter your email"}
                 />
               </div>
 
@@ -153,7 +149,7 @@ export default function FloatingContactForm() {
                   htmlFor="phone"
                   className="block text-sm font-bold mb-2 text-black dark:text-white"
                 >
-                  {isZh ? '电话' : 'Phone'}
+                  {isZh ? "电话" : "Phone"}
                 </label>
                 <input
                   type="tel"
@@ -162,7 +158,11 @@ export default function FloatingContactForm() {
                   value={formData.phone}
                   onChange={handleChange}
                   className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
-                  placeholder={isZh ? '请输入您的电话（可选）' : 'Enter your phone (optional)'}
+                  placeholder={
+                    isZh
+                      ? "请输入您的电话（可选）"
+                      : "Enter your phone (optional)"
+                  }
                 />
               </div>
 
@@ -172,7 +172,7 @@ export default function FloatingContactForm() {
                   htmlFor="message"
                   className="block text-sm font-bold mb-2 text-black dark:text-white"
                 >
-                  {isZh ? '留言' : 'Message'}
+                  {isZh ? "留言" : "Message"}
                 </label>
                 <textarea
                   id="message"
@@ -181,7 +181,9 @@ export default function FloatingContactForm() {
                   value={formData.message}
                   onChange={handleChange}
                   className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors resize-none"
-                  placeholder={isZh ? '请告诉我们您的需求...' : 'Tell us your needs...'}
+                  placeholder={
+                    isZh ? "请告诉我们您的需求..." : "Tell us your needs..."
+                  }
                 />
               </div>
 
@@ -190,14 +192,14 @@ export default function FloatingContactForm() {
                 type="submit"
                 className="w-full px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
               >
-                {isZh ? '快联系我' : 'Contact Me'}
+                {isZh ? "快联系我" : "Contact Me"}
               </button>
 
               {/* Privacy Note */}
               <p className="text-xs text-gray-600 dark:text-gray-400 text-center">
                 {isZh
-                  ? '我们重视您的隐私，不会分享您的信息。'
-                  : 'We value your privacy and will not share your information.'}
+                  ? "我们重视您的隐私，不会分享您的信息。"
+                  : "We value your privacy and will not share your information."}
               </p>
             </form>
           </div>

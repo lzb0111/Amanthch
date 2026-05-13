@@ -32,10 +32,10 @@ const translations: Record<Language, Record<string, string>> = {
     "nav.psychology": "测评",
     "nav.dashboard": "量化",
     "nav.faq": "FAQ",
-    "nav.membership": "捐赠",
+    "nav.membership": "会员计划",
     "nav.aboutUs": "关于我们",
     "nav.join": "立即报名",
-    "nav.collaboration": "系统合作",
+    "nav.collaboration": "联系我们",
 
     // Hero Section
     "hero.title": "Professional FX Trader Training Platform",
@@ -354,7 +354,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Donate Page
     "donate.hero.badge": "GLOBAL TRIAL MEMBERSHIP",
-    "donate.hero.title1": "全球试用会员",
+    "donate.hero.title1": "全球招募计划会员",
     "donate.hero.title2": "招募计划",
     "donate.hero.desc": "自2025年10月1日起全球范围接受捐赠成为90天试用会员",
     "donate.hero.stat1": "试用期",
@@ -364,7 +364,7 @@ const translations: Record<Language, Record<string, string>> = {
     "donate.hero.stat2.value": "21天",
     "donate.hero.stat3.value": "终身",
 
-    "donate.amount.badge": "CURRENT DONATION AMOUNT",
+    "donate.amount.badge": "当前捐款金额",
     "donate.amount.warning": "金额每日自动增加 $5",
     "donate.amount.start": "起始金额",
     "donate.amount.daily": "每日增长",
@@ -399,7 +399,7 @@ const translations: Record<Language, Record<string, string>> = {
     "donate.how.step1.desc":
       "首先完成心理测评，确保您具备成为职业交易员的心理素质",
     "donate.how.step2.title": "发送邮件申请",
-    "donate.how.step2.desc": "邮件至 1621836644@qq.com，说明您的意向",
+    "donate.how.step2.desc": "邮件至 jiangenlun@163.com，说明您的意向",
     "donate.how.step3.title": "获取捐赠地址",
     "donate.how.step3.desc": "我们将通过邮件回复您具体的 USDT/USDC 捐赠地址",
     "donate.how.step4.title": "完成捐赠并开始培训",
@@ -588,10 +588,10 @@ const translations: Record<Language, Record<string, string>> = {
     "nav.psychology": "Test",
     "nav.dashboard": "Quant",
     "nav.faq": "FAQ",
-    "nav.membership": "Donate",
+    "nav.membership": "Membership Program",
     "nav.aboutUs": "About Us",
     "nav.join": "Join Now",
-    "nav.collaboration": "SystemCollaboration",
+    "nav.collaboration": "Contact Us",
 
     // Hero Section
     "hero.title": "Professional FX Trader Training Platform",
@@ -959,7 +959,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Donate Page
     "donate.hero.badge": "GLOBAL TRIAL MEMBERSHIP",
-    "donate.hero.title1": "Global Trial Membership",
+    "donate.hero.title1": "Global Recruitment Program Membership",
     "donate.hero.title2": "Recruitment Program",
     "donate.hero.desc":
       "Accepting donations globally to become 90-day trial members starting October 1, 2025",
@@ -1009,7 +1009,7 @@ const translations: Record<Language, Record<string, string>> = {
       "First complete the psychology test to ensure you possess the psychological qualities to become a professional trader",
     "donate.how.step2.title": "Send Email Application",
     "donate.how.step2.desc":
-      "Email to 1621836644@qq.com explaining your intention",
+      "Email to jiangenlun@163.com explaining your intention",
     "donate.how.step3.title": "Obtain Donation Address",
     "donate.how.step3.desc":
       "We will reply via email with the specific USDT/USDC donation address",

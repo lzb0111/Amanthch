@@ -1,10 +1,16 @@
 "use client";
 
-import { useState, useEffect, useRef, useImperativeHandle, forwardRef } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
-import { useLanguage } from '@/contexts/LanguageContext';
+import {
+  useState,
+  useEffect,
+  useRef,
+  useImperativeHandle,
+  forwardRef,
+} from "react";
+import { motion, AnimatePresence } from "motion/react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
-type ModalState = 'closed' | 'expanded' | 'minimized';
+type ModalState = "closed" | "expanded" | "minimized";
 
 export interface WelcomeModalHandle {
   open: () => void;
@@ -13,45 +19,46 @@ export interface WelcomeModalHandle {
 }
 
 const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
-  const [modalState, setModalState] = useState<ModalState>('closed');
+  const [modalState, setModalState] = useState<ModalState>("closed");
   const [showEmailForm, setShowEmailForm] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
   });
   const [submitted, setSubmitted] = useState(false);
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const { language } = useLanguage();
-  const isZh = language === 'zh';
+  const isZh = language === "zh";
 
-  const emailAddress = "1621836644@qq.com";
+  const emailAddress = "jiangenlun@163.com";
   const siteUrl = "https://fxkiller.com";
   // B站视频嵌入地址
-  const bilibiliEmbedUrl = "//player.bilibili.com/player.html?isOutside=true&aid=258136585&bvid=BV19a411X7eY&cid=767139112&p=1";
+  const bilibiliEmbedUrl =
+    "//player.bilibili.com/player.html?isOutside=true&aid=258136585&bvid=BV19a411X7eY&cid=767139112&p=1";
 
   // 暂停视频
   const pauseVideo = () => {
     if (iframeRef.current) {
       // 通过重新设置 src 来停止视频播放
       const currentSrc = iframeRef.current.src;
-      iframeRef.current.src = '';
+      iframeRef.current.src = "";
       iframeRef.current.src = currentSrc;
     }
   };
 
   const handleClose = () => {
     pauseVideo();
-    setModalState('closed');
+    setModalState("closed");
   };
 
   const handleMinimize = () => {
-    setModalState('minimized');
+    setModalState("minimized");
   };
 
   const handleExpand = () => {
-    setModalState('expanded');
+    setModalState("expanded");
   };
 
   const handleEmailSubmit = async (e: React.FormEvent) => {
@@ -60,7 +67,7 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({
       ...formData,
@@ -70,60 +77,60 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
 
   // 暴露方法给父组件
   useImperativeHandle(ref, () => ({
-    open: () => setModalState('expanded'),
+    open: () => setModalState("expanded"),
     close: handleClose,
     minimize: handleMinimize,
   }));
 
   useEffect(() => {
     // 检查是否是首次访问
-    const hasVisited = localStorage.getItem('fxkiller_welcome_shown');
+    const hasVisited = localStorage.getItem("fxkiller_welcome_shown");
     if (!hasVisited) {
       // 延迟 1 秒显示，让页面先加载
       setTimeout(() => {
-        setModalState('expanded');
+        setModalState("expanded");
       }, 1000);
-      localStorage.setItem('fxkiller_welcome_shown', 'true');
+      localStorage.setItem("fxkiller_welcome_shown", "true");
     }
   }, []);
 
   // 已关闭，不渲染任何内容
-  if (modalState === 'closed') {
+  if (modalState === "closed") {
     return null;
   }
 
-  const isMinimized = modalState === 'minimized';
-  const isExpanded = modalState === 'expanded';
+  const isMinimized = modalState === "minimized";
+  const isExpanded = modalState === "expanded";
 
   const containerVariants = {
     expanded: {
-      top: '50%',
-      left: '50%',
-      right: 'auto',
-      bottom: 'auto',
-      x: '-50%',
-      y: '-50%',
-      width: 'calc(100% - 2rem)',
-      maxWidth: '56rem',
-      maxHeight: '90vh',
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      x: "-50%",
+      y: "-50%",
+      width: "calc(100% - 2rem)",
+      maxWidth: "56rem",
+      maxHeight: "90vh",
       transition: {
-        type: 'spring' as const,
+        type: "spring" as const,
         damping: 25,
         stiffness: 300,
       },
     },
     minimized: {
-      top: 'auto',
-      left: 'auto',
-      right: '2rem',
-      bottom: '10rem',
+      top: "auto",
+      left: "auto",
+      right: "2rem",
+      bottom: "10rem",
       x: 0,
       y: 0,
-      width: '20rem',
-      maxWidth: '20rem',
-      maxHeight: 'auto',
+      width: "20rem",
+      maxWidth: "20rem",
+      maxHeight: "auto",
       transition: {
-        type: 'spring' as const,
+        type: "spring" as const,
         damping: 25,
         stiffness: 300,
       },
@@ -153,7 +160,7 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
       {/* 统一的视频容器 - 通过 variants 控制位置和大小 */}
       <motion.div
         initial={false}
-        animate={isExpanded ? 'expanded' : 'minimized'}
+        animate={isExpanded ? "expanded" : "minimized"}
         variants={containerVariants}
         className="fixed z-50 bg-white dark:bg-gray-900 border-2 border-black dark:border-white shadow-2xl overflow-hidden flex flex-col"
       >
@@ -161,8 +168,8 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
         <div
           className={`text-white dark:text-black px-4 py-2 flex items-center justify-between ${
             isMinimized
-              ? 'bg-black dark:bg-white'
-              : 'bg-gradient-to-r from-black via-gray-800 to-black dark:from-white dark:via-gray-200 dark:to-white px-6 py-4 border-b-2 border-gray-700 dark:border-gray-300'
+              ? "bg-black dark:bg-white"
+              : "bg-gradient-to-r from-black via-gray-800 to-black dark:from-white dark:via-gray-200 dark:to-white px-6 py-4 border-b-2 border-gray-700 dark:border-gray-300"
           }`}
         >
           <div className="flex items-center gap-3">
@@ -172,18 +179,24 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
               </div>
             )}
             <div>
-              <h2 className={isMinimized ? 'text-sm font-bold' : 'text-xl font-black'}>
+              <h2
+                className={
+                  isMinimized ? "text-sm font-bold" : "text-xl font-black"
+                }
+              >
                 {isMinimized
                   ? isZh
-                    ? '职业交易员介绍'
-                    : 'Professional Trader Intro'
+                    ? "职业交易员介绍"
+                    : "Professional Trader Intro"
                   : isZh
-                  ? '欢迎来到 江恩轮（GannWheel）'
-                  : 'Welcome to GannWheel'}
+                    ? "欢迎来到 江恩轮（GannWheel）"
+                    : "Welcome to GannWheel"}
               </h2>
               {isExpanded && (
                 <p className="text-xs text-gray-300 dark:text-gray-700">
-                  {isZh ? '了解职业交易员职位，开启你的交易生涯' : 'Learn about professional trading careers'}
+                  {isZh
+                    ? "了解职业交易员职位，开启你的交易生涯"
+                    : "Learn about professional trading careers"}
                 </p>
               )}
             </div>
@@ -193,10 +206,15 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
               <button
                 onClick={handleExpand}
                 className="hover:scale-110 transition-transform"
-                aria-label={isZh ? '展开' : 'Expand'}
-                title={isZh ? '展开' : 'Expand'}
+                aria-label={isZh ? "展开" : "Expand"}
+                title={isZh ? "展开" : "Expand"}
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg
+                  className="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -210,11 +228,21 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
               <button
                 onClick={handleMinimize}
                 className="p-2 hover:bg-white/10 dark:hover:bg-black/10 transition-colors rounded"
-                aria-label={isZh ? '最小化' : 'Minimize'}
-                title={isZh ? '最小化' : 'Minimize'}
+                aria-label={isZh ? "最小化" : "Minimize"}
+                title={isZh ? "最小化" : "Minimize"}
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 12H4" />
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M20 12H4"
+                  />
                 </svg>
               </button>
             )}
@@ -222,13 +250,23 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
               onClick={handleClose}
               className={
                 isMinimized
-                  ? 'hover:scale-110 transition-transform'
-                  : 'p-2 hover:bg-white/10 dark:hover:bg-black/10 transition-colors rounded'
+                  ? "hover:scale-110 transition-transform"
+                  : "p-2 hover:bg-white/10 dark:hover:bg-black/10 transition-colors rounded"
               }
-              aria-label={isZh ? '关闭' : 'Close'}
+              aria-label={isZh ? "关闭" : "Close"}
             >
-              <svg className={isMinimized ? 'w-4 h-4' : 'w-5 h-5'} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              <svg
+                className={isMinimized ? "w-4 h-4" : "w-5 h-5"}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             </button>
           </div>
@@ -250,7 +288,9 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
         {isMinimized && (
           <div className="p-3 bg-gray-50 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
             <p className="text-xs text-gray-600 dark:text-gray-400 text-center">
-              {isZh ? '点击展开查看完整内容' : 'Click expand to view full content'}
+              {isZh
+                ? "点击展开查看完整内容"
+                : "Click expand to view full content"}
             </p>
           </div>
         )}
@@ -266,12 +306,14 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-black dark:text-white mb-2">
-                    {isZh ? '百万美金交易员的真实故事' : 'Million Dollar Trader - True Story'}
+                    {isZh
+                      ? "百万美金交易员的真实故事"
+                      : "Million Dollar Trader - True Story"}
                   </h3>
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                     {isZh
-                      ? '观看这部纪录片，了解普通人如何通过专业培训，成为年收入百万的职业交易员。我们的培训体系正是基于这样的成功模式。'
-                      : 'Watch this documentary to see how ordinary people become professional traders earning millions through systematic training. Our program is based on this proven success model.'}
+                      ? "观看这部纪录片，了解普通人如何通过专业培训，成为年收入百万的职业交易员。我们的培训体系正是基于这样的成功模式。"
+                      : "Watch this documentary to see how ordinary people become professional traders earning millions through systematic training. Our program is based on this proven success model."}
                   </p>
                 </div>
               </div>
@@ -283,7 +325,12 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                     onClick={() => setShowEmailForm(true)}
                     className="inline-flex items-center gap-3 px-8 py-4 bg-black dark:bg-white text-white dark:text-black text-lg font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-all shadow-lg hover:shadow-xl hover:scale-105"
                   >
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="w-6 h-6"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -291,12 +338,16 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                         d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
                       />
                     </svg>
-                    <span>{isZh ? '免费领取交易资料礼包' : 'Get Free Trading Resources'}</span>
+                    <span>
+                      {isZh
+                        ? "免费领取交易资料礼包"
+                        : "Get Free Trading Resources"}
+                    </span>
                   </button>
                   <p className="text-sm text-gray-600 dark:text-gray-400 mt-3">
                     {isZh
-                      ? '包含：交易策略手册、风险管理指南、心理素质测试'
-                      : 'Includes: Strategy Manual, Risk Management Guide, Psychology Test'}
+                      ? "包含：交易策略手册、风险管理指南、心理素质测试"
+                      : "Includes: Strategy Manual, Risk Management Guide, Psychology Test"}
                   </p>
                 </div>
               ) : (
@@ -322,10 +373,14 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                         </div>
                         <div>
                           <h4 className="text-lg font-bold text-black dark:text-white">
-                            {isZh ? '填写邮箱，立即获取资料' : 'Enter Email to Get Resources'}
+                            {isZh
+                              ? "填写邮箱，立即获取资料"
+                              : "Enter Email to Get Resources"}
                           </h4>
                           <p className="text-sm text-gray-600 dark:text-gray-400">
-                            {isZh ? '我们将把资料发送到您的邮箱' : 'We will send resources to your email'}
+                            {isZh
+                              ? "我们将把资料发送到您的邮箱"
+                              : "We will send resources to your email"}
                           </p>
                         </div>
                       </div>
@@ -336,18 +391,29 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                         onSubmit={handleEmailSubmit}
                         className="space-y-4"
                       >
-                        <input type="hidden" name="_next" value={`${siteUrl}/${language}/thank-you`} />
+                        <input
+                          type="hidden"
+                          name="_next"
+                          value={`${siteUrl}/${language}/thank-you`}
+                        />
                         <input
                           type="hidden"
                           name="_subject"
-                          value={isZh ? '交易资料领取 - 欢迎弹窗' : 'Trading Resources Request - Welcome Modal'}
+                          value={
+                            isZh
+                              ? "交易资料领取 - 欢迎弹窗"
+                              : "Trading Resources Request - Welcome Modal"
+                          }
                         />
                         <input type="hidden" name="_captcha" value="false" />
 
                         {/* 姓名字段 */}
                         <div>
-                          <label htmlFor="welcome-name" className="block text-sm font-bold mb-2 text-black dark:text-white">
-                            {isZh ? '姓名 *' : 'Name *'}
+                          <label
+                            htmlFor="welcome-name"
+                            className="block text-sm font-bold mb-2 text-black dark:text-white"
+                          >
+                            {isZh ? "姓名 *" : "Name *"}
                           </label>
                           <input
                             type="text"
@@ -357,14 +423,19 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                             value={formData.name}
                             onChange={handleChange}
                             className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
-                            placeholder={isZh ? '请输入您的姓名' : 'Enter your name'}
+                            placeholder={
+                              isZh ? "请输入您的姓名" : "Enter your name"
+                            }
                           />
                         </div>
 
                         {/* 邮箱字段 */}
                         <div>
-                          <label htmlFor="welcome-email" className="block text-sm font-bold mb-2 text-black dark:text-white">
-                            {isZh ? '邮箱 *' : 'Email *'}
+                          <label
+                            htmlFor="welcome-email"
+                            className="block text-sm font-bold mb-2 text-black dark:text-white"
+                          >
+                            {isZh ? "邮箱 *" : "Email *"}
                           </label>
                           <input
                             type="email"
@@ -374,14 +445,19 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                             value={formData.email}
                             onChange={handleChange}
                             className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
-                            placeholder={isZh ? '请输入您的邮箱' : 'Enter your email'}
+                            placeholder={
+                              isZh ? "请输入您的邮箱" : "Enter your email"
+                            }
                           />
                         </div>
 
                         {/* 电话字段 */}
                         <div>
-                          <label htmlFor="welcome-phone" className="block text-sm font-bold mb-2 text-black dark:text-white">
-                            {isZh ? '电话' : 'Phone'}
+                          <label
+                            htmlFor="welcome-phone"
+                            className="block text-sm font-bold mb-2 text-black dark:text-white"
+                          >
+                            {isZh ? "电话" : "Phone"}
                           </label>
                           <input
                             type="tel"
@@ -390,14 +466,21 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                             value={formData.phone}
                             onChange={handleChange}
                             className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors"
-                            placeholder={isZh ? '请输入您的电话（可选）' : 'Enter your phone (optional)'}
+                            placeholder={
+                              isZh
+                                ? "请输入您的电话（可选）"
+                                : "Enter your phone (optional)"
+                            }
                           />
                         </div>
 
                         {/* 留言字段 */}
                         <div>
-                          <label htmlFor="welcome-message" className="block text-sm font-bold mb-2 text-black dark:text-white">
-                            {isZh ? '留言' : 'Message'}
+                          <label
+                            htmlFor="welcome-message"
+                            className="block text-sm font-bold mb-2 text-black dark:text-white"
+                          >
+                            {isZh ? "留言" : "Message"}
                           </label>
                           <textarea
                             id="welcome-message"
@@ -406,7 +489,11 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                             value={formData.message}
                             onChange={handleChange}
                             className="w-full px-4 py-2 border-2 border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-black dark:text-white focus:border-black dark:focus:border-white outline-none transition-colors resize-none"
-                            placeholder={isZh ? '想了解什么内容...' : 'What would you like to know...'}
+                            placeholder={
+                              isZh
+                                ? "想了解什么内容..."
+                                : "What would you like to know..."
+                            }
                           />
                         </div>
 
@@ -414,27 +501,41 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
                           type="submit"
                           className="w-full px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-colors"
                         >
-                          {isZh ? '立即领取资料' : 'Get Resources Now'}
+                          {isZh ? "立即领取资料" : "Get Resources Now"}
                         </button>
                       </form>
 
                       <p className="text-xs text-gray-600 dark:text-gray-400 text-center mt-4">
                         {isZh
-                          ? '我们重视您的隐私，不会分享您的信息。'
-                          : 'We value your privacy and will not share your information.'}
+                          ? "我们重视您的隐私，不会分享您的信息。"
+                          : "We value your privacy and will not share your information."}
                       </p>
                     </>
                   ) : (
                     // 提交成功
                     <div className="text-center py-8">
                       <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <svg className="w-10 h-10 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        <svg
+                          className="w-10 h-10 text-green-600 dark:text-green-400"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M5 13l4 4L19 7"
+                          />
                         </svg>
                       </div>
-                      <h4 className="text-xl font-bold text-black dark:text-white mb-2">{isZh ? '提交成功！' : 'Success!'}</h4>
+                      <h4 className="text-xl font-bold text-black dark:text-white mb-2">
+                        {isZh ? "提交成功！" : "Success!"}
+                      </h4>
                       <p className="text-gray-700 dark:text-gray-300">
-                        {isZh ? '资料已发送到您的邮箱，请查收。' : 'Resources have been sent to your email.'}
+                        {isZh
+                          ? "资料已发送到您的邮箱，请查收。"
+                          : "Resources have been sent to your email."}
                       </p>
                     </div>
                   )}
@@ -446,8 +547,8 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
             <div className="px-6 py-4 bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 border-t border-gray-300 dark:border-gray-700">
               <p className="text-sm text-gray-600 dark:text-gray-400 text-center">
                 {isZh
-                  ? '💡 提示：您可以随时点击最小化按钮，将窗口缩小到右下角继续观看'
-                  : '💡 Tip: Click minimize to shrink the window to the bottom-right corner'}
+                  ? "💡 提示：您可以随时点击最小化按钮，将窗口缩小到右下角继续观看"
+                  : "💡 Tip: Click minimize to shrink the window to the bottom-right corner"}
               </p>
             </div>
           </div>
@@ -457,6 +558,6 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
   );
 });
 
-WelcomeModal.displayName = 'WelcomeModal';
+WelcomeModal.displayName = "WelcomeModal";
 
 export default WelcomeModal;

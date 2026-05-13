@@ -47,7 +47,7 @@ export default function DonatePage() {
       icon: "👑",
       features: [
         "全套课程 + 专题强化 + 冲刺预测",
-        "180天",
+        "90天",
         "3次",
         "优先答疑 12 小时内回复",
         "✓",

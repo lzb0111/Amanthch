@@ -25,7 +25,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // 导航栏
     "nav.home": "首页",
-    "nav.training": "训练营:2周免费模拟盘训练",
+    "nav.training": "训练营",
     "nav.liveTrading": "挑战赛",
     "nav.tradingTools": "工具",
     "nav.blog": "博客",
@@ -107,14 +107,14 @@ const translations: Record<Language, Record<string, string>> = {
       "严格的准入标准，确保外汇培训质量 - 每个人只有一次进入的机会",
     "req.profile.title": " 人群画像",
     "req.profile.education": "学历与年龄",
-    "req.profile.education.desc": "大专学历以上，35岁以下",
+    "req.profile.education.desc": "全日制本科以上学历，35岁以下",
     "req.profile.psychology": "心理素质",
     "req.profile.psychology.desc": "认真、细心、耐心、心理健康",
     "req.profile.character": "性格特质",
     "req.profile.character.desc": "性格内向、稳重、纪律严明且执行力强",
     "req.time.title": " 时间与环境",
     "req.time.commitment": "时间投入",
-    "req.time.commitment.desc": "连续30个工作日（约45天）",
+    "req.time.commitment.desc": "连续20个工作日（约30天）",
     "req.time.equipment": "设备要求",
     "req.time.equipment.desc": "Windows电脑",
     "req.time.environment": "环境要求",
@@ -250,9 +250,9 @@ const translations: Record<Language, Record<string, string>> = {
     "joinus.profile.income.desc":
       '任何盈利导向的企业，都不会做亏本买卖。即使高薪聘请一个一无所知的应届生，也源于政府补贴或对该人潜力的判断。在我们这个极简行业，所有价值都源于二级市场的买卖差价——简单、直接、残酷。在你证明盈利能力（通过考核）之前，我们不会投入一分钱。考核通过后，你的实际收入，绝不会超过你在"战场"（二级市场）上缴获的"战利品"。',
     "joinus.profile.basic.title": "基本条件",
-    "joinus.profile.basic.1": "大专学历以上，35岁以下",
+    "joinus.profile.basic.1": "全日制本科以上学历，35岁以下",
     "joinus.profile.basic.2": "认真、细心、耐心、心理健康",
-    "joinus.profile.basic.3": "连续30个工作日(约45天)，Windows电脑",
+    "joinus.profile.basic.3": "连续20个工作日(约30天)，Windows电脑",
     "joinus.profile.basic.4": "独立的交易环境",
     "joinus.profile.time.title": "时间要求",
     "joinus.profile.time.1": "周一到周五，每天最低保证 13:30 - 21:30 在线",
@@ -581,7 +581,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Navigation
     "nav.home": "Home",
-    "nav.training": "Training Camp: 2-Week Free Simulated Trading Practice",
+    "nav.training": "Training Camp",
     "nav.liveTrading": "Challenge",
     "nav.tradingTools": "Tools",
     "nav.blog": "Blog",
@@ -679,7 +679,7 @@ const translations: Record<Language, Record<string, string>> = {
     "req.profile.title": " Profile",
     "req.profile.education": "Education & Age",
     "req.profile.education.desc":
-      "Associate Degree or Higher, Under 35 Years Old",
+      "Full-time undergraduate degree or higher, Under 35 Years Old",
     "req.profile.psychology": "Psychological Qualities",
     "req.profile.psychology.desc":
       "Serious, Meticulous, Patient, Psychologically Healthy",
@@ -689,7 +689,7 @@ const translations: Record<Language, Record<string, string>> = {
     "req.time.title": " Time & Environment",
     "req.time.commitment": "Time Commitment",
     "req.time.commitment.desc":
-      "30 Consecutive Working Days (Approximately 45 Days)",
+      "20 Consecutive Working Days (Approximately 30 Days)",
     "req.time.equipment": "Equipment Requirements",
     "req.time.equipment.desc": "Windows Computer",
     "req.time.environment": "Environment Requirements",
@@ -836,11 +836,12 @@ const translations: Record<Language, Record<string, string>> = {
     "joinus.profile.income.desc":
       'Any profit-oriented enterprise won\'t do business at a loss. Even hiring an inexperienced graduate at high salary stems from government subsidies or judgment of that person\'s potential. In our minimalist industry, all value comes from market price differences—simple, direct, brutal. Before you prove profitability (pass assessment), we won\'t invest a penny. After passing, your actual income will never exceed the "spoils" you capture in the "battlefield" (secondary market).',
     "joinus.profile.basic.title": "Basic Requirements",
-    "joinus.profile.basic.1": "Associate Degree or higher, under 35 years old",
+    "joinus.profile.basic.1":
+      "Full-time undergraduate degree or higher, under 35 years old",
     "joinus.profile.basic.2":
       "Serious, meticulous, patient, psychologically healthy",
     "joinus.profile.basic.3":
-      "Continuous 30 working days (approx. 45 days), Windows computer",
+      "Continuous 20 working days (approx. 30 days), Windows computer",
     "joinus.profile.basic.4": "Independent trading environment",
     "joinus.profile.time.title": "Time Requirements",
     "joinus.profile.time.1":

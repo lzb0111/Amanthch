@@ -8,7 +8,7 @@ export default function AboutPage() {
   const { language } = useLanguage();
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen-500 bg-white dark:bg-gray-900">
       <div className="max-w-5xl mx-auto px-6 py-20 space-y-16">
         {/* 联系方式模块 */}
         <motion.section
